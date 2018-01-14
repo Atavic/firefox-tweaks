@@ -1,0 +1,29 @@
+/* makes tab line same color as selected tab background */
+.tab-line[selected=true] {
+  background-color: #f9f9f9 !important;
+}
+
+/* f9f9f9 for light theme */
+/* 0a84ff for dark theme */
+
+
+/* title bar color */
+#TabsToolbar, #browser-panel {   
+  /* padding-top: 2px !important; */ /* add padding on top of tabs */
+  background: #252525 !important;        
+}
+
+#browser-panel {
+    background: #252525 !important; 
+}
+
+
+
+/* only show close tab button on mouseover */
+.tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
+  display: none !important;
+}
+
+.tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
+  display: -moz-box !important;
+}

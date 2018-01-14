@@ -1,0 +1,109 @@
+https-strict: behind-the-scene false
+matrix-off: 127.0.0.1 true
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: localhost true
+matrix-off: moz-extension-scheme true
+matrix-off: opera-scheme true
+matrix-off: wyciwyg-scheme true
+noscript-spoof: * true
+referrer-spoof: * true
+referrer-spoof: behind-the-scene false
+* * * block
+* * css allow
+* * frame block
+* * image allow
+* 1st-party * allow
+* 1st-party frame allow
+* ajax.googleapis.com * allow
+* ampproject.org * allow
+* fonts.googleapis.com * allow
+* gstatic.com * allow
+* storage.googleapis.com * allow
+amazon.com media-amazon.com * allow
+amazon.com ssl-images-amazon.com * allow
+apple.com cdn-apple.com * allow
+arstechnica.com arstechnica.net * allow
+battle.net akamaihd.net * allow
+battle.net akamaized.net * allow
+battle.net worldofwarcraft.com * allow
+bbc.com bbc.co.uk * allow
+bbc.com bbci.co.uk * allow
+blizzard.com akamaihd.net * allow
+blizzard.com akamaized.net * allow
+blizzard.com d9me64que7cqs.cloudfront.net * allow
+destinyitemmanager.com bungie.net * allow
+destinyitemmanager.com destinytracker.com * allow
+destinytracker.com bungie.net * allow
+destinytracker.com cloudflare.com * allow
+destinytracker.com thetrackernetwork.com * allow
+dropbox.com dropboxstatic.com * allow
+edfesports.com parastorage.com * allow
+firefox.com mozilla.net * allow
+gamesradar.com futurecdn.net script allow
+gizmodo.com kinja-img.com * allow
+gizmodo.com kinja-static.com * allow
+gizmodo.com kinja.com * allow
+google.com * frame inherit
+google.com content.googleapis.com * allow
+google.com googleusercontent.com * allow
+google.com googlevideo.com * allow
+google.com youtube.com * allow
+google.com youtube.googleapis.com * allow
+google.com ytimg.com * allow
+humblebundle.com akamaihd.net * allow
+icy-veins.com cursecdn.com * allow
+icy-veins.com wowdb.com * allow
+lifehacker.com kinja-img.com * allow
+lifehacker.com kinja-static.com * allow
+lifehacker.com kinja.com * allow
+live.com * * allow
+microsoft.com aspnetcdn.com * allow
+microsoft.com gfx.ms * allow
+microsoft.com live.com * allow
+microsoft.com onestore.ms * allow
+microsoftonline.com * * allow
+msi.com bootstrapcdn.com * allow
+nytimes.com nyt.com * allow
+paypal.com paypalobjects.com * allow
+plex.tv * * allow
+protonmail.com protonmail.ch * allow
+reddit.com embed.ly * allow
+reddit.com embed.ly frame allow
+reddit.com embedly.com * allow
+reddit.com embedly.com frame allow
+reddit.com gfycat.com * allow
+reddit.com gfycat.com frame allow
+reddit.com imgur.com * allow
+reddit.com imgur.com frame allow
+reddit.com redd.it * allow
+reddit.com redd.it frame allow
+reddit.com redditmedia.com * allow
+reddit.com redditmedia.com frame allow
+reddit.com redditstatic.com * allow
+reddit.com redditstatic.com frame allow
+reddit.com youtube.com * allow
+reddit.com youtube.com frame allow
+sourceforge.net fsdn.com * allow
+steamcommunity.com akamaihd.net * allow
+steamcommunity.com steampowered.com * allow
+t-mobile.com tmocache.com * allow
+thetrackernetwork.com rawgit.com * allow
+theverge.com vox-cdn.com * allow
+theverge.com voxmedia.com * allow
+ticketmaster.com ticketm.net * allow
+twitch.tv ttvnw.net * allow
+twitch.tv twitchcdn.net * allow
+twitch.tv twitchsvc.net * allow
+twitter.com twimg.com * allow
+wikia.com nocookie.net * allow
+worldofwarcraft.com akamaihd.net * allow
+worldofwarcraft.com akamaized.net * allow
+worldofwarcraft.com battle.net * allow
+wowhead.com battle.net * allow
+wowhead.com zamimg.com * allow
+youtube.com google.com * allow
+youtube.com googlevideo.com * allow
+youtube.com ytimg.com * allow
