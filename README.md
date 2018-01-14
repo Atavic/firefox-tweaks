@@ -69,7 +69,7 @@ This file makes a bunch of tweaks to Firefox, like in about:config. The goal was
 
 Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
-If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/FirefoxTweaks/blob/master/user.js.md).
+If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/FirefoxTweaks/blob/master/ListOfTweaks.md).
 
 ## Frequently asked questions
 ### Where is my Firefox profile folder located?
