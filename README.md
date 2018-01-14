@@ -2,19 +2,19 @@
 
 This Github repository contains all the files I use to customize Firefox. This README will be updated with instructions on how to use each file and addon.
 
-## `userChrome.css`
+## userChrome.css
 This file makes Firefox pleasantly black and white, like this:
 
 ![alt text](Screenshots/userChrome.png "userChrome.css")
 
 It also only shows the close tab "X" on your currently selected tab, and when you mouse over a tab.
 
-Place this file in your Firefox profile folder.
+Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
-## `user.js`
+## user.js
 This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, but still not sacrifice (almost) anything to achieve that. Note that at the bottom of the file, I've included several tweaks which enable telemetry, but they're commented out by default. If you wish to enable telemetry, uncomment the lines. 
 
-Place this file in your Firefox profile folder.
+Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
 #### Disable web notifications 
 `dom.webnotifications.enabled` = `false`
