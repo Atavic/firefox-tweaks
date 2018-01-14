@@ -94,11 +94,11 @@ user_pref("full-screen-api.transition-duration.enter", 50 0);
 user_pref("full-screen-api.transition-duration.leave", 0 50);
 
 // Enable Mozilla telemetry/experiments
-user_pref("toolkit.telemetry.enabled", true);
-user_pref("toolkit.telemetry.unified", true);
-user_pref("experiments.supported", true);
-user_pref("experiments.enabled", true);
+//user_pref("toolkit.telemetry.enabled", true);
+//user_pref("toolkit.telemetry.unified", true);
+//user_pref("experiments.supported", true);
+//user_pref("experiments.enabled", true);
 
 // Enable collection/sending of Firefox Health Report
-user_pref("datareporting.healthreport.uploadEnabled", true);
-user_pref("datareporting.policy.dataSubmissionEnabled", true);
+//user_pref("datareporting.healthreport.uploadEnabled", true);
+//user_pref("datareporting.policy.dataSubmissionEnabled", true);
