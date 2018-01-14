@@ -62,6 +62,8 @@ Now whenever I visit twitch.tv again, it'll work and I don't have to mess with u
 
 If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. My uMatrix whitelist is fairly relaxed. Just like the Cookie Autodelete whitelist, mine is personal to me and what I want the websites to visit to do, so you'll probably have to still do some amount of configuration.
 
+As a final note, uMatrix can do other things too, like deleting local storage content set by blocked hostnames and clearing the cache every X minutes.
+
 ## user.js
 This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, but still not sacrifice (almost) anything to achieve that. Note that at the bottom of the file, I've included several tweaks which enable telemetry, but they're commented out by default. If you wish to enable telemetry, uncomment the lines. 
 
