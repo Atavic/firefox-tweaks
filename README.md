@@ -1,4 +1,4 @@
-# FirefoxTweaks
+# Firefox Tweaks
 
 This Github repository contains all the files I use to customize Firefox. This README also contains instructions on how to use them, as well as the list of addons I use and how to use them.
 
@@ -21,7 +21,7 @@ The next simplest of these addons to use. Simply install it and use the default 
 ### Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
 
-If you would like to import my whitelist, download and import the Cookie_AutoDelete_2.X.X_Expressions.json file in this repository. Note that this whitelist is personal to me, so it probably won't cover every website you would like it to. Some configuration is still required.
+If you would like to import my whitelist, download and import the `Cookie_AutoDelete_2.X.X_Expressions.json` file in this repository. Note that this whitelist is personal to me, so it probably won't cover every website you would like it to. Some configuration is still required.
 
 ### uMatrix
 uMatrix blocks almost everything (cookies, media, scripts, frames, and more) by default that isn't third-party. It's the most complicated addon here to use. If you're not interested in performing additional steps when you go to a website for the first time, don't install this addon.
@@ -60,7 +60,7 @@ So how did I know that those domains would un-break twitch.tv? Well, I didn't. I
 
 Now whenever I visit twitch.tv again, it'll work and I don't have to mess with uMatrix anymore. As long as you save your changes with the padlock, you only have to configure a website once.
 
-If you would like to use my uMatrix whitelist, download and import the my-umatrix-rules.txt file in this repository. My uMatrix whitelist is fairly relaxed. Just like the Cookie Autodelete whitelist, mine is personal to me and what I want the websites to visit to do, so you'll probably have to still do some amount of configuration.
+If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. My uMatrix whitelist is fairly relaxed. Just like the Cookie Autodelete whitelist, mine is personal to me and what I want the websites to visit to do, so you'll probably have to still do some amount of configuration.
 
 ## user.js
 This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, but still not sacrifice (almost) anything to achieve that. Note that at the bottom of the file, I've included several tweaks which enable telemetry, but they're commented out by default. If you wish to enable telemetry, uncomment the lines. 
