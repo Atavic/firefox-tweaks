@@ -1,6 +1,6 @@
 # FirefoxTweaks
 
-This Github repository contains all the files I use to customize Firefox. This README also contains instructions on how to use them, as well as 
+This Github repository contains all the files I use to customize Firefox. This README also contains instructions on how to use them, as well as the list of addons I use and how to use them.
 
 ## userChrome.css
 This file makes Firefox pleasantly black and white, like this:
