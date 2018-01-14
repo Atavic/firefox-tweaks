@@ -19,9 +19,14 @@ referrer-spoof: behind-the-scene false
 * 1st-party frame allow
 * ajax.googleapis.com * allow
 * ampproject.org * allow
+* facebook.com * block
 * fonts.googleapis.com * allow
 * gstatic.com * allow
 * storage.googleapis.com * allow
+* twitter.com * block
+amazon.com aiv-cdn.net * allow
+amazon.com aiv-delivery.net * allow
+amazon.com akamaihd.net * allow
 amazon.com media-amazon.com * allow
 amazon.com ssl-images-amazon.com * allow
 apple.com cdn-apple.com * allow
@@ -64,6 +69,7 @@ microsoft.com gfx.ms * allow
 microsoft.com live.com * allow
 microsoft.com onestore.ms * allow
 microsoftonline.com * * allow
+mozilla.org mozilla.net * allow
 msi.com bootstrapcdn.com * allow
 nytimes.com nyt.com * allow
 paypal.com paypalobjects.com * allow
