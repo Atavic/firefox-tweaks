@@ -44,7 +44,7 @@ uMatrix allows the first-party domain to do whatever it wants. If you visit twit
 - quantserve.com
 - scorecardresearch.com
 
-That's ridiculous! I only wanted to go to Twitch. What is fastly.net? What is jtvnw.net? summerhamster.com? I don't know what any of those domains do or who they're controlled by, and you're letting them into your browser -- unless you have uMatrix installed.
+That's ridiculous! I only wanted to go to Twitch. What is fastly.net? What is jtvnw.net? summerhamster.com? I don't know what any of those domains do or who they're controlled by, and I'm letting them into your browser -- unless I have uMatrix installed.
 
 Of course, uMatrix is likely to break most sites. It definitely breaks twitch.tv, but you can re-enable domains selectively, on a per-domain basis. For example, if I enabled twitchcdn.net on twitch.tv, and then I went to some other website that tried to connect to twitchcdn.net, it wouldn't be allowed because only twitch.tv is allowed to connect to that domain.
 
@@ -86,6 +86,13 @@ Linux | `home/(your username)/.mozilla/firefox/(random string).default`
 The goal of my user.js file was to increase privacy while at the same time not sacrificing much to achieve that. The only browser features that are taken away are Pocket, notifications, geolocation, the password manager, and autofill. I think most people don't use web notifications or Pocket, geolocation isn't needed on desktops/laptops, the password manager is better to replace with KeePass, and autofill isn't needed. This is just what I think though, so of course you can choose to comment out certain lines in the user.js file.
 
 The reason some other tweaks weren't included was because I felt they were either sacrificing too much (i.e. could possibly break some websites) or they were subjective (e.g. disabling the activity stream on the new tab page).
+
+### Why did you enable telemetry in user.js?
+I didn't. Those lines are commented out. If you want to enable them, uncomment the lines.
+
+They're there because I believe telemetry helps Mozilla make Firefox a better browser, and I want Firefox to continue to grow. I trust Mozilla to handle telemetry data appropriately, keeping it safe and private. 
+
+I know a lot of people don't feel that way though, which is why they're commented out by default.
 
 ## Sources
 This repository draws from other people's work, listed below:
