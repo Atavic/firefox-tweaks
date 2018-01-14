@@ -40,7 +40,6 @@ destinytracker.com bungie.net * allow
 destinytracker.com cloudflare.com * allow
 destinytracker.com thetrackernetwork.com * allow
 dropbox.com dropboxstatic.com * allow
-edfesports.com parastorage.com * allow
 firefox.com mozilla.net * allow
 gamesradar.com futurecdn.net script allow
 gizmodo.com kinja-img.com * allow
