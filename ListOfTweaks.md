@@ -90,3 +90,19 @@ These tweaks are commented out by default.
 `datareporting.policy.dataSubmissionEnabled` = `true`
 
 These tweaks are commented out by default.
+
+### Disable Mozilla telemetry, experiments, and Health Report
+`toolkit.telemetry.enabled` = `false`
+
+`toolkit.telemetry.unified` = `false`
+
+`experiments.supported` = `false`
+
+`experiments.enabled` = `false`
+
+`datareporting.healthreport.uploadEnabled` = `false`
+
+`datareporting.policy.dataSubmissionEnabled` = `false`
+
+These tweaks are commented out by default.
+
