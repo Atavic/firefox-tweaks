@@ -6,25 +6,19 @@ This Github repository contains all the files I use to customize Firefox. This R
 ### Decentraleyes
 The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
 
-[Source code](https://github.com/Synzvato/decentraleyes)
-
-[Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+[Source code](https://github.com/Synzvato/decentraleyes) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
 ### uBlock Origin
 The next simplest of these addons to use. Simply install it and use the default lists if you don't want to configure it, but consider enabling more. Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlock's settings.
 
-[Source code](https://github.com/gorhill/uBlock)
-
-[Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+[Source code](https://github.com/gorhill/uBlock) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
 ### Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
 
 If you would like to import my whitelist, download and import the `Cookie_AutoDelete_2.X.X_Expressions.json` file in this repository. Note that this whitelist is personal to me, so it probably won't cover every website you would like it to. Some configuration is still required.
 
-[Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete)
-
-[Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
+[Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 
 ### uMatrix
 uMatrix blocks almost everything (cookies, media, scripts, frames, and more) by default that isn't third-party. It's the most complicated addon here to use. If you're not interested in performing additional steps when you go to a website for the first time, don't install this addon.
@@ -67,9 +61,7 @@ If you would like to use my uMatrix whitelist, download and import the `my-umatr
 
 As a final note, uMatrix can do other things too, like deleting local storage content set by blocked hostnames and clearing the cache every X minutes.
 
-[Source code](https://github.com/gorhill/uMatrix)
-
-[Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
+[Source code](https://github.com/gorhill/uMatrix) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
 ## user.js
 This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, but still not sacrifice (almost) anything to achieve that. Note that at the bottom of the file, I've included several tweaks which enable telemetry, but they're commented out by default. If you wish to enable telemetry, uncomment the lines. 
