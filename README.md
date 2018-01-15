@@ -2,15 +2,6 @@
 
 This Github repository contains all the files I use to customize Firefox. This README also contains instructions on how to use them, as well as the list of addons I use and how to use them.
 
-## userChrome.css
-This file makes Firefox pleasantly black and white, like this:
-
-![alt text](Screenshots/userChrome.jpg "userChrome.css")
-
-It also only shows the close tab "X" on your currently selected tab, and when you mouse over a tab.
-
-Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
-
 ## Addons
 ### Decentraleyes
 The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
@@ -86,6 +77,15 @@ This file makes a bunch of tweaks to Firefox, like in about:config. The goal was
 Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
 If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/FirefoxTweaks/blob/master/ListOfTweaks.md).
+
+## userChrome.css
+This file makes Firefox pleasantly black and white, like this:
+
+![alt text](Screenshots/userChrome.jpg "userChrome.css")
+
+It also only shows the close tab "X" on your currently selected tab, and when you mouse over a tab.
+
+Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
 ## Frequently asked questions
 ### Where is my Firefox profile folder located?
