@@ -62,11 +62,13 @@ If you would like to use my uMatrix whitelist, download and import the `my-umatr
 [Source code](https://github.com/gorhill/uMatrix) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
 ## user.js
-This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, but still not sacrifice (almost) anything to achieve that. At the bottom of the file, I've included several tweaks which enable or disable telemetry, but they're all commented out by default. If you wish to enable or disable telemetry, uncomment the respective section. Note that some telemetry is enabled in a default Firefox installation.
+This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, but still not sacrifice (almost) anything to achieve that. 
 
-Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
+At the bottom of the file, I've included several tweaks which enable or disable telemetry, but they're all commented out by default. If you wish to enable or disable telemetry, uncomment the respective section. Note that some telemetry is enabled in a default Firefox installation.
 
 If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/FirefoxTweaks/blob/master/ListOfTweaks.md).
+
+Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
 ## userChrome.css
 This file makes Firefox pleasantly black and white, like this:
