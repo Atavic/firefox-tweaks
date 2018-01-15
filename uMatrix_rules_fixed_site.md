@@ -6,7 +6,7 @@ This is a list of sites and services that the my_umatrix_rules.txt file in this 
 - arstechnica.com
 - bbc.com
 - firefox.com
-- gamesRadar.com
+- gamesradar.com
 - gizmodo.com
 - icy-veins.com
 - lifehacker.com
