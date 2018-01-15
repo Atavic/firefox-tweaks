@@ -113,5 +113,6 @@ The only exception to this is user.js, which is provided under the MIT license w
 
 ## Sources
 This repository draws from other people's work, listed below:
-- [Pyllyukko's user.js Github Repository](https://github.com/pyllyukko/user.js)
+- [Pyllyukko's user.js](https://github.com/pyllyukko/user.js)
+- [Timvde's UserChrome-Tweaks](https://github.com/Timvde/UserChrome-Tweaks)
 - [PrivacyTools](https://www.privacytools.io/)
