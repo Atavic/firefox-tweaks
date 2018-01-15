@@ -93,7 +93,7 @@ user_pref("dom.battery.enabled", false);
 //user_pref("datareporting.healthreport.uploadEnabled", true);
 //user_pref("datareporting.policy.dataSubmissionEnabled", true);
 
-//Disable Mozilla telemetry/experiments/health report
+// Disable Mozilla telemetry/experiments/health report
 //user_pref("toolkit.telemetry.enabled", false);
 //user_pref("toolkit.telemetry.unified", false);
 //user_pref("experiments.supported", false);
