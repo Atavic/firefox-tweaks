@@ -16,7 +16,7 @@ The next simplest of these addons to use. Simply install it and use the default 
 ### Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
 
-If you would like to import my whitelist, download and import the `Cookie_AutoDelete_2.X.X_Expressions.json` file in this repository. Note that this whitelist is personal to me, so it probably won't cover every website you would like it to. Some configuration is still required.
+If you would like to import my whitelist, download and import the `Cookie_AutoDelete_2.X.X_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/FirefoxTweaks/blob/cookie-autodelete-accounts/Cookie_AutoDelete_accounts.md).
 
 [Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 
@@ -57,7 +57,7 @@ So how did I know that those domains would un-break twitch.tv? Well, I didn't. I
 
 Now whenever I visit twitch.tv again, it'll work and I don't have to mess with uMatrix anymore. As long as you save your changes with the padlock, you only have to configure a website once.
 
-If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/FirefoxTweaks/blob/master/uMatrix_rules_fixed_site.md).
+If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/FirefoxTweaks/blob/master/uMatrix_rules_fixed_sites.md).
 
 Just like the Cookie Autodelete whitelist, mine is personal to me and what I want the websites to visit to do, so you'll probably have to still do some amount of configuration.
 
