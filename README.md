@@ -110,6 +110,11 @@ They're there because I believe telemetry helps Mozilla make Firefox a better br
 
 I know a lot of people don't feel that way though, which is why they're commented out by default.
 
+## License
+This repository is licensed under GPLv3. You may use it for commercial purposes, modify it, distribute it or any modified works, but I am not liable for any damage caused by it and it comes with no warranty. If you choose to distribute it or any modified versions, a copy of the GPLv3 and a copyright notice must be included in your distributed version, changes made must be documented, you must make the source code available, and modifications must be released under the same license.
+
+The only exception to this is user.js, which is provided under the MIT license with a copyright notice.
+
 ## Sources
 This repository draws from other people's work, listed below:
 - [Pyllyukko's user.js Github Repository](https://github.com/pyllyukko/user.js)
