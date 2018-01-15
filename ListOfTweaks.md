@@ -69,7 +69,24 @@ More information can be found [here](https://www.bleepingcomputer.com/news/softw
 
 `mousewheel.min_line_scroll_amount` = `40`
 
+These tweaks are commented out by default.
+
 ### Decrease full screen video fade 
 `full-screen-api.transition-duration.enter` = `50 0` 
 
 `full-screen-api.transition-duration.leave` = `0 50` 
+
+### Enable Mozilla telemetry, experiments, and Health Report
+`toolkit.telemetry.enabled` = `true`
+
+`toolkit.telemetry.unified` = `true`
+
+`experiments.supported` = `true`
+
+`experiments.enabled` = `true`
+
+`datareporting.healthreport.uploadEnabled` = `true`
+
+`datareporting.policy.dataSubmissionEnabled` = `true`
+
+These tweaks are commented out by default.
