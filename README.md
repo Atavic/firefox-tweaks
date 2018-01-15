@@ -5,7 +5,7 @@ This Github repository contains all the files I use to customize Firefox. This R
 ## userChrome.css
 This file makes Firefox pleasantly black and white, like this:
 
-![alt text](Screenshots/userChrome.png "userChrome.css")
+![alt text](Screenshots/userChrome.jpg "userChrome.css")
 
 It also only shows the close tab "X" on your currently selected tab, and when you mouse over a tab.
 
