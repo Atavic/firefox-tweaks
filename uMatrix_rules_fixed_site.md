@@ -28,7 +28,7 @@ This is a list of sites and services that the my_umatrix_rules.txt file in this 
 - Destiny Tracker
 - Dropbox
 - Google (login)
-- Humble Bundle ((login still broken -- temporarily disable uMatrix for a quick fix)
+- Humble Bundle (login still broken -- temporarily disable uMatrix for a quick fix)
 - Microsoft services (login, Microsoft Dev Center)
 - Paypal
 - Plex (login to server web interface)
