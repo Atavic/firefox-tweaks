@@ -82,19 +82,8 @@ user_pref("dom.battery.enabled", false);
 
 
 /*
-       PERSONAL PREFERENCES
+	    TELEMETRY
 				*/
-
-// Make Firefox scrolling feel like Microsoft Edge
-//user_pref("general.smoothScroll.currentVelocityWeighting", 0);
-//user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
-//user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
-//user_pref("mousewheel.min_line_scroll_amount", 40);
-
-// Decrease full screen video fade
-user_pref("full-screen-api.transition-duration.enter", 50 0);
-user_pref("full-screen-api.transition-duration.leave", 0 50);
-
 // Enable Mozilla telemetry/experiments/health report
 //user_pref("toolkit.telemetry.enabled", true);
 //user_pref("toolkit.telemetry.unified", true);
@@ -110,3 +99,19 @@ user_pref("full-screen-api.transition-duration.leave", 0 50);
 //user_pref("experiments.enabled", false);
 //user_pref("datareporting.healthreport.uploadEnabled", false);
 //user_pref("datareporting.policy.dataSubmissionEnabled", false);
+
+
+
+/*
+       PERSONAL PREFERENCES
+				*/
+
+// Make Firefox scrolling feel like Microsoft Edge
+//user_pref("general.smoothScroll.currentVelocityWeighting", 0);
+//user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
+//user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
+//user_pref("mousewheel.min_line_scroll_amount", 40);
+
+// Decrease full screen video fade
+user_pref("full-screen-api.transition-duration.enter", 50 0);
+user_pref("full-screen-api.transition-duration.leave", 0 50);
