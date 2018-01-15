@@ -103,12 +103,8 @@ The goal of my user.js file was to increase privacy while at the same time not s
 
 The reason some other tweaks weren't included was because I felt they were either sacrificing too much (i.e. could possibly break some websites) or they were subjective (e.g. disabling the activity stream on the new tab page).
 
-### Why did you enable telemetry in user.js?
-I didn't. Those lines are commented out. If you want to enable them, uncomment the lines.
-
-They're there because I believe telemetry helps Mozilla make Firefox a better browser, and I want Firefox to continue to grow. I trust Mozilla to handle telemetry data appropriately, keeping it safe and private. 
-
-I know a lot of people don't feel that way though, which is why they're commented out by default.
+### Why did you enable/disable telemetry in user.js?
+I didn't. Those lines are commented out. If you want to enable or disable telemetry, uncomment the respective section.
 
 ## License
 This repository is licensed under GPLv3. You may use it for commercial purposes, modify it, distribute it or any modified works, but I am not liable for any damage caused by it and it comes with no warranty. If you choose to distribute it or any modified versions, a copy of the GPLv3 and a copyright notice must be included in your distributed version, changes made must be documented, you must make the source code available, and modifications must be released under the same license.
