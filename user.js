@@ -84,6 +84,7 @@ user_pref("dom.battery.enabled", false);
 /*
 	    TELEMETRY
 				*/
+
 // Enable Mozilla telemetry/experiments/health report
 //user_pref("toolkit.telemetry.enabled", true);
 //user_pref("toolkit.telemetry.unified", true);
