@@ -1,3 +1,14 @@
+/* Firefox userChrome.css
+   Compiled by Anders Peavey
+
+   Copyright (c) 2018 Timvde
+
+   Helpful source(s):
+   https://github.com/Timvde/UserChrome-Tweaks
+   https://www.reddit.com/r/FirefoxCSS/ */
+
+
+
 /* Makes tab line same color as selected tab background */
 .tab-line[selected=true] {
   background-color: #f9f9f9 !important;
