@@ -47,7 +47,7 @@ user_pref("app.update.enabled", true);
 
 
 /* 
-      INCREASE PRIVACY (MISC)
+	       MISC
 				*/
 
 // Disable Firefox Tracking Protection -- use uMatrix/uBlock instead
@@ -84,10 +84,10 @@ user_pref("dom.battery.enabled", false);
 				*/
 
 // Make Firefox scrolling feel like Microsoft Edge
-user_pref("general.smoothScroll.currentVelocityWeighting", 0);
-user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
-user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
-user_pref("mousewheel.min_line_scroll_amount", 40);
+//user_pref("general.smoothScroll.currentVelocityWeighting", 0);
+//user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
+//user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
+//user_pref("mousewheel.min_line_scroll_amount", 40);
 
 // Decrease full screen video fade
 user_pref("full-screen-api.transition-duration.enter", 50 0);
