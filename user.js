@@ -1,6 +1,8 @@
 /* Firefox user.js
    Compiled by Anders Peavey
 
+   Copyright (c) 2016 pyllyukko
+   
    Helpful sources:
    https://github.com/pyllyukko/user.js
    https://www.privacytools.io/ */
@@ -93,12 +95,18 @@ user_pref("dom.battery.enabled", false);
 user_pref("full-screen-api.transition-duration.enter", 50 0);
 user_pref("full-screen-api.transition-duration.leave", 0 50);
 
-// Enable Mozilla telemetry/experiments
+// Enable Mozilla telemetry/experiments/health report
 //user_pref("toolkit.telemetry.enabled", true);
 //user_pref("toolkit.telemetry.unified", true);
 //user_pref("experiments.supported", true);
 //user_pref("experiments.enabled", true);
-
-// Enable collection/sending of Firefox Health Report
 //user_pref("datareporting.healthreport.uploadEnabled", true);
 //user_pref("datareporting.policy.dataSubmissionEnabled", true);
+
+//Disable Mozilla telemetry/experiments/health report
+//user_pref("toolkit.telemetry.enabled", false);
+//user_pref("toolkit.telemetry.unified", false);
+//user_pref("experiments.supported", false);
+//user_pref("experiments.enabled", false);
+//user_pref("datareporting.healthreport.uploadEnabled", false);
+//user_pref("datareporting.policy.dataSubmissionEnabled", false);
