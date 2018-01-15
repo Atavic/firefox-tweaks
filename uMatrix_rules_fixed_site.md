@@ -23,18 +23,18 @@ This is a list of sites and services that the my_umatrix_rules.txt file in this 
 
 ### Services/Misc.
 - Amazon and Amazon Video (subtitles still broken)
-- Blizzard services (login)
+- Blizzard/Battle.net (login)
 - Destiny Item Manager
 - Destiny Tracker
 - Dropbox
 - Google (login)
 - Humble Bundle (login still broken -- temporarily disable uMatrix for a quick fix)
-- Microsoft services (login, Microsoft Dev Center)
+- Microsoft (login, Microsoft Dev Center)
 - Paypal
 - Plex (login to server web interface)
 - Protonmail
 - Reddit (including commonly embedded media, like from imgur.com)
-- Steam login
+- Steam (login)
 - Ticketmaster
 - Twitch
 - Twitter
