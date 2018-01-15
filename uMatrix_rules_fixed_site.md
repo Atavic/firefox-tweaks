@@ -1,5 +1,5 @@
 ## List of sites and services
-This is a list of sites and services that the my_umatrix_rules.txt file in this repository "fixes".
+This is a list of sites and services that the `my_umatrix_rules.txt` file in this repository "fixes".
 
 ### Sites
 - apple.com
