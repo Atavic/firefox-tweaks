@@ -59,10 +59,6 @@ Now whenever I visit twitch.tv again, it'll work and I don't have to mess with u
 
 If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/FirefoxTweaks/blob/master/uMatrix_rules_fixed_sites.md).
 
-Just like the Cookie Autodelete whitelist, mine is personal to me and what I want the websites to visit to do, so you'll probably have to still do some amount of configuration.
-
-As a final note, uMatrix can do other things too, like deleting local storage content set by blocked hostnames and clearing the cache every X minutes.
-
 [Source code](https://github.com/gorhill/uMatrix) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
 ## user.js
