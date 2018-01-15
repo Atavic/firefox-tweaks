@@ -3,7 +3,7 @@
 
    Copyright (c) 2016 pyllyukko
    
-   Helpful sources:
+   Helpful source(s):
    https://github.com/pyllyukko/user.js
    https://www.privacytools.io/ */
 
