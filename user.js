@@ -1,7 +1,7 @@
 /* Firefox user.js
    Compiled by Anders Peavey
 
-   Copyright (c) 2016 pyllyukko
+   Copyright (c) 2018 pyllyukko
    
    Helpful source(s):
    https://github.com/pyllyukko/user.js
