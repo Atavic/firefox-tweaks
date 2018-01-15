@@ -45,6 +45,7 @@ destinytracker.com bungie.net * allow
 destinytracker.com cloudflare.com * allow
 destinytracker.com thetrackernetwork.com * allow
 dropbox.com dropboxstatic.com * allow
+facebook.com facebook.com * inherit
 firefox.com mozilla.net * allow
 gamesradar.com futurecdn.net script allow
 gizmodo.com kinja-img.com * allow
@@ -103,6 +104,7 @@ twitch.tv ttvnw.net * allow
 twitch.tv twitchcdn.net * allow
 twitch.tv twitchsvc.net * allow
 twitter.com twimg.com * allow
+twitter.com twitter.com * inherit
 wikia.com nocookie.net * allow
 worldofwarcraft.com akamaihd.net * allow
 worldofwarcraft.com akamaized.net * allow
