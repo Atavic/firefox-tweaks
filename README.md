@@ -16,12 +16,14 @@ Place this file in your Firefox profile folder. [Don't know where to find that?]
 The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
 
 [Source code](https://github.com/Synzvato/decentraleyes)
+
 [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
 ### uBlock Origin
 The next simplest of these addons to use. Simply install it and use the default lists if you don't want to configure it, but consider enabling more. Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlock's settings.
 
 [Source code](https://github.com/gorhill/uBlock)
+
 [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
 ### Cookie Autodelete
@@ -30,6 +32,7 @@ This addon will automatically delete cookies that aren't on your specified white
 If you would like to import my whitelist, download and import the `Cookie_AutoDelete_2.X.X_Expressions.json` file in this repository. Note that this whitelist is personal to me, so it probably won't cover every website you would like it to. Some configuration is still required.
 
 [Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete)
+
 [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 
 ### uMatrix
@@ -74,6 +77,7 @@ If you would like to use my uMatrix whitelist, download and import the `my-umatr
 As a final note, uMatrix can do other things too, like deleting local storage content set by blocked hostnames and clearing the cache every X minutes.
 
 [Source code](https://github.com/gorhill/uMatrix)
+
 [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
 ## user.js
