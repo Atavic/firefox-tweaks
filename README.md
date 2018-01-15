@@ -16,7 +16,7 @@ The next simplest of these addons to use. Simply install it and use the default 
 ### Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
 
-If you would like to import my whitelist, download and import the `Cookie_AutoDelete_2.X.X_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/FirefoxTweaks/blob/master/Cookie_AutoDelete_accounts.md).
+If you would like to import my whitelist, download and import the `Cookie_AutoDelete_2.X.X_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/FirefoxTweaks/blob/master/Extras/Cookie_AutoDelete_accounts.md).
 
 [Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 
@@ -57,7 +57,7 @@ So how did I know that those domains would un-break twitch.tv? Well, I didn't. I
 
 Now whenever I visit twitch.tv again, it'll work and I don't have to mess with uMatrix anymore. As long as you save your changes with the padlock, you only have to configure a website once.
 
-If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/FirefoxTweaks/blob/master/uMatrix_rules_fixed_sites.md).
+If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/FirefoxTweaks/blob/master/Extras/uMatrix_rules_fixed_sites.md).
 
 [Source code](https://github.com/gorhill/uMatrix) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
@@ -66,14 +66,14 @@ This file makes a bunch of tweaks to Firefox, like in about:config. The goal was
 
 At the bottom of the file, I've included several tweaks which enable or disable telemetry, but they're all commented out by default. If you wish to enable or disable telemetry, uncomment the respective section. Note that some telemetry is enabled in a default Firefox installation.
 
-If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/FirefoxTweaks/blob/master/list_of_tweaks.md).
+If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/FirefoxTweaks/blob/master/Extras/list_of_tweaks.md).
 
 Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
 ## userChrome.css
 This file makes Firefox pleasantly black and white, like this:
 
-![alt text](Screenshots/userChrome.jpg "userChrome.css")
+![alt text](Extras/userChrome.jpg "userChrome.css")
 
 It also only shows the close tab "X" on your currently selected tab, and when you mouse over a tab.
 
