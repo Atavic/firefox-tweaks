@@ -15,7 +15,7 @@ This is a list of sites and services that the `my_umatrix_rules.txt` file in thi
 - nytimes.com
 - sourceforge.com
 - t-mobile.com
-- thetrackernetwork.com (used to track user progress in video games -- not a privacy-invading tracker!)
+- thetrackernetwork.com (used to track player progress in video games -- not a privacy-invading tracker!)
 - theverge.com
 - wikia.com
 - worldofwarcraft.com
