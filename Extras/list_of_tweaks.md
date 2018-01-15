@@ -1,4 +1,5 @@
-## List of tweaks:
+## List of tweaks
+This is a list of tweaks that are changed when the `user.js` file from this repository is placed in the Firefox profile folder.
 
 ### Disable web notifications 
 `dom.webnotifications.enabled` = `false`
