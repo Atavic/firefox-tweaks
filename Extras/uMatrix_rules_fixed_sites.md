@@ -1,6 +1,8 @@
 # List of fixed sites and services
 This is a list of sites and services that the `my_umatrix_rules.txt` file in this repository unbreaks (fixes).
 
+Note that embedded Youtube videos are enabled globally.
+
 ## Sites
 - adobe.com
 - amazon.com (including Amazon Video playback)
