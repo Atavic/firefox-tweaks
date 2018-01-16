@@ -53,7 +53,7 @@ Use [KeePass](https://keepass.info/) instead.
 ### Restrict cookies, cache, etc. to the domain level 
 `privacy.firstparty.isolate` = `true`
 
-First party isolation makes every website contained in its own data "silo". If a domain places a file on the user's computer, that file is contained to that domain. 
+First party isolation contains every website in its own data "silo". If a domain places a file on the user's computer, that file is contained to that domain. 
 
 For example, if somenewswebsite.com and someothernewswebsite.com both place a somebadtracker.com cookie on a user's computer, that somebadtracker.com cookie can't look at any of the other somebadtracker.com cookies on the user's computer. This prevents the somebadtracker.com cookie from tracking your browsing across multiple sites.
 
