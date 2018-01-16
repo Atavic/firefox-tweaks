@@ -74,6 +74,8 @@ Third party cookies are cookies placed on a user's computer *not* by the visited
 `dom.battery.enabled` = `false`
 
 ## Telemetry
+All telemetry tweaks are commented out by default.
+
 ### Enable Mozilla telemetry, experiments, and Health Report
 `toolkit.telemetry.enabled` = `true`
 
@@ -86,8 +88,6 @@ Third party cookies are cookies placed on a user's computer *not* by the visited
 `datareporting.healthreport.uploadEnabled` = `true`
 
 `datareporting.policy.dataSubmissionEnabled` = `true`
-
-These tweaks are commented out by default.
 
 ### Disable Mozilla telemetry, experiments, and Health Report
 `toolkit.telemetry.enabled` = `false`
@@ -102,11 +102,10 @@ These tweaks are commented out by default.
 
 `datareporting.policy.dataSubmissionEnabled` = `false`
 
-These tweaks are commented out by default.
-
 ## Personal preferences
+All personal preference tweaks are commented out by default.
 
-### Make scrolling feel better 
+### Make scrolling feel like Microsoft Edge 
 `general.smoothScroll.currentVelocityWeighting` = `0`
 
 `general.smoothScroll.mouseWheel.durationMaxMS` = `250`
@@ -115,9 +114,20 @@ These tweaks are commented out by default.
 
 `mousewheel.min_line_scroll_amount` = `40`
 
-These tweaks are commented out by default.
+### Make scrolling feel like Google Chrome
+`general.smoothScroll.mouseWheel.durationMaxMS` = `200`
+
+`general.smoothScroll.stopDecelerationWeighting` = `0.82`
 
 ### Decrease full screen video fade 
 `full-screen-api.transition-duration.enter` = `50 0` 
 
 `full-screen-api.transition-duration.leave` = `0 50` 
+
+### Disable full screen video fade 
+`full-screen-api.transition-duration.enter` = `0 0` 
+
+`full-screen-api.transition-duration.leave` = `0 0` 
+
+### Disable full screen mode warning
+`full-screen-api.warning.timeout` = `0`
