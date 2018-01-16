@@ -36,6 +36,7 @@ amazon.com media-amazon.com * allow
 amazon.com ssl-images-amazon.com * allow
 apple.com cdn-apple.com * allow
 arstechnica.com arstechnica.net * allow
+barnesandnoble.com js-bn.com * allow
 battle.net akamaihd.net * allow
 battle.net akamaized.net * allow
 battle.net worldofwarcraft.com * allow
@@ -51,6 +52,7 @@ destinyitemmanager.com destinytracker.com * allow
 destinytracker.com bungie.net * allow
 destinytracker.com cloudflare.com * allow
 destinytracker.com thetrackernetwork.com * allow
+deviantart.com deviantart.net * allow
 dropbox.com dropboxstatic.com * allow
 ebay.com ebaydesc.com * allow
 ebay.com ebaydesc.com frame allow
@@ -76,6 +78,7 @@ google.com ytimg.com * allow
 humblebundle.com akamaihd.net * allow
 icy-veins.com cursecdn.com * allow
 icy-veins.com wowdb.com * allow
+independent.co.uk jquery.com * allow
 instagram.com fbcdn.net * allow
 kotaku.com kinja-img.com * allow
 kotaku.com kinja-static.com * allow
@@ -85,6 +88,7 @@ lifehacker.com kinja-img.com * allow
 lifehacker.com kinja-static.com * allow
 lifehacker.com kinja.com * allow
 live.com * * allow
+mashable.com mshcdn.com * allow
 microsoft.com aspnetcdn.com * allow
 microsoft.com gfx.ms * allow
 microsoft.com live.com * allow
@@ -115,8 +119,11 @@ reddit.com redditmedia.com frame allow
 reddit.com redditstatic.com * allow
 reddit.com redditstatic.com frame allow
 reuters.com reutersmedia.net * allow
+scribd.com scribdassets.com * allow
 soundcloud.com sndcdn.com * allow
 sourceforge.net fsdn.com * allow
+spotify.com d2d1dxiu3v1f2i.cloudfront.net * allow
+spotify.com scdn.co * allow
 steamcommunity.com akamaihd.net * allow
 steamcommunity.com steampowered.com * allow
 t-mobile.com tmocache.com * allow
