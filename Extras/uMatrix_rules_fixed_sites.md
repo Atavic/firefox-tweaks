@@ -1,7 +1,7 @@
-## List of sites and services
-This is a list of sites and services that the `my_umatrix_rules.txt` file in this repository "fixes".
+# List of fixed sites and services
+This is a list of sites and services that the `my_umatrix_rules.txt` file in this repository unbreaks (fixes).
 
-### Sites
+## Sites
 - apple.com
 - arstechnica.com
 - bbc.com
@@ -21,7 +21,7 @@ This is a list of sites and services that the `my_umatrix_rules.txt` file in thi
 - worldofwarcraft.com
 - wowhead.com
 
-### Services/Misc.
+## Services/Misc.
 - Amazon and Amazon Video (subtitles still broken)
 - Blizzard/Battle.net (login)
 - Destiny Item Manager
