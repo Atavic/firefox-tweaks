@@ -20,6 +20,7 @@ referrer-spoof: behind-the-scene false
 * ajax.googleapis.com * allow
 * ampproject.org * allow
 * facebook.com * block
+* facebook.net * block
 * fonts.googleapis.com * allow
 * gstatic.com * allow
 * storage.googleapis.com * allow
@@ -46,6 +47,7 @@ destinytracker.com cloudflare.com * allow
 destinytracker.com thetrackernetwork.com * allow
 dropbox.com dropboxstatic.com * allow
 facebook.com facebook.com * inherit
+facebook.com facebook.net * inherit
 firefox.com mozilla.net * allow
 gamesradar.com futurecdn.net script allow
 gizmodo.com kinja-img.com * allow
@@ -55,12 +57,16 @@ google.com * frame inherit
 google.com content.googleapis.com * allow
 google.com googleusercontent.com * allow
 google.com googlevideo.com * allow
+google.com maps.googleapis.com * allow
 google.com youtube.com * allow
 google.com youtube.googleapis.com * allow
 google.com ytimg.com * allow
 humblebundle.com akamaihd.net * allow
 icy-veins.com cursecdn.com * allow
 icy-veins.com wowdb.com * allow
+kotaku.com kinja-img.com * allow
+kotaku.com kinja-static.com * allow
+kotaku.com kinja.com * allow
 lifehacker.com kinja-img.com * allow
 lifehacker.com kinja-static.com * allow
 lifehacker.com kinja.com * allow
@@ -72,6 +78,10 @@ microsoft.com onestore.ms * allow
 microsoftonline.com * * allow
 mozilla.org mozilla.net * allow
 msi.com bootstrapcdn.com * allow
+netflix.com nflxext.com * allow
+netflix.com nflximg.net * allow
+netflix.com nflxso.net * allow
+netflix.com nflxvideo.net * allow
 nytimes.com nyt.com * allow
 paypal.com paypalobjects.com * allow
 plex.tv * * allow
