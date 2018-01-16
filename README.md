@@ -86,7 +86,7 @@ You can find it in the following locations:
 
 OS | Path
 ----- | -----
-Windows | `C:\Users\(your username)\AppData\Roaming\Mozilla\Firefox\Profiles\(random string).default\`
+Windows | `C:\Users\(your username)\AppData\Roaming\Mozilla\Firefox\Profiles\(random string).default`
 OS X | `Users/(your username)/Library/Application Support/Firefox/Profiles/(random string).default`
 Linux | `home/(your username)/.mozilla/firefox/(random string).default`
 
