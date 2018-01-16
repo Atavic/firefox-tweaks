@@ -9,6 +9,7 @@ This is a list of sites and services that the `my_umatrix_rules.txt` file in thi
 - gamesradar.com
 - gizmodo.com
 - icy-veins.com
+- kotaku.com
 - lifehacker.com
 - mozilla.org
 - msi.com
@@ -30,6 +31,7 @@ This is a list of sites and services that the `my_umatrix_rules.txt` file in thi
 - Google (login)
 - Humble Bundle (login still broken -- temporarily disable uMatrix for a quick fix)
 - Microsoft (login, Microsoft Dev Center)
+- Netflix
 - Paypal
 - Plex (login to server web interface)
 - Protonmail
