@@ -1,6 +1,7 @@
-## List of tweaks
+# List of user.js tweaks
 This is a list of tweaks that are changed when the `user.js` file from this repository is placed in the Firefox profile folder.
 
+## HTML5/APIs/DOM
 ### Disable web notifications 
 `dom.webnotifications.enabled` = `false`
 
@@ -12,11 +13,13 @@ Can't be used to track you, but is annoying.
 ### Disallow websites from enumerating your connected USB devices
 `dom.gamepad.enabled` = `false`
 
+## Automatic connections
 ### Disable prefetching of certain URLS 
 `network.prefetch-next` = `false`
 
 More information can be found [here](http://kb.mozillazine.org/Network.prefetch-next).
 
+## Updates
 ### Update addons automatically 
 `extensions.update.enabled` = `true` 
 
@@ -27,6 +30,7 @@ This should be set to `true` by default.
 
 This should be set to `true` by default.
 
+## Miscellaneous
 ### Disable Firefox Tracking Protection
 `privacy.trackingprotection.enabled` = `false`
 
@@ -61,22 +65,7 @@ More information can be found [here](https://www.bleepingcomputer.com/news/softw
 ### Disallow websites from viewing your computer's battery status
 `dom.battery.enabled` = `false`
 
-### Make scrolling feel better 
-`general.smoothScroll.currentVelocityWeighting` = `0`
-
-`general.smoothScroll.mouseWheel.durationMaxMS` = `250`
-
-`general.smoothScroll.stopDecelerationWeighting` = `0.82`
-
-`mousewheel.min_line_scroll_amount` = `40`
-
-These tweaks are commented out by default.
-
-### Decrease full screen video fade 
-`full-screen-api.transition-duration.enter` = `50 0` 
-
-`full-screen-api.transition-duration.leave` = `0 50` 
-
+## Telemetry
 ### Enable Mozilla telemetry, experiments, and Health Report
 `toolkit.telemetry.enabled` = `true`
 
@@ -107,3 +96,20 @@ These tweaks are commented out by default.
 
 These tweaks are commented out by default.
 
+## Personal preferences
+
+### Make scrolling feel better 
+`general.smoothScroll.currentVelocityWeighting` = `0`
+
+`general.smoothScroll.mouseWheel.durationMaxMS` = `250`
+
+`general.smoothScroll.stopDecelerationWeighting` = `0.82`
+
+`mousewheel.min_line_scroll_amount` = `40`
+
+These tweaks are commented out by default.
+
+### Decrease full screen video fade 
+`full-screen-api.transition-duration.enter` = `50 0` 
+
+`full-screen-api.transition-duration.leave` = `0 50` 
