@@ -2,42 +2,60 @@
 This is a list of sites and services that the `my_umatrix_rules.txt` file in this repository unbreaks (fixes).
 
 ## Sites
+- adobe.com
+- amazon.com (including Amazon Video playback)
 - apple.com
 - arstechnica.com
+- barnesandnoble.com
+- battle.net
 - bbc.com
+- blizzard.com
+- bloomberg.com
+- dailymotion.com
+- destinyitemmanager.com
+- destinytracker.com
+- deviantart.com
+- dropbox.com
+- ebay.com
+- etsy.com
 - firefox.com
+- flickr.com
 - gamesradar.com
 - gizmodo.com
+- google.com (login)
 - icy-veins.com
+- independent.co.uk
+- instagram.com
 - kotaku.com
+- latimes.com
 - lifehacker.com
+- mashable.com
+- microsoft.com (login, Microsoft Dev Center)
 - mozilla.org
 - msi.com
+- netflix.com
 - nytimes.com
+- paypal.com
+- plex.tv
+- protomail.com
+- reddit.com (including commonly embedded media, like from imgur.com)
+- reuters.com
+- scribd.com
+- soundcloud.com
 - sourceforge.com
+- spotify.com
+- steamcommunity.com 
+- steampowered.com
 - t-mobile.com
 - thetrackernetwork.com (used to track player progress in video games -- not a privacy-invading tracker!)
 - theverge.com
+- ticketmaster.com
+- tripadvisor.com
+- twitch.tv
+- twitter.com
+- vimeo.com
 - wikia.com
 - worldofwarcraft.com
 - wowhead.com
-
-## Services/Misc.
-- Amazon and Amazon Video (subtitles still broken)
-- Blizzard/Battle.net (login)
-- Destiny Item Manager
-- Destiny Tracker
-- Dropbox
-- Google (login)
-- Humble Bundle (login still broken -- temporarily disable uMatrix for a quick fix)
-- Microsoft (login, Microsoft Dev Center)
-- Netflix
-- Paypal
-- Plex (login to server web interface)
-- Protonmail
-- Reddit (including commonly embedded media, like from imgur.com)
-- Steam (login)
-- Ticketmaster
-- Twitch
-- Twitter
-- Youtube
+- wsj.com
+- youtube.com
