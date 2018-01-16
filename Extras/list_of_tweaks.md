@@ -13,11 +13,15 @@ Can't be used to track you, but is annoying.
 ### Disallow websites from enumerating your connected USB devices
 `dom.gamepad.enabled` = `false`
 
+Don't allow websites to look at the USB devices you have connected.
+
 ## Automatic connections
 ### Disable prefetching of certain URLS 
 `network.prefetch-next` = `false`
 
-More information can be found [here](http://kb.mozillazine.org/Network.prefetch-next).
+"Link prefetching is when a webpage hints to the browser that certain pages are likely to be visited, so the browser downloads them immediately so they can be displayed immediately when the user requests it." ([Source](http://kb.mozillazine.org/Network.prefetch-next))
+
+A browser shouldn't visit websites without you choosing to visit them.
 
 ## Updates
 ### Update addons automatically 
@@ -49,10 +53,14 @@ Use [KeePass](https://keepass.info/) instead.
 ### Restrict cookies, cache, etc. to the domain level 
 `privacy.firstparty.isolate` = `true`
 
-More information can be found [here](https://www.bleepingcomputer.com/news/software/another-tor-browser-feature-makes-it-into-firefox-first-party-isolation/).
+First party isolation makes every website contained in its own data "silo". If a domain places a file on the user's computer, that file is contained to that domain. 
+
+For example, if somenewswebsite.com and someothernewswebsite.com both place a somebadtracker.com cookie on a user's computer, that somebadtracker.com cookie can't look at any of the other somebadtracker.com cookies on the user's computer. This prevents the somebadtracker.com cookie from tracking your browsing across multiple sites.
 
 ### Disable third party cookies 
 `network.cookie.cookieBehavior` = `1`
+
+Third party cookies are cookies placed on a user's computer *not* by the visited domain. For example, somenewswebsite.com might place a somebadtracker.com cookie on a user's machine. If you disable third party cookies, this doesn't happen. 
 
 ### Disable Pocket
 `browser.pocket.enabled` = `false` 
