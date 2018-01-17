@@ -45,6 +45,8 @@ Note that the following are blocked globally, except for on their own domain:
 - msi.com
 - netflix.com
 - nytimes.com
+- office.com
+- onenote.com
 - paypal.com
 - plex.tv
 - protomail.com
@@ -61,6 +63,7 @@ Note that the following are blocked globally, except for on their own domain:
 - theverge.com
 - ticketmaster.com
 - tripadvisor.com
+- tumblr.com (including embedded Instagram videos)
 - twitch.tv
 - twitter.com
 - vimeo.com
