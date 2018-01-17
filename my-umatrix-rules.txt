@@ -104,7 +104,11 @@ netflix.com nflximg.net * allow
 netflix.com nflxso.net * allow
 netflix.com nflxvideo.net * allow
 nytimes.com nyt.com * allow
+office.com msocdn.com * allow
+onenote.com aspnetcdn.com * allow
+onenote.com onenote.net * allow
 paypal.com paypalobjects.com * allow
+paypal.me paypalobjects.com * allow
 plex.tv * * allow
 protonmail.com protonmail.ch * allow
 reddit.com embed.ly * allow
@@ -139,6 +143,9 @@ theverge.com vox-cdn.com * allow
 theverge.com voxmedia.com * allow
 ticketmaster.com ticketm.net * allow
 tripadvisor.com tacdn.com * allow
+tumblr.com fbcdn.net * allow
+tumblr.com instagram.com * allow
+tumblr.com instagram.com frame allow
 twitch.tv ttvnw.net * allow
 twitch.tv twitchcdn.net * allow
 twitch.tv twitchsvc.net * allow
