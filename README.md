@@ -1,6 +1,6 @@
 # Firefox Tweaks
 
-This Github repository contains all the files I use to customize Firefox. This README also contains instructions on how to use them, as well as the list of addons I use and how to use them.
+This README contains instructions on how to enhance the privacy and security of Firefox, along with a nice theme.
 
 ## Addons
 ### Decentraleyes
