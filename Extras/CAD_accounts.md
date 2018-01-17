@@ -10,6 +10,7 @@ This is a list of accounts that will stay logged in if you use the `CAD_Expressi
 - Google
 - Linus Tech Tips
 - Microsoft
+- Netflix
 - Paypal
 - Plex
 - Reddit
