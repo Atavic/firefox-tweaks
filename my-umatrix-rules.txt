@@ -126,6 +126,10 @@ spotify.com d2d1dxiu3v1f2i.cloudfront.net * allow
 spotify.com scdn.co * allow
 steamcommunity.com akamaihd.net * allow
 steamcommunity.com steampowered.com * allow
+steamcommunity.com steamstatic.com * allow
+steampowered.com akamaihd.net * allow
+steampowered.com steamcommunity.com * allow
+steampowered.com steamstatic.com * allow
 t-mobile.com tmocache.com * allow
 thetrackernetwork.com rawgit.com * allow
 theverge.com vox-cdn.com * allow
