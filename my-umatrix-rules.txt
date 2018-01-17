@@ -32,6 +32,9 @@ adobe.com adobelogin.com * allow
 amazon.com aiv-cdn.net * allow
 amazon.com aiv-delivery.net * allow
 amazon.com akamaihd.net * allow
+amazon.com d25xi40x97liuc.cloudfront.net * allow
+amazon.com d2lkq7nlcrdi7q.cloudfront.net * allow
+amazon.com dmqdd6hw24ucf.cloudfront.net * allow
 amazon.com media-amazon.com * allow
 amazon.com ssl-images-amazon.com * allow
 apple.com cdn-apple.com * allow
