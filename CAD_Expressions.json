@@ -183,6 +183,13 @@
       "cookieNames": []
     },
     {
+      "expression": "netflix.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "id": "Bk77DMn4M",
+      "cookieNames": []
+    },
+    {
       "expression": "notifications.google.com",
       "storeId": "default",
       "listType": "WHITE",
