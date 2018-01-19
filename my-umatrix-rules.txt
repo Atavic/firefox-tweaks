@@ -92,10 +92,14 @@ lifehacker.com kinja-static.com * allow
 lifehacker.com kinja.com * allow
 live.com * * allow
 mashable.com mshcdn.com * allow
+microsoft.com akamaized.net * allow
 microsoft.com aspnetcdn.com * allow
 microsoft.com gfx.ms * allow
 microsoft.com live.com * allow
+microsoft.com microsoftonline.com * allow
+microsoft.com msecnd.net * allow
 microsoft.com onestore.ms * allow
+microsoft.com s-microsoft.com * allow
 microsoftonline.com * * allow
 mozilla.org mozilla.net * allow
 msi.com bootstrapcdn.com * allow
@@ -147,6 +151,7 @@ tumblr.com fbcdn.net * allow
 tumblr.com instagram.com * allow
 tumblr.com instagram.com frame allow
 twitch.tv ttvnw.net * allow
+twitch.tv twitchapp.net * allow
 twitch.tv twitchcdn.net * allow
 twitch.tv twitchsvc.net * allow
 twitter.com twimg.com * allow
