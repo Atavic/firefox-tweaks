@@ -77,7 +77,7 @@ This file makes Firefox pleasantly black and white, like this:
 
 It also only shows the close tab "X" on your currently selected tab, and when you mouse over a tab.
 
-Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
+To use this file, create a folder called `chrome` in your Firefox profile folder and place it there. [Don't know where to find your Firefox profile folder?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
 ## Frequently asked questions
 ### Where is my Firefox profile folder located?
