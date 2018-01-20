@@ -157,6 +157,7 @@ twitch.tv twitchsvc.net * allow
 twitter.com twimg.com * allow
 twitter.com twitter.com * inherit
 vimeo.com vimeocdn.com * allow
+visualstudio.com microsoft.com * allow
 wikia.com nocookie.net * allow
 worldofwarcraft.com akamaihd.net * allow
 worldofwarcraft.com akamaized.net * allow
