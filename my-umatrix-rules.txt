@@ -81,6 +81,7 @@ google.com ytimg.com * allow
 humblebundle.com akamaihd.net * allow
 icy-veins.com cursecdn.com * allow
 icy-veins.com wowdb.com * allow
+imdb.com media-imdb.com * allow
 independent.co.uk jquery.com * allow
 instagram.com fbcdn.net * allow
 kotaku.com kinja-img.com * allow
@@ -115,6 +116,7 @@ paypal.com paypalobjects.com * allow
 paypal.me paypalobjects.com * allow
 plex.tv * * allow
 protonmail.com protonmail.ch * allow
+reddit.com amazonaws.com * allow
 reddit.com embed.ly * allow
 reddit.com embed.ly frame allow
 reddit.com embedly.com * allow
@@ -164,5 +166,6 @@ worldofwarcraft.com battle.net * allow
 wowhead.com battle.net * allow
 wowhead.com zamimg.com * allow
 wsj.com wsj.net * allow
+youtube.com ggpht.com * allow
 youtube.com google.com * allow
 youtube.com ytimg.com * allow
