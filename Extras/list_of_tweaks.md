@@ -76,6 +76,8 @@ First party isolation contains every website in its own data "silo". If a domain
 
 For example, if somenewswebsite.com and someothernewswebsite.com both place a somebadtracker.com cookie on a user's computer, that somebadtracker.com cookie can't look at any of the other somebadtracker.com cookies on the user's computer. This prevents the somebadtracker.com cookie from tracking your browsing across multiple sites.
 
+Note that Cookie AutoDelete will not be able to function properly if this tweak is enabled on an installation of Firefox lower than version 59. In other words, Cookie AutoDelete only supports first party isolation on versions of Firefox 59 and up. To check your version of Firefox, click on the hamburger menu in the top right, then Help, then About Firefox.
+
 ## Telemetry
 All telemetry tweaks are commented out by default.
 
