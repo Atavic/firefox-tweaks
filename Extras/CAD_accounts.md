@@ -4,6 +4,7 @@ This is a list of accounts that will stay logged in if you use the `CAD_Expressi
 - Amazon
 - Blizzard/Battle.net
 - Bungie
+- Codacy (automated code review service)
 - Destiny Tracker
 - Feedly
 - Github

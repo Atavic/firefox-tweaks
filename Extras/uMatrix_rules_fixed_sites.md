@@ -34,6 +34,7 @@ Note that the following are blocked globally, except for on their own domain:
 - gizmodo.com
 - google.com (login)
 - icy-veins.com
+- imdb.com
 - independent.co.uk
 - instagram.com
 - kotaku.com
@@ -67,6 +68,7 @@ Note that the following are blocked globally, except for on their own domain:
 - twitch.tv
 - twitter.com
 - vimeo.com
+- visualstudio.com (download)
 - wikia.com
 - worldofwarcraft.com
 - wowhead.com
