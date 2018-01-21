@@ -62,10 +62,6 @@ user_pref("signon.rememberSignons", false);
 // Disable autofill
 user_pref("browser.formfill.enable", false);
 
-// Restricts cookies, cache, etc. to the domain level
-// More information: https://www.bleepingcomputer.com/news/software/another-tor-browser-feature-makes-it-into-firefox-first-party-isolation/
-user_pref("privacy.firstparty.isolate", true);
-
 // Disable third-party cookies
 user_pref("network.cookie.cookieBehavior", 1);
 
@@ -78,6 +74,16 @@ user_pref("media.navigator.enabled", false);
 
 // Disable battery status tracking
 user_pref("dom.battery.enabled", false);
+
+
+
+/*
+       POTENTIAL BREAKAGE
+				*/
+
+// Restricts cookies, cache, etc. to the domain level. Breaks CAD if not on Firefox 59+.
+// More information: https://www.bleepingcomputer.com/news/software/another-tor-browser-feature-makes-it-into-firefox-first-party-isolation/
+//user_pref("privacy.firstparty.isolate", true);
 
 
 
@@ -120,10 +126,3 @@ user_pref("dom.battery.enabled", false);
 // Decrease full screen video fade
 //user_pref("full-screen-api.transition-duration.enter", 50 0);
 //user_pref("full-screen-api.transition-duration.leave", 0 50);
-
-// Disable full screen video fade
-//user_pref("full-screen-api.transition-duration.enter", 0 0);
-//user_pref("full-screen-api.transition-duration.leave", 0 0);
-
-// Disable full screen mode warning
-//user_pref("full-screen-api.warning.timeout", 0);

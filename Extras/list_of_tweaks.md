@@ -50,13 +50,6 @@ Use [KeePass](https://keepass.info/) instead.
 ### Disable the Firefox autofill 
 `browser.formfill.enable` = `false`
 
-### Restrict cookies, cache, etc. to the domain level 
-`privacy.firstparty.isolate` = `true`
-
-First party isolation contains every website in its own data "silo". If a domain places a file on the user's computer, that file is contained to that domain. 
-
-For example, if somenewswebsite.com and someothernewswebsite.com both place a somebadtracker.com cookie on a user's computer, that somebadtracker.com cookie can't look at any of the other somebadtracker.com cookies on the user's computer. This prevents the somebadtracker.com cookie from tracking your browsing across multiple sites.
-
 ### Disable third party cookies 
 `network.cookie.cookieBehavior` = `1`
 
@@ -72,6 +65,16 @@ Third party cookies are cookies placed on a user's computer *not* by the visited
 
 ### Disallow websites from viewing your computer's battery status
 `dom.battery.enabled` = `false`
+
+## Potential breakage
+These tweaks have the possibility of breaking some websites or browser functionality. All potential breakage tweaks are commented out by default.
+
+### Restrict cookies, cache, etc. to the domain level 
+`privacy.firstparty.isolate` = `true`
+
+First party isolation contains every website in its own data "silo". If a domain places a file on the user's computer, that file is contained to that domain. 
+
+For example, if somenewswebsite.com and someothernewswebsite.com both place a somebadtracker.com cookie on a user's computer, that somebadtracker.com cookie can't look at any of the other somebadtracker.com cookies on the user's computer. This prevents the somebadtracker.com cookie from tracking your browsing across multiple sites.
 
 ## Telemetry
 All telemetry tweaks are commented out by default.
@@ -123,11 +126,3 @@ All personal preference tweaks are commented out by default.
 `full-screen-api.transition-duration.enter` = `50 0` 
 
 `full-screen-api.transition-duration.leave` = `0 50` 
-
-### Disable full screen video fade 
-`full-screen-api.transition-duration.enter` = `0 0` 
-
-`full-screen-api.transition-duration.leave` = `0 0` 
-
-### Disable full screen mode warning
-`full-screen-api.warning.timeout` = `0`
