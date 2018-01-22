@@ -26,6 +26,8 @@ referrer-spoof: behind-the-scene false
 * gstatic.com * allow
 * storage.googleapis.com * allow
 * twitter.com * block
+* vine.co * allow
+* vine.co frame allow
 * youtube.com * allow
 * youtube.com frame allow
 adobe.com adobelogin.com * allow
