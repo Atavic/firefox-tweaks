@@ -2,18 +2,9 @@
 This is a list of tweaks that are changed when the `user.js` file from this repository is placed in the Firefox profile folder.
 
 ## HTML5/APIs/DOM
-### Disable web notifications 
-`dom.webnotifications.enabled` = `false`
 
-Can't be used to track you, but is annoying.
-
-### Disallow websites from accessing your location
-`geo.enabled` = `false`
-
-### Disallow websites from enumerating your connected USB devices
+### Disallow websites from seeing your connected USB devices
 `dom.gamepad.enabled` = `false`
-
-Don't allow websites to look at the USB devices you have connected.
 
 ## Automatic connections
 ### Disable prefetching of certain URLS 
@@ -23,29 +14,24 @@ Don't allow websites to look at the USB devices you have connected.
 
 A browser shouldn't visit websites without you choosing to visit them.
 
-## Updates
-### Update addons automatically 
-`extensions.update.enabled` = `true` 
-
-This should be set to `true` by default.
-
-### Check for and install Firefox updates 
-`app.update.enabled` = `true`
-
-This should be set to `true` by default.
-
 ## Miscellaneous
 ### Disable Firefox Tracking Protection
 `privacy.trackingprotection.enabled` = `false`
 
 `privacy.trackingprotection.pbmode.enabled` = `false`
 
-Use uMatrix/uBlock instead.
+Firefox's built-in tracking protection, while still good, is very minimal. Use uMatrix/uBlock instead.
 
 ### Disable the Firefox password manager 
 `signon.rememberSignons` = `false`
 
-Use [KeePass](https://keepass.info/) instead.
+Javascript can be used to capture login information (username/email and password).
+
+"When you save your username and password on a website, your password manager remembers them. From that point forward, it will attempt to automatically fill them into username and password boxes it sees on that website. This makes signing in faster, as you just have to click 'Login'.
+
+But some third-party advertising scripts—the ones that nearly every website out there uses—are starting to use these to track you. They run in the background, create fake login and password boxes you can’t even see, and captures the credentials your password manager fills into them." ([Source](https://www.howtogeek.com/338209/you-should-turn-off-autofill-in-your-password-manager/))
+
+[KeePass](https://keepass.info/) is an excellent replacement. Its security has been [audited by the European Commission's EU Free and Open Source Software Auditing (EU-FOSSA) project](https://joinup.ec.europa.eu/sites/default/files/inline-files/DLV%20WP6%20-01-%20KeePass%20Code%20Review%20Results%20Report_published.pdf).
 
 ### Disable the Firefox autofill 
 `browser.formfill.enable` = `false`
@@ -56,8 +42,6 @@ Use [KeePass](https://keepass.info/) instead.
 Third party cookies are cookies placed on a user's computer *not* by the visited domain. For example, somenewswebsite.com might place a somebadtracker.com cookie on a user's machine. If you disable third party cookies, this doesn't happen. 
 
 ### Disable Pocket
-`browser.pocket.enabled` = `false` 
-
 `extensions.pocket.enabled` = `false`
 
 ###  Disallow websites from viewing your microphone and camera status 
@@ -80,19 +64,6 @@ Note that Cookie AutoDelete will not be able to function properly if this tweak 
 
 ## Telemetry
 All telemetry tweaks are commented out by default.
-
-### Enable Mozilla telemetry, experiments, and Health Report
-`toolkit.telemetry.enabled` = `true`
-
-`toolkit.telemetry.unified` = `true`
-
-`experiments.supported` = `true`
-
-`experiments.enabled` = `true`
-
-`datareporting.healthreport.uploadEnabled` = `true`
-
-`datareporting.policy.dataSubmissionEnabled` = `true`
 
 ### Disable Mozilla telemetry, experiments, and Health Report
 `toolkit.telemetry.enabled` = `false`

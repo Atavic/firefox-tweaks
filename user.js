@@ -13,12 +13,6 @@
 	  HTML5/APIs/DOM
 				*/
 
-// Disable web notifications
-user_pref("dom.webnotifications.enabled", false);
-
-// Disable geolocation
-user_pref("geo.enabled", false);
-
 // Disable gamepad API to prevent USB device enumeration
 user_pref("dom.gamepad.enabled", false);
 
@@ -34,20 +28,6 @@ user_pref("network.prefetch-next", false);
 
 
 
-/*
-	     UPDATES
-				*/
-
-// Update addons automatically
-// Should be set to "true" by default
-user_pref("extensions.update.enabled", true);
-
-// Enforce checking for Firefox updates
-// Should be set to "true" by default
-user_pref("app.update.enabled", true);
-
-
-
 /* 
 	       MISC
 				*/
@@ -60,13 +40,14 @@ user_pref("privacy.trackingprotection.pbmode.enabled", false);
 user_pref("signon.rememberSignons", false);
 
 // Disable autofill
+// Tracking scripts can capture login information. 
+// More information: https://www.howtogeek.com/338209/you-should-turn-off-autofill-in-your-password-manager/
 user_pref("browser.formfill.enable", false);
 
 // Disable third-party cookies
 user_pref("network.cookie.cookieBehavior", 1);
 
 // Disable Pocket
-user_pref("browser.pocket.enabled", false);
 user_pref("extensions.pocket.enabled", false);
 
 // Disable microphone and camera status tracking
@@ -90,14 +71,6 @@ user_pref("dom.battery.enabled", false);
 /*
 	    TELEMETRY
 				*/
-
-// Enable Mozilla telemetry/experiments/health report
-//user_pref("toolkit.telemetry.enabled", true);
-//user_pref("toolkit.telemetry.unified", true);
-//user_pref("experiments.supported", true);
-//user_pref("experiments.enabled", true);
-//user_pref("datareporting.healthreport.uploadEnabled", true);
-//user_pref("datareporting.policy.dataSubmissionEnabled", true);
 
 // Disable Mozilla telemetry/experiments/health report
 //user_pref("toolkit.telemetry.enabled", false);
