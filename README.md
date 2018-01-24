@@ -64,7 +64,7 @@ If you would like to use my uMatrix whitelist, download and import the `my-umatr
 ## user.js
 This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, and only make small sacrifices to achieve that.
 
-At the bottom of the file, I've included several tweaks which enable or disable telemetry, but they're all commented out by default. If you wish to enable or disable telemetry, uncomment the respective section. Note that some telemetry is enabled in a default Firefox installation.
+At the bottom of the file, I've included several tweaks which disable telemetry, but they're all commented out by default. If you wish to disable telemetry, uncomment the section. Note that some telemetry is enabled in a default Firefox installation.
 
 If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/FirefoxTweaks/blob/master/Extras/list_of_tweaks.md).
 
@@ -91,12 +91,12 @@ OS X | `Users/(your username)/Library/Application Support/Firefox/Profiles/(rand
 Linux | `home/(your username)/.mozilla/firefox/(random string).default`
 
 ### Why did you include X tweak but not Y tweak?
-The goal of my user.js file was to increase privacy while at the same time not sacrificing much to achieve that. The only browser features that are taken away are Pocket, notifications, geolocation, the password manager, and autofill. I think most people don't use web notifications or Pocket, geolocation isn't needed on desktops/laptops, the password manager is better to replace with KeePass, and autofill isn't needed. This is just what I think though, so of course you can choose to comment out certain lines in the user.js file.
+The goal of my user.js file was to increase privacy while at the same time not sacrificing much to achieve that. The only browser features that are taken away are Pocket, the password manager, and autofill. I think most people don't use Pocket, the password manager is better to replace with KeePass, and autofill isn't needed. This is just what I think though, so of course you can choose to comment out certain lines in the user.js file.
 
-The reason some other tweaks weren't included was because I felt they were either sacrificing too much (i.e. could possibly break some websites) or they were subjective (e.g. disabling the activity stream on the new tab page).
+The reason some other tweaks weren't included was because I felt they could possibly break some websites (privacy.resistFingerprinting) or they were subjective (e.g. disabling the activity stream on the new tab page).
 
-### Why did you enable/disable telemetry in user.js?
-I didn't. Both an enable and disable telemetry section are there, commented out. The intention is that you will uncomment which section you prefer. If you want to enable or disable telemetry, uncomment the respective section.
+### Why did you disable telemetry in user.js?
+I didn't. The intention is that you will uncomment that section if you don't want to send telemetry.
 
 ## License
 This repository is licensed under GPLv3. You may use it for commercial purposes, modify it, distribute it or any modified works, but I am not liable for any damage caused by it and it comes with no warranty. If you choose to distribute it or any modified versions, a copy of the GPLv3 and a copyright notice must be included in your distributed version, changes made must be documented, you must make the source code available, and modifications must be released under the same license.
