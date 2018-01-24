@@ -53,9 +53,6 @@ user_pref("extensions.pocket.enabled", false);
 // Disable microphone and camera status tracking
 user_pref("media.navigator.enabled", false);
 
-// Disable battery status tracking
-user_pref("dom.battery.enabled", false);
-
 
 
 /*
