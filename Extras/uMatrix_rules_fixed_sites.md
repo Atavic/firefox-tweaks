@@ -3,6 +3,7 @@ This is a list of sites and services that the `my_umatrix_rules.txt` file in thi
 
 Note that the following are allowed globally:
 - Embedded Youtube videos (youtube.com, googlevideo.com)
+- Embedded Vimeo videos (vimeo.com, vimeocdn.com)
 - Embedded Vine videos (vine.co)
 - Several \*.googleapis.com domains
 - ampproject.org
