@@ -35,6 +35,7 @@ Note that the following are blocked globally, except for on their own domain:
 - gamesradar.com
 - gizmodo.com
 - google.com (login)
+- icloud.com
 - icy-veins.com
 - imdb.com
 - independent.co.uk
