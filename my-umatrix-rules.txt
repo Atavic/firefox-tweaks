@@ -84,6 +84,9 @@ google.com youtube.com * allow
 google.com youtube.googleapis.com * allow
 google.com ytimg.com * allow
 humblebundle.com akamaihd.net * allow
+icloud.com apple.com * allow
+icloud.com apple.com frame allow
+icloud.com cdn-apple.com * allow
 icy-veins.com cursecdn.com * allow
 icy-veins.com wowdb.com * allow
 imdb.com media-imdb.com * allow
