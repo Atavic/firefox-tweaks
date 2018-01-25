@@ -26,6 +26,9 @@ referrer-spoof: behind-the-scene false
 * gstatic.com * allow
 * storage.googleapis.com * allow
 * twitter.com * block
+* vimeo.com * allow
+* vimeo.com frame allow
+* vimeocdn.com * allow
 * vine.co * allow
 * vine.co frame allow
 * youtube.com * allow
@@ -84,6 +87,7 @@ humblebundle.com akamaihd.net * allow
 icy-veins.com cursecdn.com * allow
 icy-veins.com wowdb.com * allow
 imdb.com media-imdb.com * allow
+imdb.com ssl-images-amazon.com * allow
 independent.co.uk jquery.com * allow
 instagram.com fbcdn.net * allow
 kotaku.com kinja-img.com * allow
