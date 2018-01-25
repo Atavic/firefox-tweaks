@@ -91,7 +91,7 @@ OS X | `Users/(your username)/Library/Application Support/Firefox/Profiles/(rand
 Linux | `home/(your username)/.mozilla/firefox/(random string).default`
 
 ### Why did you include X tweak but not Y tweak?
-The goal of my user.js file was to increase privacy while at the same time not sacrificing much to achieve that. The only browser features that are taken away are Pocket, the password manager, and autofill. I think most people don't use Pocket, the password manager is better to replace with KeePass, and autofill isn't needed. This is just what I think though, so of course you can choose to comment out certain lines in the user.js file.
+The goal of my user.js file was to increase privacy while at the same time not sacrificing much to achieve that. The only browser features that are taken away are Pocket, the password manager, and autofill. I think most people don't use Pocket, the password manager is a security concern, and autofill isn't needed. This is just what I think though, so of course you can choose to comment out certain lines in the user.js file.
 
 The reason some other tweaks weren't included was because I felt they could possibly break some websites (privacy.resistFingerprinting) or they were subjective (e.g. disabling the activity stream on the new tab page).
 
