@@ -1,7 +1,7 @@
 # List of fixed sites and services
-This is a list of sites and services that the `my_umatrix_rules.txt` file in this repository unbreaks (fixes).
+This is a list of sites and services that the `my_umatrix_rules.txt` file in this repository unbreaks (fixes). Note that some websites may not need fixing, and even though they don't appear on this list, might work without any additional configuration.
 
-Note that the following are allowed globally:
+The following are allowed globally:
 - Embedded Youtube videos (youtube.com, googlevideo.com)
 - Embedded Vimeo videos (vimeo.com, vimeocdn.com)
 - Embedded Vine videos (vine.co)
@@ -9,7 +9,7 @@ Note that the following are allowed globally:
 - ampproject.org
 - gstatic.com
 
-Note that the following are blocked globally, except for on their own domain:
+The following are blocked globally, except for on their own domain:
 - twitter.com
 - facebook.com (including facebook.net)
 
