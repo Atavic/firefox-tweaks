@@ -1,5 +1,4 @@
 https-strict: behind-the-scene false
-matrix-off: 127.0.0.1 true
 matrix-off: about-scheme true
 matrix-off: behind-the-scene true
 matrix-off: chrome-extension-scheme true
@@ -33,6 +32,8 @@ referrer-spoof: behind-the-scene false
 * vine.co frame allow
 * youtube.com * allow
 * youtube.com frame allow
+127.0.0.1 plex.direct * allow
+127.0.0.1 plex.tv * allow
 adobe.com adobelogin.com * allow
 amazon.com aiv-cdn.net * allow
 amazon.com aiv-delivery.net * allow

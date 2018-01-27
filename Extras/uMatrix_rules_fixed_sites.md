@@ -52,7 +52,7 @@ The following are blocked globally, except for on their own domain:
 - office.com
 - onenote.com
 - paypal.com
-- plex.tv
+- plex.tv (including the Plex Server web interface on 127.0.0.1)
 - protomail.com
 - reddit.com (including commonly embedded media, like from imgur.com)
 - reuters.com
