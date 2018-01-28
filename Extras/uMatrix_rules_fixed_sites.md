@@ -59,6 +59,7 @@ The following are blocked globally, except for on their own domain:
 - scribd.com
 - soundcloud.com
 - sourceforge.com
+- speedtest.net
 - spotify.com
 - steamcommunity.com 
 - steampowered.com

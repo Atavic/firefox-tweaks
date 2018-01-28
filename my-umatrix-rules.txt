@@ -145,6 +145,7 @@ reuters.com reutersmedia.net * allow
 scribd.com scribdassets.com * allow
 soundcloud.com sndcdn.com * allow
 sourceforge.net fsdn.com * allow
+speedtest.net cdnst.net * allow
 spotify.com d2d1dxiu3v1f2i.cloudfront.net * allow
 spotify.com scdn.co * allow
 steamcommunity.com akamaihd.net * allow
