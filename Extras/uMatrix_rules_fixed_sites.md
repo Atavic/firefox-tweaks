@@ -43,6 +43,7 @@ The following are blocked globally, except for on their own domain:
 - kotaku.com
 - latimes.com
 - lifehacker.com
+- lushusa.com
 - mashable.com
 - microsoft.com (login, Microsoft Dev Center)
 - mozilla.org

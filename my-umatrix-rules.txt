@@ -102,6 +102,7 @@ lifehacker.com kinja-img.com * allow
 lifehacker.com kinja-static.com * allow
 lifehacker.com kinja.com * allow
 live.com * * allow
+lushusa.com powerreviews.com * allow
 mashable.com mshcdn.com * allow
 microsoft.com akamaized.net * allow
 microsoft.com aspnetcdn.com * allow
