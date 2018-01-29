@@ -5,7 +5,7 @@ The following are allowed globally:
 - Embedded Youtube videos (youtube.com, googlevideo.com)
 - Embedded Vimeo videos (vimeo.com, vimeocdn.com)
 - Embedded Vine videos (vine.co)
-- Several \*.googleapis.com domains
+- Several \*.googleapis.com domains (ajax, fonts, storage)
 - ampproject.org
 - gstatic.com
 
