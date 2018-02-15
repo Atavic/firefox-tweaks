@@ -76,7 +76,6 @@ flickr.com yimg.com * allow
 gamesradar.com futurecdn.net script allow
 gizmodo.com kinja-img.com * allow
 gizmodo.com kinja-static.com * allow
-gizmodo.com kinja.com * allow
 google.com * frame inherit
 google.com content.googleapis.com * allow
 google.com googleusercontent.com * allow
@@ -84,6 +83,7 @@ google.com maps.googleapis.com * allow
 google.com youtube.com * allow
 google.com youtube.googleapis.com * allow
 google.com ytimg.com * allow
+gyazo.com cloudflare.com * allow
 humblebundle.com akamaihd.net * allow
 icloud.com apple.com * allow
 icloud.com apple.com frame allow
@@ -96,16 +96,15 @@ independent.co.uk jquery.com * allow
 instagram.com fbcdn.net * allow
 kotaku.com kinja-img.com * allow
 kotaku.com kinja-static.com * allow
-kotaku.com kinja.com * allow
 latimes.com trbas.com * allow
 lifehacker.com kinja-img.com * allow
 lifehacker.com kinja-static.com * allow
-lifehacker.com kinja.com * allow
 live.com * * allow
 lushusa.com powerreviews.com * allow
 mashable.com mshcdn.com * allow
 microsoft.com akamaized.net * allow
 microsoft.com aspnetcdn.com * allow
+microsoft.com azureedge.net * allow
 microsoft.com gfx.ms * allow
 microsoft.com live.com * allow
 microsoft.com microsoftonline.com * allow
@@ -127,6 +126,9 @@ paypal.com paypalobjects.com * allow
 paypal.me paypalobjects.com * allow
 plex.tv * * allow
 protonmail.com protonmail.ch * allow
+raider.io worldofwarcraft.com * allow
+raider.io wowhead.com * allow
+raider.io zamimg.com * allow
 reddit.com amazonaws.com * allow
 reddit.com embed.ly * allow
 reddit.com embed.ly frame allow
