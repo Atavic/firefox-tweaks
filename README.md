@@ -73,7 +73,7 @@ If you would like a full list of the tweaks made along with an explanation for e
 Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
 ## Contributing
-If you would like to contribute additional whitelist rules (or anything else), please read [this].
+If you would like to contribute, please read [this](https://github.com/krathalan/FirefoxTweaks/blob/master/CONTRIBUTING.md).
 
 ## Frequently asked questions
 ### Where is my Firefox profile folder located?
