@@ -29,9 +29,11 @@ You would need to explain why akamaihd.net, akamaized.net, and worldofwarcraft.c
 
 If you're removing existing rules, please validate that the site still works with those domains blocked. Also state why the domains should be removed. If the reason is that they're simply not needed for the site to function, that is an acceptable reason.
 
-Please document all of your changes in the `Extras/uMatrix_rules_fixed_sites.md` by adding your fixed domain. Note that they're listed alphabetically.
+Please document all of your changes in the `Extras/uMatrix_rules_fixed_sites.md` file by adding your fixed domain. Note that they're listed alphabetically.
 
 ## 3. Cookie AutoDelete whitelisted domains
 You could contribute more domains to whitelist. All of your changes should take place in the `CAD_Expressions.json` and `Extras/CAD_accounts.md` files. Please create a separate issue for each domain you wish to add. Additionally, please provide general information about the domain (e.g. "It's a video game store with login, like Steam"). 
 
 If you're adding a domain to this whitelist, please try to add uMatrix rules as well which un-break the site, if needed. Both of these changes may go into one issue.
+
+Please document all of your changes in the `Extras/CAD_accounts.md` file by adding your domain. Note that they're listed alphabetically.
