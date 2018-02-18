@@ -97,12 +97,9 @@ I didn't. The intention is that you will uncomment that section if you don't wan
 ## License
 This repository is licensed under GPLv3. You may use it for commercial purposes, modify it, distribute it or any modified works, but I am not liable for any damage caused by it and it comes with no warranty. If you choose to distribute it or any modified versions, a copy of the GPLv3 and a copyright notice must be included in your distributed version, changes made must be documented, you must make the source code available, and modifications must be released under the same license.
 
-The exceptions to this are: 
-- user.js, which is provided under the MIT license with a copyright notice
-- userChrome.css, which is provided under the GPLv3 with a copyright notice
+The exception to this is user.js, which is provided under the MIT license with a copyright notice.
 
 ## Sources
 This repository draws from other people's work, listed below:
 - [Pyllyukko's user.js](https://github.com/pyllyukko/user.js)
-- [Timvde's UserChrome-Tweaks](https://github.com/Timvde/UserChrome-Tweaks)
 - [PrivacyTools](https://www.privacytools.io/)
