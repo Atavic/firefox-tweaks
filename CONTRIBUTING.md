@@ -2,12 +2,13 @@
 Want to contribute to the project? That's awesome! If you're going to contribute, please open an issue first for discussion before making a pull request. Include any relevant information depending on what kind of contribution you would like to make (see below).
 
 ## 1. Addons
-You could contribute more addons along with instructions on how to use them, replace an already existing addon, or refine the already existing addon instructions. All of your changes should take place in the `README.md` file, along with adding any additional files, like a whitelist. Please create a separate issue for each addon. For example, if you were adding an addon and replacing another addon, you would need to create two separate issues.
+You could contribute more addons along with instructions on how to use them, replace an already existing addon, or refine the already existing addon instructions. Open-source addons are preferred. All of your changes should take place in the `README.md` file, along with adding any additional files, like a whitelist. Please create a separate issue for each addon. For example, if you were adding an addon and replacing another addon, you would need to create two separate issues.
 
 If you're adding an addon, please answer the following questions in your issue:
 1. How does this addon improve privacy/security?
 2. How does this addon provide different functionality than already included addons? 
 3. If you're including extra files, what is the purpose of them?
+4. What are the links to the source code and addon page on https://addons.mozilla.org/?
 
 If you're replacing an addon, please explain why your addon is better.
 
