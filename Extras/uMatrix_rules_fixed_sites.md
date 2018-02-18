@@ -2,12 +2,12 @@
 This is a list of sites and services that the `my_umatrix_rules.txt` file in this repository unbreaks (fixes). Note that some websites may not need fixing, and even though they don't appear on this list, might work without any additional configuration.
 
 The following are allowed globally:
-- Embedded Youtube videos (youtube.com, googlevideo.com)
+- ampproject.org
 - Embedded Vimeo videos (vimeo.com, vimeocdn.com)
 - Embedded Vine videos (vine.co)
-- Several \*.googleapis.com domains (ajax, fonts, storage)
-- ampproject.org
+- Embedded Youtube videos (youtube.com, googlevideo.com)
 - gstatic.com
+- Several \*.googleapis.com domains (ajax, fonts, storage)
 
 The following are blocked globally, except for on their own domain:
 - twitter.com
