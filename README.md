@@ -1,6 +1,6 @@
 # Firefox Tweaks
 
-This README contains instructions on how to enhance the privacy and security of Firefox, along with a nice theme.
+This README contains instructions on how to enhance the privacy and security of Firefox.
 
 All addons listed are open source and include links to their source code as well as their page on https://addons.mozilla.org.
 
@@ -71,15 +71,6 @@ At the bottom of the file, I've included several tweaks which disable telemetry,
 If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/FirefoxTweaks/blob/master/Extras/list_of_tweaks.md).
 
 Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
-
-## userChrome.css
-This file makes Firefox pleasantly black and white, like this:
-
-![alt text](Extras/userChrome.jpg "userChrome.css")
-
-It also only shows the close tab "X" on your currently selected tab, and when you mouse over a tab.
-
-To use this file, create a folder called `chrome` in your Firefox profile folder and place it there. [Don't know where to find your Firefox profile folder?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
 
 ## Frequently asked questions
 ### Where is my Firefox profile folder located?
