@@ -53,15 +53,9 @@ user_pref("extensions.pocket.enabled", false);
 // Disable microphone and camera status tracking
 user_pref("media.navigator.enabled", false);
 
-
-
-/*
-       POTENTIAL BREAKAGE
-				*/
-
 // Restricts cookies, cache, etc. to the domain level. Breaks CAD if not on Firefox 59+.
 // More information: https://www.bleepingcomputer.com/news/software/another-tor-browser-feature-makes-it-into-firefox-first-party-isolation/
-//user_pref("privacy.firstparty.isolate", true);
+user_pref("privacy.firstparty.isolate", true);
 
 
 
