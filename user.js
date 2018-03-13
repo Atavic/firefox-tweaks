@@ -93,6 +93,7 @@ user_pref("media.navigator.enabled", false);
 //user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 200);
 //user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
 
-// Decrease full screen video fade
-//user_pref("full-screen-api.transition-duration.enter", 50 0);
-//user_pref("full-screen-api.transition-duration.leave", 0 50);
+// Disable full screen video fade -- setting to full screen happens immediately with no fade
+//user_pref("full-screen-api.transition-duration.enter", 0 0);
+//user_pref("full-screen-api.transition-duration.leave", 0 0);
+//user_pref("full-screen-api.warning.timeout", 0);
