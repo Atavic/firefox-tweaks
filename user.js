@@ -85,7 +85,7 @@ user_pref("privacy.firstparty.isolate", true);
 
 // Make Firefox scrolling feel like Google Chrome
 //user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 200);
-//user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
+//user_pref("general.smoothScroll.stopDecelerationWeighting", "0.82");
 
 // Disable full screen video fade -- setting to full screen happens immediately with no fade
 //user_pref("full-screen-api.transition-duration.enter", "0 0");
