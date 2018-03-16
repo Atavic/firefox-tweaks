@@ -78,9 +78,9 @@ user_pref("privacy.firstparty.isolate", true);
 				*/
 
 // Make Firefox scrolling feel like Microsoft Edge
-//user_pref("general.smoothScroll.currentVelocityWeighting", 0);
+//user_pref("general.smoothScroll.currentVelocityWeighting", "0");
 //user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
-//user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
+//user_pref("general.smoothScroll.stopDecelerationWeighting", "0.82");
 //user_pref("mousewheel.min_line_scroll_amount", 40);
 
 // Make Firefox scrolling feel like Google Chrome
@@ -88,6 +88,6 @@ user_pref("privacy.firstparty.isolate", true);
 //user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
 
 // Disable full screen video fade -- setting to full screen happens immediately with no fade
-//user_pref("full-screen-api.transition-duration.enter", 0 0);
-//user_pref("full-screen-api.transition-duration.leave", 0 0);
+//user_pref("full-screen-api.transition-duration.enter", "0 0");
+//user_pref("full-screen-api.transition-duration.leave", "0 0");
 //user_pref("full-screen-api.warning.timeout", 0);
