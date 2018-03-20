@@ -47,9 +47,6 @@ Third party cookies are cookies placed on a user's computer *not* by the visited
 ###  Disallow websites from viewing your microphone and camera status 
 `media.navigator.enabled` = `false` 
 
-## Potential breakage
-These tweaks have the possibility of breaking some websites or browser functionality. All potential breakage tweaks are commented out by default.
-
 ### Restrict cookies, cache, etc. to the domain level 
 `privacy.firstparty.isolate` = `true`
 
