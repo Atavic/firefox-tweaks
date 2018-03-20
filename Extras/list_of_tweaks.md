@@ -89,7 +89,9 @@ All personal preference tweaks are commented out by default.
 
 `general.smoothScroll.stopDecelerationWeighting` = `0.82`
 
-### Decrease full screen video fade 
-`full-screen-api.transition-duration.enter` = `50 0` 
+### Disable full screen video fade 
+`full-screen-api.transition-duration.enter` = `0 0` 
 
-`full-screen-api.transition-duration.leave` = `0 50` 
+`full-screen-api.transition-duration.leave` = `0 0` 
+
+`full-screen-api.warning.timeout` = `0`
