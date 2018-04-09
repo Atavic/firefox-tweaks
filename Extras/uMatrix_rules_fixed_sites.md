@@ -6,12 +6,10 @@ The following are allowed globally:
 - Embedded Vimeo videos (vimeo.com, vimeocdn.com)
 - Embedded Vine videos (vine.co)
 - Embedded Youtube videos (youtube.com, googlevideo.com)
-- gstatic.com
-- Several \*.googleapis.com domains (ajax, fonts, storage)
 
 The following are blocked globally, except for on their own domain:
-- twitter.com
 - facebook.com (including facebook.net)
+- twitter.com
 
 ## Sites
 - adobe.com
@@ -50,6 +48,7 @@ The following are blocked globally, except for on their own domain:
 - mozilla.org
 - msi.com
 - netflix.com
+- nordvpn.com
 - nytimes.com
 - office.com
 - onenote.com

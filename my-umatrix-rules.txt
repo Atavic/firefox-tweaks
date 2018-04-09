@@ -16,14 +16,10 @@ referrer-spoof: behind-the-scene false
 * * image allow
 * 1st-party * allow
 * 1st-party frame allow
-* ajax.googleapis.com * allow
 * ampproject.org * allow
 * facebook.com * block
 * facebook.net * block
-* fonts.googleapis.com * allow
 * googlevideo.com * allow
-* gstatic.com * allow
-* storage.googleapis.com * allow
 * twitter.com * block
 * vimeo.com * allow
 * vimeo.com frame allow
@@ -79,6 +75,7 @@ gizmodo.com kinja-static.com * allow
 google.com * frame inherit
 google.com content.googleapis.com * allow
 google.com googleusercontent.com * allow
+google.com gstatic.com * allow
 google.com maps.googleapis.com * allow
 google.com youtube.com * allow
 google.com youtube.googleapis.com * allow
@@ -118,6 +115,7 @@ netflix.com nflxext.com * allow
 netflix.com nflximg.net * allow
 netflix.com nflxso.net * allow
 netflix.com nflxvideo.net * allow
+nordvpn.com nordcdn.com * allow
 nytimes.com nyt.com * allow
 office.com msocdn.com * allow
 onenote.com aspnetcdn.com * allow
@@ -178,6 +176,7 @@ wikia.com nocookie.net * allow
 worldofwarcraft.com akamaihd.net * allow
 worldofwarcraft.com akamaized.net * allow
 worldofwarcraft.com battle.net * allow
+wowhead.com ajax.googleapis.com * allow
 wowhead.com battle.net * allow
 wowhead.com zamimg.com * allow
 wsj.com wsj.net * allow
