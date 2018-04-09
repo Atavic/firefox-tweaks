@@ -18,9 +18,21 @@ The next simplest of these addons to use. Simply install it and use the default 
 ### Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
 
-If you would like to import my whitelist, download and import the `CAD_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/FirefoxTweaks/blob/master/Extras/CAD_accounts.md).
+If you would like to import my whitelist, download and import the `CAD_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/CAD_accounts.md).
 
 [Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
+
+
+### CanvasBlocker
+This addon will prevent sites from being able to fingerprint you using your canvas data. Fingerprinting is a tracking technique which does not rely on any stored data; instead, it calculates a "fingerprint" from data about your device, including but not limited to your browser, operating system, installed plugins, time zone, system fonts, and canvas data.
+
+This addon, in its default configuration, will allow websites to access the <canvas> API, but then fake a random readout back to the website that is requesting your canvas data. While this is more likely to make your fingerprint more unique (a bad thing), since it's returning a random readout every time, your fingerprint "changes", making it extremely difficult to track your single unique fingerprint -- with this addon, you don't have a single fingerprint.
+  
+Note that installing this addon may break certain websites, notably Google Maps. To fix this, simply whitelist the site by clicking on the fingerprint icon in the URL bar, hovering over the domain, and clicking the green checkmark.
+
+You can find more information about browser fingerprinting [here](https://en.wikipedia.org/wiki/Device_fingerprint).
+
+[Source code](https://github.com/kkapsner/CanvasBlocker) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
 
 ### uMatrix
 uMatrix blocks almost everything (cookies, media, scripts, frames, and more) by default that isn't third-party. It's the most complicated addon here to use. If you're not interested in performing additional steps when you go to a website for the first time, don't install this addon.
@@ -59,7 +71,7 @@ So how did I know that those domains would un-break twitch.tv? Well, I didn't. I
 
 Now whenever I visit twitch.tv again, it'll work and I don't have to mess with uMatrix anymore. As long as you save your changes with the padlock, you only have to configure a website once.
 
-If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/FirefoxTweaks/blob/master/Extras/uMatrix_rules_fixed_sites.md).
+If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/uMatrix_rules_fixed_sites.md).
 
 [Source code](https://github.com/gorhill/uMatrix) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
@@ -68,12 +80,12 @@ This file makes a bunch of tweaks to Firefox, like in about:config. The goal was
 
 At the bottom of the file, I've included several tweaks which disable telemetry, but they're all commented out by default. If you wish to disable telemetry, uncomment the section. Note that some telemetry is enabled in a default Firefox installation.
 
-If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/FirefoxTweaks/blob/master/Extras/list_of_tweaks.md).
+If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/list_of_tweaks.md).
 
-Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/FirefoxTweaks#where-is-my-firefox-profile-folder-located)
+Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/firefox-tweaks#where-is-my-firefox-profile-folder-located)
 
 ## Contributing
-If you would like to contribute, please read [this](https://github.com/krathalan/FirefoxTweaks/blob/master/CONTRIBUTING.md).
+If you would like to contribute, please read [this](https://github.com/krathalan/firefox-tweaks/blob/master/CONTRIBUTING.md).
 
 ## Frequently asked questions
 ### Where is my Firefox profile folder located?
