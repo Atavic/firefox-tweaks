@@ -5,9 +5,9 @@ The following are allowed globally:
 - ampproject.org
 - Embedded Youtube videos (youtube.com, googlevideo.com)
 
-The following are blocked globally, except for on their own domain:
+The following are blocked globally:
 - facebook.com (including facebook.net)
-- twitter.com
+- twitter.com (except for on twitter.com)
 
 ## Sites
 - amazon.com (including Amazon Video playback)
