@@ -57,6 +57,9 @@ flickr.com s.yimg.com script allow
 gamesradar.com vanilla.futurecdn.net script allow
 gizmodo.com x.kinja-static.com script allow
 google.com content.googleapis.com xhr allow
+google.com googleusercontent.com xhr allow
+google.com play-music.gstatic.com script allow
+google.com play-music.gstatic.com xhr allow
 google.com ssl.gstatic.com xhr allow
 google.com www.gstatic.com script allow
 google.com www.gstatic.com xhr allow
@@ -131,6 +134,7 @@ soundcloud.com cf-hls-media.sndcdn.com xhr allow
 sourceforge.net a.fsdn.com script allow
 steamcommunity.com steamcommunity-a.akamaihd.net script allow
 steampowered.com steamcdn-a.akamaihd.net media allow
+steampowered.com steamstore-a.akamaihd.net script allow
 steampowered.com store.akamai.steamstatic.com script allow
 t-mobile.com s.my.tmocache.com script allow
 theverge.com auth.voxmedia.com script allow
