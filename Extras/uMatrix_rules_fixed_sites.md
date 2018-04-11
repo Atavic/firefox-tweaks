@@ -3,8 +3,6 @@ This is a list of sites and services that the `my_umatrix_rules.txt` file in thi
 
 The following are allowed globally:
 - ampproject.org
-- Embedded Vimeo videos (vimeo.com, vimeocdn.com)
-- Embedded Vine videos (vine.co)
 - Embedded Youtube videos (youtube.com, googlevideo.com)
 
 The following are blocked globally, except for on their own domain:
@@ -12,9 +10,7 @@ The following are blocked globally, except for on their own domain:
 - twitter.com
 
 ## Sites
-- adobe.com
 - amazon.com (including Amazon Video playback)
-- apple.com
 - arstechnica.com
 - barnesandnoble.com
 - battle.net
@@ -22,60 +18,51 @@ The following are blocked globally, except for on their own domain:
 - blizzard.com
 - bloomberg.com
 - dailymotion.com
-- destinyitemmanager.com
-- destinytracker.com
-- deviantart.com
+- developer.microsoft.com
 - dropbox.com
 - ebay.com
 - etsy.com
-- firefox.com
 - flickr.com
 - gamesradar.com
 - gizmodo.com
 - google.com (login)
 - gyazo.com
+- humblebundle.com
 - icloud.com
 - icy-veins.com
 - imdb.com
 - independent.co.uk
 - instagram.com
 - kotaku.com
-- latimes.com
 - lifehacker.com
 - lushusa.com
+- maps.google.com
 - mashable.com
 - microsoft.com (login, Microsoft Dev Center)
-- mozilla.org
 - msi.com
 - netflix.com
 - nordvpn.com
 - nytimes.com
 - office.com
+- onedrive.live.com
 - onenote.com
 - paypal.com
 - plex.tv (including the Plex Server web interface on 127.0.0.1)
-- protomail.com
+- purplebuddhaproject.com
 - raider.io
-- reddit.com (including commonly embedded media, like from imgur.com)
+- reddit.com (including commonly embedded media)
 - reuters.com
-- scribd.com
 - soundcloud.com
 - sourceforge.com
-- speedtest.net
-- spotify.com
 - steamcommunity.com 
 - steampowered.com
 - t-mobile.com
-- thetrackernetwork.com (used to track player progress in video games -- not a privacy-invading tracker!)
 - theverge.com
-- ticketmaster.com
 - tripadvisor.com
-- tumblr.com (including embedded Instagram videos)
+- tumblr.com
 - twitch.tv
 - twitter.com
-- vimeo.com
 - visualstudio.com (download)
-- wikia.com
 - worldofwarcraft.com
 - wowhead.com
 - wsj.com
