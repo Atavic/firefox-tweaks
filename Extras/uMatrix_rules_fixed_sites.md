@@ -3,7 +3,7 @@ This is a list of sites and services that the `my_umatrix_rules.txt` file in thi
 
 The following are allowed globally:
 - ampproject.org
-- Embedded Youtube videos (youtube.com, googlevideo.com)
+- Embedded Youtube videos (youtube.com, googlevideo.com, ytimg.com)
 
 The following are blocked globally:
 - facebook.com (including facebook.net)
@@ -16,7 +16,6 @@ The following are blocked globally:
 - battle.net
 - bbc.com
 - blizzard.com
-- bloomberg.com
 - dailymotion.com
 - developer.microsoft.com
 - dropbox.com
@@ -25,7 +24,7 @@ The following are blocked globally:
 - flickr.com
 - gamesradar.com
 - gizmodo.com
-- google.com (login)
+- google.com (login, Maps, Music)
 - gyazo.com
 - humblebundle.com
 - icloud.com
@@ -36,10 +35,8 @@ The following are blocked globally:
 - kotaku.com
 - lifehacker.com
 - lushusa.com
-- maps.google.com
 - mashable.com
-- microsoft.com (login, Microsoft Dev Center)
-- msi.com
+- microsoft.com (login)
 - netflix.com
 - nordvpn.com
 - nytimes.com
@@ -48,7 +45,6 @@ The following are blocked globally:
 - onenote.com
 - paypal.com
 - plex.tv (including the Plex Server web interface on 127.0.0.1)
-- purplebuddhaproject.com
 - raider.io
 - reddit.com (including commonly embedded media)
 - reuters.com
