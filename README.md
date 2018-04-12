@@ -40,36 +40,40 @@ uMatrix blocks almost everything (cookies, media, scripts, frames, and more) by 
 uMatrix allows the first-party domain to do whatever it wants. If you visit twitch.tv with uMatrix installed, it doesn't block anything from twitch.tv. But it'll block everything from domains which twitch.tv tries to connect to, which, as of the time of this writing, include:
 
 - gstatic.com
+- ajax.googleapis.com
+- jtvnw.net
 - ttvnw.net
 - twitchcdn.net
 - twitchsvc.net
-- 0914.global.ssl.fastly.net
-- imasdk.googleapis.com
-- jtvnw.net
-- summerhamster.com
 - amazon-adsystem.com
 - doubleclick.net
+- imasdk.googleapis.com
 - krxd.net
 - googleanalytics.com
-- mixpanel.com
-- quantserve.com
 - scorecardresearch.com
 
-That's ridiculous! I only wanted to go to Twitch. What is fastly.net? What is jtvnw.net? summerhamster.com? I don't know what any of those domains do or who they're controlled by, and I'm letting them into my browser -- unless I have uMatrix installed.
+That's ridiculous! I only wanted to go to Twitch. What is krxd.net? What is jtvnw.net? scorecardresearch.com? I don't know what any of those domains do or who they're controlled by, and I'm letting them into my browser -- unless I have uMatrix installed.
 
 Of course, uMatrix is likely to break most sites. It definitely breaks twitch.tv, but you can re-enable domains selectively, on a per-domain basis. For example, if I enabled twitchcdn.net on twitch.tv, and then I went to some other website that tried to connect to twitchcdn.net, it wouldn't be allowed because only twitch.tv is allowed to connect to that domain.
 
-Continuing the twitch.tv example, I have the following domains enabled on twitch.tv:
+Continuing the twitch.tv example, I have the following uMatrix rules for twitch.tv:
 
-- ttvnw.net
-- twitchcdn.net
-- twitchsvc.net
+- twitch.tv ajax.googleapis.com script allow
+- twitch.tv google.com frame allow
+- twitch.tv google.com script allow
+- twitch.tv google.com xhr allow
+- twitch.tv gstatic.com script allow
+- twitch.tv ttvnw.net script allow
+- twitch.tv ttvnw.net xhr allow
+- twitch.tv twitchcdn.net script allow
 
-I also have gstatic.com enabled globally. That's only 4 of the 15 (!!!) domains that twitch.tv tries to connect to. So if twitch.tv works with only 4 of the 15 domains, why should I enable the others? I don't trust them because I don't even know what most of them are. 
+(Note that ajax.googleapis.com, google.com, and gstatic.com are there because there's a reCAPTCHA when you login on twitch.com).
 
-So how did I know that those domains would un-break twitch.tv? Well, I didn't. It's a guessing game. I guessed that since twitchcdn.net and twitchsvc.net both have "twitch" in their names, that they were probably owned by twitch.tv and I could probably afford them the same level of trust, so I enabled them. That still didn't un-break twitch.tv, so the next best guess I had was to enable ttvnw.net. And voila! It works now. To save your changes, click the padlock icon in uMatrix. 
+That's only 5 of the 12 domains that twitch.tv tries to connect to. So if twitch.tv works with only 5 of the 12 domains, why should I enable the others? I don't trust them because I don't even know what most of them are. 
 
-Now whenever I visit twitch.tv again, it'll work and I don't have to mess with uMatrix anymore. As long as you save your changes with the padlock, you only have to configure a website once.
+So how did I know that those domains would un-break twitch.tv? Well, I didn't. It's a guessing game. I guessed that since twitchcdn.net and twitchsvc.net both have "twitch" in their names, that they were probably owned by twitch.tv and I could probably afford them the same level of trust, so I enabled them. I continued that process until twitch.tv worked.
+
+Now whenever I visit twitch.tv again, it'll work and I don't have to mess with uMatrix anymore. As long as you save your changes with the padlock, you only have to configure a website once, unless the site changes how it works.
 
 If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/uMatrix_rules_fixed_sites.md).
 
