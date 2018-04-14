@@ -105,6 +105,7 @@ raider.io google.com script allow
 raider.io wowhead.com script allow
 raider.io zamimg.com script allow
 reddit.com redd.it xhr allow
+reddit.com redditmedia.com frame allow
 reddit.com redditmedia.com media allow
 reddit.com redditstatic.com script allow
 reuters.com reutersmedia.net script allow
@@ -130,11 +131,13 @@ twitch.tv google.com xhr allow
 twitch.tv gstatic.com script allow
 twitch.tv ttvnw.net script allow
 twitch.tv ttvnw.net xhr allow
+twitch.tv twitchapp.net script allow
 twitch.tv twitchcdn.net script allow
 twitter.com twimg.com script allow
 twitter.com twimg.com xhr allow
 twitter.com twitter.com * inherit
 visualstudio.com microsoft.com script allow
+worldofwarcraft.com akamaihd.net media allow
 worldofwarcraft.com akamaized.net script allow
 wowhead.com ajax.googleapis.com script allow
 wowhead.com zamimg.com script allow
