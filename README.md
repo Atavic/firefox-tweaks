@@ -11,7 +11,7 @@ The simplest of these addons to use. Simply install it and let it do its thing. 
 [Source code](https://github.com/Synzvato/decentraleyes) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
 ### uBlock Origin
-The next simplest of these addons to use. Simply install it and use the default lists if you don't want to configure it, but consider enabling more. Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlock's settings.
+The next simplest of these addons to use. Simply install it and use the default lists if you don't want to configure it, but consider enabling more. Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlock's settings, especially if you use a VPN. You can find more information about this toggle [here](https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address).
 
 [Source code](https://github.com/gorhill/uBlock) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
