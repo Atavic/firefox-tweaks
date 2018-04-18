@@ -51,6 +51,7 @@ dropbox.com google.com xhr allow
 dropbox.com gstatic.com script allow
 ebay.com ebaystatic.com script allow
 etsy.com etsystatic.com script allow
+firefox.com mozilla.net * allow
 flickr.com yimg.com script allow
 gamesradar.com futurecdn.net script allow
 gizmodo.com kinja-static.com script allow
@@ -124,6 +125,7 @@ theverge.com vox-cdn.com script allow
 theverge.com voxmedia.com script allow
 tripadvisor.com tacdn.com script allow
 tumblr.com ajax.googleapis.com script allow
+tumblr.com yahoo.com xhr allow
 twitch.tv ajax.googleapis.com script allow
 twitch.tv google.com frame allow
 twitch.tv google.com script allow
