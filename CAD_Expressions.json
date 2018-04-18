@@ -4,378 +4,336 @@
       "expression": "127.0.0.1",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "BJLFf1_Hf",
+      "id": "rk-P15KsM",
       "cookieNames": []
     },
     {
       "expression": "account.microsoft.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "SyxUKzyOSf",
+      "id": "ByxZv15toM",
       "cookieNames": []
     },
     {
       "expression": "accounts.google.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "BkZUYGJdBf",
+      "id": "r1--vJ9KsM",
       "cookieNames": []
     },
     {
       "expression": "amazon.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "SyMIFf1dHG",
+      "id": "Hyz-Dk9KjG",
       "cookieNames": []
     },
     {
-      "expression": "app.destinyitemmanager.com",
-      "storeId": "default",
+      "expression": "app.codacy.com",
       "listType": "WHITE",
-      "id": "BJm8FfkdBz",
+      "storeId": "default",
+      "id": "HJZlZqYjG",
       "cookieNames": []
     },
     {
       "expression": "app.plex.tv",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "rJ4UKGyuBf",
+      "id": "BkEZv1cKiG",
       "cookieNames": []
     },
     {
       "expression": "appleid.apple.com",
       "listType": "WHITE",
       "storeId": "default",
-      "id": "S1r8fk_BM",
+      "id": "HySZw1qFif",
       "cookieNames": []
     },
     {
       "expression": "battle.net",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "BJS8YGkdHz",
+      "id": "H1UWv19KsG",
       "cookieNames": []
     },
     {
       "expression": "blizzard.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "SyL8tGy_Bz",
-      "cookieNames": []
-    },
-    {
-      "expression": "bungie.net",
-      "storeId": "default",
-      "listType": "WHITE",
-      "id": "Hkw8FM1dBG",
+      "id": "HJPZD1qFjf",
       "cookieNames": []
     },
     {
       "expression": "c.paypal.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "rJd8FGy_SG",
+      "id": "HkFWDJ5Fif",
       "cookieNames": []
     },
     {
       "expression": "codacy.com",
       "listType": "WHITE",
       "storeId": "default",
-      "id": "H1tLYGkdBf",
+      "id": "Hycbv1cKif",
       "cookieNames": []
     },
     {
       "expression": "controls.cp.microsoft.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "HyqUKzkuSz",
-      "cookieNames": []
-    },
-    {
-      "expression": "destinyitemmanager.com",
-      "storeId": "default",
-      "listType": "WHITE",
-      "id": "HkjItMJuHM",
-      "cookieNames": []
-    },
-    {
-      "expression": "destinytracker.com",
-      "storeId": "default",
-      "listType": "WHITE",
-      "id": "Byn8FzkOSM",
+      "id": "BJobw19Fof",
       "cookieNames": []
     },
     {
       "expression": "developer.microsoft.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "S1pIYz1OHf",
+      "id": "Sk0ZvJ5toM",
       "cookieNames": []
     },
     {
       "expression": "docs.google.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "B108FMJ_Sz",
+      "id": "r1Jebwk5tjf",
       "cookieNames": []
     },
     {
       "expression": "feedly.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "r1kxUKz1urM",
+      "id": "SkllbD1qtif",
       "cookieNames": []
     },
     {
       "expression": "gear.blizzard.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "Bygx8FGJdHG",
+      "id": "rkbx-vkqtif",
       "cookieNames": []
     },
     {
       "expression": "github.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "r1bg8KfJdrG",
+      "id": "Syzx-vk5tiG",
       "cookieNames": []
     },
     {
       "expression": "google.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "B1GgUtfJ_rz",
+      "id": "HyQlWD1qYsf",
       "cookieNames": []
     },
     {
       "expression": "icloud.com",
       "listType": "WHITE",
       "storeId": "default",
-      "id": "S1OdMk_HM",
+      "id": "HyVeWvJ9Yjz",
       "cookieNames": []
     },
     {
       "expression": "inbox.google.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "HymxIYfk_BM",
-      "cookieNames": []
-    },
-    {
-      "expression": "linustechtips.com",
-      "storeId": "default",
-      "listType": "WHITE",
-      "id": "r1ElIKM1OBz",
+      "id": "SyHlWwkqKsf",
       "cookieNames": []
     },
     {
       "expression": "live.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "H1rl8KzJuBz",
+      "id": "H1vxWwk9KoG",
       "cookieNames": []
     },
     {
       "expression": "login.live.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "SkLgUFMJOSG",
+      "id": "r1dgZDk5FoG",
       "cookieNames": []
     },
     {
       "expression": "login.microsoftonline.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "BJPeUKz1OSG",
+      "id": "BkKgbDkqYoM",
       "cookieNames": []
     },
     {
       "expression": "login.windows.net",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "S1dgItGydBG",
+      "id": "Bk9eZw19Fjf",
       "cookieNames": []
     },
     {
       "expression": "microsoft.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "BJYeUKM1_Hz",
+      "id": "BJiebwy9tif",
       "cookieNames": []
     },
     {
       "expression": "netflix.com",
       "listType": "WHITE",
       "storeId": "default",
-      "id": "BJqxIYGyuSM",
+      "id": "Sk3lWvJ9tiz",
       "cookieNames": []
     },
     {
       "expression": "notifications.google.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "r1ixItM1dBM",
+      "id": "SkpgbDy5Yiz",
       "cookieNames": []
     },
     {
       "expression": "onedrive.live.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "B1nxUFM1drf",
+      "id": "SJAxWDJ9Kif",
       "cookieNames": []
     },
     {
       "expression": "outlook.live.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "HJpg8tfkdrf",
+      "id": "r11-Zwy9Ysf",
       "cookieNames": []
     },
     {
       "expression": "passport.twitch.tv",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "BJ0lLYMk_Hf",
+      "id": "HJxbZvyqFoG",
       "cookieNames": []
     },
     {
       "expression": "paypal.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "HkkZIYMyOSM",
+      "id": "BkWbWDy5FjM",
       "cookieNames": []
     },
     {
       "expression": "plex.tv",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "H1lZLtG1uBM",
+      "id": "BJfbWwJ5tjz",
       "cookieNames": []
     },
     {
       "expression": "reddit.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "BJZbUtMk_rf",
+      "id": "r17ZWP1qtoG",
       "cookieNames": []
     },
     {
       "expression": "smile.amazon.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "B1GbLKzk_BM",
+      "id": "SyVW-v1cKoM",
       "cookieNames": []
     },
     {
       "expression": "steamcommunity.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "H1mZIYzkOBz",
+      "id": "HJr-ZP15Yof",
       "cookieNames": []
     },
     {
       "expression": "store.steampowered.com",
       "listType": "WHITE",
       "storeId": "default",
-      "id": "Sk4ZLKM1_BG",
-      "cookieNames": []
-    },
-    {
-      "expression": "thetrackernetwork.com",
-      "storeId": "default",
-      "listType": "WHITE",
-      "id": "H1r-LKM1OrM",
+      "id": "SJUZZDk9tsG",
       "cookieNames": []
     },
     {
       "expression": "tumblr.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "r1LbIYzyOHG",
+      "id": "BJdZZvk9KsG",
       "cookieNames": []
     },
     {
       "expression": "twitch.tv",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "H1D-LKMJdBM",
+      "id": "r1t-WDyctif",
       "cookieNames": []
     },
     {
       "expression": "us.battle.net",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "SkObUYGJdHz",
+      "id": "rJqZ-vk9Ysf",
       "cookieNames": []
     },
     {
       "expression": "worldofwarcraft.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "HkK-UKfyuHf",
+      "id": "HkiW-wycKjz",
       "cookieNames": []
     },
     {
       "expression": "wowhead.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "SJDKz1_rz",
+      "id": "Bkn-bDy5YjG",
       "cookieNames": []
     },
     {
       "expression": "www.amazon.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "SyePYM1OBz",
+      "id": "BJ6WWwy5FiM",
       "cookieNames": []
     },
     {
       "expression": "www.blizzard.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "By-wFGy_HM",
-      "cookieNames": []
-    },
-    {
-      "expression": "www.bungie.net",
-      "storeId": "default",
-      "listType": "WHITE",
-      "id": "BJMwKGJ_HM",
+      "id": "Sk0bbvycYiG",
       "cookieNames": []
     },
     {
       "expression": "www.google.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "H17PYfyurM",
+      "id": "SJlMWP1ctoz",
       "cookieNames": []
     },
     {
       "expression": "www.microsoft.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "ry4DYG1_Hf",
+      "id": "rybMWvy9Fsf",
       "cookieNames": []
     },
     {
       "expression": "www.paypal.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "r1rDFzkurG",
+      "id": "B1fMbv1qtjM",
       "cookieNames": []
     },
     {
       "expression": "www.tumblr.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "B1IDFMkOrM",
+      "id": "ByXfWPyqtjf",
       "cookieNames": []
     },
     {
       "expression": "youtube.com",
       "storeId": "default",
       "listType": "WHITE",
-      "id": "ByDPYMJurM",
+      "id": "HyNGbP15YiM",
       "cookieNames": []
     }
   ]
