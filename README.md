@@ -56,6 +56,8 @@ That's ridiculous! I only wanted to go to Twitch. What is krxd.net? What is jtvn
 
 Of course, uMatrix is likely to break most sites. It definitely breaks twitch.tv, but you can re-enable domains selectively, on a per-domain basis. For example, if I enabled twitchcdn.net on twitch.tv, and then I went to some other website that tried to connect to twitchcdn.net, it wouldn't be allowed because only twitch.tv is allowed to connect to that domain.
 
+To enable a domain, click the upper portion of its box, turning it a solid green. To block a domain, click the bottom portion of its box, turning it a solid red.
+
 Continuing the twitch.tv example, you only need the following domains enabled for twitch.tv to work:
 - ajax.googleapis.com
 - google.com
