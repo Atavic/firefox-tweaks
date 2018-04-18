@@ -71,7 +71,7 @@ Continuing the twitch.tv example, you only need the following domains enabled fo
 Your uMatrix panel should now look like this (note that I've collapsed the domains to capture the entire panel in one screenshot):
 <p align="center"><img width="500"src="https://raw.githubusercontent.com/krathalan/firefox-tweaks/master/ProjectImages/umatrix2.png"></a>
 
-The Google domains (googleapis.com, google.com, and gstatic.com) are there because there's a Google reCAPTCHA when you login. 
+The Google domains (googleapis.com, google.com, and gstatic.com) are there because there's a Google reCAPTCHA when you login. Two of the domains (google.com and ajax.googleapis.com) are not in the screenshot because I'm already logged in. 
 
 Taking uMatrix even further, you can enable only certain types of resources from a domain to load. By resourses, I mean cookies, CSS, images, etc. -- the list of things at the top of the uMatrix panel. So, for example, you could enable scripts from ajax.googleapis.com, but nothing else.
 
@@ -91,7 +91,7 @@ Refining my twitch.tv rules, I have the following rules:
 With those rules, your uMatrix panel should look like this (note that I've collapsed the domains to capture the entire panel in one screenshot):
 <p align="center"><img width="500"src="https://raw.githubusercontent.com/krathalan/firefox-tweaks/master/ProjectImages/umatrix3.png"></a>
 
-Again, ajax.googleapis.com, google.com, and gstatic.com are there because there's a reCAPTCHA when you login.
+Again, ajax.googleapis.com, google.com, and gstatic.com are there because there's a reCAPTCHA when you login. Two of the domains (google.com and ajax.googleapis.com) are not in the screenshot because I'm already logged in. 
 
 That's only 5 of the 12 domains that twitch.tv tries to connect to. So if twitch.tv works with only 5 of the 12 domains, why should I enable the others? I don't trust them because I don't even know what most of them are. 
 
