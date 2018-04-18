@@ -56,7 +56,22 @@ That's ridiculous! I only wanted to go to Twitch. What is krxd.net? What is jtvn
 
 Of course, uMatrix is likely to break most sites. It definitely breaks twitch.tv, but you can re-enable domains selectively, on a per-domain basis. For example, if I enabled twitchcdn.net on twitch.tv, and then I went to some other website that tried to connect to twitchcdn.net, it wouldn't be allowed because only twitch.tv is allowed to connect to that domain.
 
-Continuing the twitch.tv example, I have the following uMatrix rules for twitch.tv:
+To enable a domain, click the upper portion of its box, turning it a solid green. To block a domain, click the bottom portion of its box, turning it a solid red.
+
+Continuing the twitch.tv example, you only need the following domains enabled for twitch.tv to work:
+- ajax.googleapis.com
+- google.com
+- gstatic.com
+- ttvnw.net
+- twitchcdn.net
+
+The Google domains (googleapis.com, google.com, and gstatic.com) are there because there's a Google reCAPTCHA when you login. 
+
+Taking uMatrix even further, you can enable only certain types of resources from a domain to load. By resourses, I mean cookies, CSS, images, etc. -- the list of things at the top of the uMatrix panel. So, for example, you could enable scripts from ajax.googleapis.com, but nothing else.
+
+Additionally, you can manually edit your rules from the uMatrix options. To read about the syntax and how to add, remove, or edit your rules textually, refer to [this](https://github.com/gorhill/uMatrix/wiki/Rules-syntax) page in the uMatrix wiki.
+
+Refining my twitch.tv rules, I have the following rules:
 
 - twitch.tv ajax.googleapis.com script allow
 - twitch.tv google.com frame allow
@@ -67,7 +82,7 @@ Continuing the twitch.tv example, I have the following uMatrix rules for twitch.
 - twitch.tv ttvnw.net xhr allow
 - twitch.tv twitchcdn.net script allow
 
-(Note that ajax.googleapis.com, google.com, and gstatic.com are there because there's a reCAPTCHA when you login on twitch.com).
+Again, ajax.googleapis.com, google.com, and gstatic.com are there because there's a reCAPTCHA when you login.
 
 That's only 5 of the 12 domains that twitch.tv tries to connect to. So if twitch.tv works with only 5 of the 12 domains, why should I enable the others? I don't trust them because I don't even know what most of them are. 
 
