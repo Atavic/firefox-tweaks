@@ -58,12 +58,18 @@ Of course, uMatrix is likely to break most sites. It definitely breaks twitch.tv
 
 To enable a domain, click the upper portion of its box, turning it a solid green. To block a domain, click the bottom portion of its box, turning it a solid red.
 
+To begin, your uMatrix panel should look something like this:
+<p align="center"><img width="500"src="https://raw.githubusercontent.com/krathalan/firefox-tweaks/master/ProjectImages/umatrix1.png"></a>
+
 Continuing the twitch.tv example, you only need the following domains enabled for twitch.tv to work:
 - ajax.googleapis.com
 - google.com
 - gstatic.com
 - ttvnw.net
 - twitchcdn.net
+
+Your uMatrix panel should now look like this (note that I've collapsed the domains to capture the entire panel in one screenshot):
+<p align="center"><img width="500"src="https://raw.githubusercontent.com/krathalan/firefox-tweaks/master/ProjectImages/umatrix2.png"></a>
 
 The Google domains (googleapis.com, google.com, and gstatic.com) are there because there's a Google reCAPTCHA when you login. 
 
@@ -81,6 +87,9 @@ Refining my twitch.tv rules, I have the following rules:
 - twitch.tv ttvnw.net script allow
 - twitch.tv ttvnw.net xhr allow
 - twitch.tv twitchcdn.net script allow
+
+With those rules, your uMatrix panel should look like this (note that I've collapsed the domains to capture the entire panel in one screenshot):
+<p align="center"><img width="500"src="https://raw.githubusercontent.com/krathalan/firefox-tweaks/master/ProjectImages/umatrix3.png"></a>
 
 Again, ajax.googleapis.com, google.com, and gstatic.com are there because there's a reCAPTCHA when you login.
 
