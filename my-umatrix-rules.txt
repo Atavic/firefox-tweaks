@@ -127,6 +127,7 @@ tripadvisor.com tacdn.com script allow
 tumblr.com ajax.googleapis.com script allow
 tumblr.com yahoo.com xhr allow
 twitch.tv ajax.googleapis.com script allow
+twitch.tv algolianet.com script allow
 twitch.tv google.com frame allow
 twitch.tv google.com script allow
 twitch.tv google.com xhr allow
