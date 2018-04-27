@@ -43,6 +43,9 @@ bbc.com bbci.co.uk script allow
 blizzard.com d9me64que7cqs.cloudfront.net script allow
 dailymotion.com ajax.googleapis.com script allow
 dailymotion.com dmcdn.net script allow
+destinyitemmanager.com bungie.net cookie allow
+destinyitemmanager.com bungie.net xhr allow
+destinyitemmanager.com destinytracker.com xhr allow
 developer.microsoft.com * * allow
 dropbox.com dropboxstatic.com media allow
 dropbox.com dropboxstatic.com script allow
@@ -57,6 +60,7 @@ firefox.com mozilla.net * allow
 flickr.com yimg.com script allow
 gamesradar.com futurecdn.net script allow
 gizmodo.com kinja-static.com script allow
+google.com ajax.googleapis.com script allow
 google.com content.googleapis.com xhr allow
 google.com googleusercontent.com xhr allow
 google.com gstatic.com script allow
