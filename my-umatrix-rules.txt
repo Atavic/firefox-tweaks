@@ -35,6 +35,7 @@ amazon.com d2lkq7nlcrdi7q.cloudfront.net * allow
 amazon.com dmqdd6hw24ucf.cloudfront.net * allow
 amazon.com media-amazon.com * allow
 amazon.com ssl-images-amazon.com * allow
+apple.com cdn-apple.com script allow
 arstechnica.com arstechnica.net script allow
 barnesandnoble.com js-bn.com script allow
 battle.net akamaihd.net script allow
@@ -85,8 +86,11 @@ kotaku.com kinja-static.com script allow
 lifehacker.com kinja-static.com script allow
 live.com akamaihd.net script allow
 live.com gfx.ms script allow
+lushusa.com akamaihd.net xhr allow
 lushusa.com powerreviews.com script allow
 lushusa.com powerreviews.com xhr allow
+lushusa.com t.powerreviews.com script allow
+lushusa.com wistia.com script allow
 microsoftonline.com microsoftonline-p.com script allow
 netflix.com nflxext.com script allow
 netflix.com nflxvideo.net xhr allow
@@ -137,6 +141,8 @@ twitch.tv ttvnw.net script allow
 twitch.tv ttvnw.net xhr allow
 twitch.tv twitchapp.net script allow
 twitch.tv twitchcdn.net script allow
+twitter.com cms-twdigitalassets.com script allow
+twitter.com twimg.com media allow
 twitter.com twimg.com script allow
 twitter.com twimg.com xhr allow
 twitter.com twitter.com * inherit
