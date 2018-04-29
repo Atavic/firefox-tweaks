@@ -56,6 +56,7 @@ dropbox.com google.com xhr allow
 dropbox.com gstatic.com script allow
 ebay.com ebaystatic.com script allow
 etsy.com etsystatic.com script allow
+feedly.com ads.feedly.com * block
 firefox.com mozilla.net * allow
 flickr.com yimg.com script allow
 gamesradar.com futurecdn.net script allow
@@ -107,6 +108,7 @@ onenote.com aspnetcdn.com script allow
 onenote.com live.com frame allow
 onenote.com live.com script allow
 onenote.com onenote.net script allow
+patreon.com cloudflare.com script allow
 paypal.com paypalobjects.com script allow
 paypal.me paypalobjects.com script allow
 plex.tv * * allow
@@ -155,3 +157,4 @@ worldofwarcraft.com akamaihd.net media allow
 worldofwarcraft.com akamaized.net script allow
 wowhead.com ajax.googleapis.com script allow
 wowhead.com zamimg.com script allow
+wowhead.com zamimg.com xhr allow
