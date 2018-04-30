@@ -3,7 +3,6 @@ matrix-off: about-scheme true
 matrix-off: behind-the-scene true
 matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
-matrix-off: localhost true
 matrix-off: moz-extension-scheme true
 matrix-off: opera-scheme true
 matrix-off: wyciwyg-scheme true
@@ -25,8 +24,6 @@ referrer-spoof: behind-the-scene false
 * youtube.com script allow
 * youtube.com xhr allow
 * ytimg.com script allow
-127.0.0.1 plex.direct * allow
-127.0.0.1 plex.tv * allow
 amazon.com aiv-cdn.net * allow
 amazon.com aiv-delivery.net * allow
 amazon.com akamaihd.net * allow
@@ -111,7 +108,6 @@ onenote.com onenote.net script allow
 patreon.com cloudflare.com script allow
 paypal.com paypalobjects.com script allow
 paypal.me paypalobjects.com script allow
-plex.tv * * allow
 raider.io cloudflare.com script allow
 raider.io google.com script allow
 raider.io wowhead.com script allow
