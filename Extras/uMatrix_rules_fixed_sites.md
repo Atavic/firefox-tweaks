@@ -11,16 +11,19 @@ The following are blocked globally:
 
 ## Sites
 - amazon.com (including Amazon Video playback)
+- apple.com
 - arstechnica.com
 - barnesandnoble.com
 - battle.net
 - bbc.com
 - blizzard.com
 - dailymotion.com
+- destinyitemmanager.com
 - developer.microsoft.com
 - dropbox.com
 - ebay.com
 - etsy.com
+- firefox.com (for managing Firefox Sync accounts)
 - flickr.com
 - gamesradar.com
 - gizmodo.com
@@ -34,17 +37,17 @@ The following are blocked globally:
 - instagram.com
 - kotaku.com
 - lifehacker.com
+- live.com (Microsoft login)
 - lushusa.com
-- mashable.com
-- microsoft.com (login)
+- microsoftonline.com (Microsoft login)
 - netflix.com
 - nordvpn.com
 - nytimes.com
-- office.com
 - onedrive.live.com
 - onenote.com
+- patreon.com
 - paypal.com
-- plex.tv (including the Plex Server web interface on 127.0.0.1)
+- paypal.me
 - raider.io
 - reddit.com (including commonly embedded media)
 - reuters.com
@@ -55,11 +58,9 @@ The following are blocked globally:
 - t-mobile.com
 - theverge.com
 - tripadvisor.com
-- tumblr.com
 - twitch.tv
 - twitter.com
 - visualstudio.com (download)
 - worldofwarcraft.com
 - wowhead.com
-- wsj.com
 - youtube.com

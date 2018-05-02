@@ -131,8 +131,6 @@ theverge.com vox-cdn.com frame allow
 theverge.com vox-cdn.com script allow
 theverge.com voxmedia.com script allow
 tripadvisor.com tacdn.com script allow
-tumblr.com ajax.googleapis.com script allow
-tumblr.com yahoo.com xhr allow
 twitch.tv ajax.googleapis.com script allow
 twitch.tv algolianet.com script allow
 twitch.tv google.com frame allow
