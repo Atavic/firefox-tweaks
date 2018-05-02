@@ -11,6 +11,7 @@ The following are blocked globally:
 
 ## Sites
 - amazon.com (including Amazon Video playback)
+- androidcentral.com
 - apple.com
 - arstechnica.com
 - barnesandnoble.com
@@ -52,7 +53,8 @@ The following are blocked globally:
 - reddit.com (including commonly embedded media)
 - reuters.com
 - soundcloud.com
-- sourceforge.com
+- sourceforge.net
+- speedtest.net
 - steamcommunity.com 
 - steampowered.com
 - t-mobile.com

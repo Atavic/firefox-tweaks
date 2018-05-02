@@ -32,6 +32,7 @@ amazon.com d2lkq7nlcrdi7q.cloudfront.net * allow
 amazon.com dmqdd6hw24ucf.cloudfront.net * allow
 amazon.com media-amazon.com * allow
 amazon.com ssl-images-amazon.com * allow
+androidcentral.com cloudflare.com script allow
 apple.com cdn-apple.com script allow
 arstechnica.com arstechnica.net script allow
 barnesandnoble.com js-bn.com script allow
@@ -122,6 +123,7 @@ reuters.com thomsonreuters.com script allow
 soundcloud.com sndcdn.com script allow
 soundcloud.com sndcdn.com xhr allow
 sourceforge.net fsdn.com script allow
+speedtest.net cdnst.net script allow
 steamcommunity.com akamaihd.net media allow
 steamcommunity.com akamaihd.net script allow
 steampowered.com akamaihd.net media allow
