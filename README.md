@@ -105,6 +105,8 @@ So how did I know that those domains would un-break twitch.tv? Well, I didn't. I
 
 Now whenever I visit twitch.tv again, it'll work and I don't have to mess with uMatrix anymore. As long as you save your changes with the padlock, you only have to configure a website once, unless the site changes how it works.
 
+[The project's Github Wiki](https://github.com/gorhill/uMatrix/wiki) contains a lot of useful information. [This page](https://github.com/gorhill/uMatrix/wiki/The-popup-panel) in particular is very helpful, as it explains the uMatrix UI very well.
+
 If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/uMatrix_rules_fixed_sites.md).
 
 [Source code](https://github.com/gorhill/uMatrix) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
