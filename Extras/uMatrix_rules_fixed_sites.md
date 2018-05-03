@@ -40,15 +40,18 @@ The following are blocked globally:
 - lifehacker.com
 - live.com (Microsoft login)
 - lushusa.com
+- microsoft.com
 - microsoftonline.com (Microsoft login)
 - netflix.com
 - nordvpn.com
 - nytimes.com
 - onedrive.live.com
 - onenote.com
+- overwatchleague.com
 - patreon.com
 - paypal.com
 - paypal.me
+- playoverwatch.com
 - raider.io
 - reddit.com (including commonly embedded media)
 - reuters.com

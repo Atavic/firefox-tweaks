@@ -38,6 +38,7 @@ arstechnica.com arstechnica.net script allow
 barnesandnoble.com js-bn.com script allow
 battle.net akamaihd.net script allow
 bbc.com bbci.co.uk script allow
+blizzard.com d74zh8edaijub.cloudfront.net script allow
 blizzard.com d9me64que7cqs.cloudfront.net script allow
 dailymotion.com ajax.googleapis.com script allow
 dailymotion.com dmcdn.net script allow
@@ -94,6 +95,9 @@ lushusa.com powerreviews.com script allow
 lushusa.com powerreviews.com xhr allow
 lushusa.com t.powerreviews.com script allow
 lushusa.com wistia.com script allow
+microsoft.com aspnetcdn.com script allow
+microsoft.com onestore.ms script allow
+microsoft.com s-microsoft.com script allow
 microsoftonline.com microsoftonline-p.com script allow
 netflix.com nflxext.com script allow
 netflix.com nflxvideo.net xhr allow
@@ -106,13 +110,18 @@ onenote.com aspnetcdn.com script allow
 onenote.com live.com frame allow
 onenote.com live.com script allow
 onenote.com onenote.net script allow
+overwatchleague.com d2y4mhrku00tr3.cloudfront.net script allow
 patreon.com cloudflare.com script allow
 paypal.com paypalobjects.com script allow
 paypal.me paypalobjects.com script allow
+playoverwatch.com d3hmvhl7ru3t12.cloudfront.net script allow
 raider.io cloudflare.com script allow
 raider.io google.com script allow
 raider.io wowhead.com script allow
 raider.io zamimg.com script allow
+reddit.com embedly.com frame allow
+reddit.com embedly.com script allow
+reddit.com gfycat.com media allow
 reddit.com redd.it xhr allow
 reddit.com redditmedia.com frame allow
 reddit.com redditmedia.com media allow
