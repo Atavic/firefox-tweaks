@@ -114,6 +114,7 @@ overwatchleague.com d2y4mhrku00tr3.cloudfront.net script allow
 patreon.com cloudflare.com script allow
 paypal.com paypalobjects.com script allow
 paypal.me paypalobjects.com script allow
+playoverwatch.com d3hmvhl7ru3t12.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net script allow
 raider.io cloudflare.com script allow
 raider.io google.com script allow
@@ -138,6 +139,8 @@ steamcommunity.com akamaihd.net script allow
 steampowered.com akamaihd.net media allow
 steampowered.com akamaihd.net script allow
 t-mobile.com tmocache.com script allow
+theguardian.com hm732.com * block
+theguardian.com n123loi.com * block
 theverge.com vox-cdn.com frame allow
 theverge.com vox-cdn.com script allow
 theverge.com voxmedia.com script allow
@@ -163,3 +166,4 @@ worldofwarcraft.com akamaized.net script allow
 wowhead.com ajax.googleapis.com script allow
 wowhead.com zamimg.com script allow
 wowhead.com zamimg.com xhr allow
+youtube.com ytimg.com xhr allow
