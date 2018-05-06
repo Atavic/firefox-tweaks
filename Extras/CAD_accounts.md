@@ -4,13 +4,14 @@ This is a list of accounts that will stay logged in if you use the `CAD_Expressi
 - Amazon
 - Blizzard/Battle.net
 - Codacy (automated code review service)
+- Dropbox
 - Feedly
 - Github
 - Google
+- Humble Bundle
 - Microsoft
 - Netflix
 - Paypal
-- Plex (including local server)
 - Reddit
 - Steam
 - Tumblr

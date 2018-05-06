@@ -7,6 +7,7 @@ The following are allowed globally:
 
 The following are blocked globally:
 - facebook.com (including facebook.net)
+- fonts.googleapis.com
 - twitter.com (except for on twitter.com)
 
 ## Sites
@@ -33,9 +34,11 @@ The following are blocked globally:
 - humblebundle.com
 - icloud.com
 - icy-veins.com
+- ifixit.com
 - imdb.com
 - independent.co.uk
 - instagram.com
+- kobo.com
 - kotaku.com
 - lifehacker.com
 - live.com (Microsoft login)

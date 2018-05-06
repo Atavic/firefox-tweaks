@@ -18,6 +18,7 @@ referrer-spoof: behind-the-scene false
 * ampproject.org * allow
 * facebook.com * block
 * facebook.net * block
+* fonts.googleapis.com * block
 * googlevideo.com xhr allow
 * twitter.com * block
 * youtube.com frame allow
@@ -78,6 +79,7 @@ icloud.com apple.com xhr allow
 icloud.com cdn-apple.com script allow
 icy-veins.com cursecdn.com script allow
 icy-veins.com wowdb.com script allow
+ifixit.com d1ulmmr4d4i8j4.cloudfront.net script allow
 imdb.com media-imdb.com media allow
 imdb.com media-imdb.com script allow
 imdb.com ssl-images-amazon.com script allow
@@ -86,6 +88,7 @@ independent.co.uk brightcove.com xhr allow
 independent.co.uk brightcove.net script allow
 independent.co.uk jquery.com script allow
 instagram.com cdninstagram.com media allow
+kobo.com akamaihd.net script allow
 kotaku.com kinja-static.com script allow
 lifehacker.com kinja-static.com script allow
 live.com akamaihd.net script allow
@@ -114,6 +117,7 @@ overwatchleague.com d2y4mhrku00tr3.cloudfront.net script allow
 patreon.com cloudflare.com script allow
 paypal.com paypalobjects.com script allow
 paypal.me paypalobjects.com script allow
+playoverwatch.com d1u1mce87gyfbn.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net script allow
 raider.io cloudflare.com script allow
