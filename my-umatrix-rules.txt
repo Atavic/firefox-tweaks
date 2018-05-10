@@ -41,6 +41,7 @@ battle.net akamaihd.net script allow
 bbc.com bbci.co.uk script allow
 blizzard.com d74zh8edaijub.cloudfront.net script allow
 blizzard.com d9me64que7cqs.cloudfront.net script allow
+bloomberg.com bwbx.io script allow
 dailymotion.com ajax.googleapis.com script allow
 dailymotion.com dmcdn.net script allow
 destinyitemmanager.com bungie.net cookie allow
@@ -66,6 +67,8 @@ google.com content.googleapis.com xhr allow
 google.com googleusercontent.com xhr allow
 google.com gstatic.com script allow
 google.com gstatic.com xhr allow
+google.com youtube.googleapis.com script allow
+googleblog.com ajax.googleapis.com script allow
 gyazo.com cloudflare.com script allow
 humblebundle.com akamaihd.net script allow
 humblebundle.com google.com frame allow
@@ -120,6 +123,8 @@ paypal.me paypalobjects.com script allow
 playoverwatch.com d1u1mce87gyfbn.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net script allow
+polygon.com vox-cdn.com script allow
+polygon.com voxmedia.com script allow
 raider.io cloudflare.com script allow
 raider.io google.com script allow
 raider.io wowhead.com script allow
@@ -143,6 +148,7 @@ steamcommunity.com akamaihd.net script allow
 steampowered.com akamaihd.net media allow
 steampowered.com akamaihd.net script allow
 t-mobile.com tmocache.com script allow
+techradar.com futurecdn.net script allow
 theguardian.com hm732.com * block
 theguardian.com n123loi.com * block
 theverge.com vox-cdn.com frame allow

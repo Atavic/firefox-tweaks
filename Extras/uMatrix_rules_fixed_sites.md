@@ -19,6 +19,7 @@ The following are blocked globally:
 - battle.net
 - bbc.com
 - blizzard.com
+- bloomberg.com
 - dailymotion.com
 - destinyitemmanager.com
 - developer.microsoft.com
@@ -29,7 +30,8 @@ The following are blocked globally:
 - flickr.com
 - gamesradar.com
 - gizmodo.com
-- google.com (login, Maps, Music)
+- google.com (login, Maps, Music, etc.)
+- googleblog.com (Android Developer's Blog)
 - gyazo.com
 - humblebundle.com
 - icloud.com
@@ -55,6 +57,7 @@ The following are blocked globally:
 - paypal.com
 - paypal.me
 - playoverwatch.com
+- polygon.com
 - raider.io
 - reddit.com (including commonly embedded media)
 - reuters.com
@@ -64,6 +67,7 @@ The following are blocked globally:
 - steamcommunity.com 
 - steampowered.com
 - t-mobile.com
+- techradar.com
 - theverge.com
 - tripadvisor.com
 - twitch.tv
