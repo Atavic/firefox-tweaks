@@ -11,11 +11,11 @@ The simplest of these addons to use. Simply install it and let it do its thing. 
 [Source code](https://github.com/Synzvato/decentraleyes) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
 ### uBlock Origin
-The next simplest of these addons to use. Simply install it and use the default lists if you don't want to configure it, but consider enabling all filter lists under ads, privacy, malware domains, annoyances, and multipurpose. I would also recommend adding Fanboy's anti-third-party fonts list. At the bottom of the filter lists tab in uBlock Origin, check "Import...", then paste the URL below, then click "Apply changes" in the top right.
+The next simplest of these addons to use. Simply install it and use the default lists if you don't want to configure it, but consider enabling all filter lists under ads, privacy, malware domains, annoyances, and multipurpose. 
+
+I would also recommend adding Fanboy's anti-third-party fonts list. At the bottom of the filter lists tab in uBlock Origin, check "Import...", then paste the URL below, then click "Apply changes" in the top right. You can find information about how web fonts could affect your privacy (and security) [here](https://collinmbarrett.com/block-web-fonts/).
 
 Fanboy's anti-third-party fonts list: https://fanboy.co.nz/fanboy-antifonts.txt
-
-You can find more information about how web fonts could affect your privacy and security [here](https://collinmbarrett.com/block-web-fonts/).
 
 Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlock's settings, especially if you use a VPN. You can find more information about this toggle [here](https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address).
 
