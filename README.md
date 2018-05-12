@@ -13,7 +13,9 @@ The simplest of these addons to use. Simply install it and let it do its thing. 
 ### uBlock Origin
 The next simplest of these addons to use. Simply install it and use the default lists if you don't want to configure it, but consider enabling all filter lists under ads, privacy, malware domains, annoyances, and multipurpose. 
 
-I would also recommend adding Fanboy's anti-third-party fonts list. At the bottom of the filter lists tab in uBlock Origin, check "Import...", then paste the URL below, then click "Apply changes" in the top right. You can find information about how web fonts could affect your privacy (and security) [here](https://collinmbarrett.com/block-web-fonts/).
+It's worth mentioning that you may wish to add Fanboy's anti-third-party fonts list. Web fonts are typically served by a CDN, much like software libraries -- the difference is, you can use Decentraleyes to intercept those requests for software libraries and instead use Decentraleyes' local version, but there isn't a current analogue for web fonts. How much you trust CDNs versus how much you value a more aesthetically pleasing web is up to you. Note that by using Fanboy's anti-third-party fonts list, you may actually cause some websites to break -- instead of where a hamburger or arrow button might be, there might be unclickable text or nothing at all. You can find information about how web fonts could affect your privacy (and security) [here](https://collinmbarrett.com/block-web-fonts/).
+
+To add the filter list, at the bottom of the filter lists tab in uBlock Origin, check "Import...", paste the URL below, then click "Apply changes" in the top right. 
 
 Fanboy's anti-third-party fonts list: https://fanboy.co.nz/fanboy-antifonts.txt
 

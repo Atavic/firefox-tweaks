@@ -18,7 +18,6 @@ referrer-spoof: behind-the-scene false
 * ampproject.org * allow
 * facebook.com * block
 * facebook.net * block
-* fonts.googleapis.com * block
 * googlevideo.com xhr allow
 * twitter.com * block
 * youtube.com frame allow
