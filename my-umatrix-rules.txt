@@ -25,6 +25,8 @@ referrer-spoof: behind-the-scene false
 * youtube.com script allow
 * youtube.com xhr allow
 * ytimg.com script allow
+accounts.google.com content.googleapis.com xhr allow
+accounts.google.com gstatic.com xhr allow
 amazon.com aiv-cdn.net * allow
 amazon.com aiv-delivery.net * allow
 amazon.com akamaihd.net * allow
@@ -62,13 +64,6 @@ firefox.com mozilla.net * allow
 flickr.com yimg.com script allow
 gamesradar.com futurecdn.net script allow
 gizmodo.com kinja-static.com script allow
-google.com ajax.googleapis.com script allow
-google.com content.googleapis.com xhr allow
-google.com googleusercontent.com xhr allow
-google.com gstatic.com script allow
-google.com gstatic.com xhr allow
-google.com youtube.googleapis.com script allow
-googleblog.com ajax.googleapis.com script allow
 gyazo.com cloudflare.com script allow
 humblebundle.com akamaihd.net script allow
 humblebundle.com google.com frame allow
@@ -86,11 +81,13 @@ ifixit.com d1ulmmr4d4i8j4.cloudfront.net script allow
 imdb.com media-imdb.com media allow
 imdb.com media-imdb.com script allow
 imdb.com ssl-images-amazon.com script allow
+inbox.google.com googleusercontent.com frame allow
 independent.co.uk brightcove.com script allow
 independent.co.uk brightcove.com xhr allow
 independent.co.uk brightcove.net script allow
 independent.co.uk jquery.com script allow
 instagram.com cdninstagram.com media allow
+keep.google.com gstatic.com script allow
 kobo.com akamaihd.net script allow
 kotaku.com kinja-static.com script allow
 lifehacker.com kinja-static.com script allow
@@ -101,6 +98,7 @@ lushusa.com powerreviews.com script allow
 lushusa.com powerreviews.com xhr allow
 lushusa.com t.powerreviews.com script allow
 lushusa.com wistia.com script allow
+mail.google.com googleusercontent.com frame allow
 microsoft.com aspnetcdn.com script allow
 microsoft.com onestore.ms script allow
 microsoft.com s-microsoft.com script allow
@@ -120,6 +118,12 @@ overwatchleague.com d2y4mhrku00tr3.cloudfront.net script allow
 patreon.com cloudflare.com script allow
 paypal.com paypalobjects.com script allow
 paypal.me paypalobjects.com script allow
+photos.google.com googleusercontent.com xhr allow
+photos.google.com youtube.googleapis.com script allow
+play.google.com ajax.googleapis.com script allow
+play.google.com googleusercontent.com xhr allow
+play.google.com gstatic.com script allow
+play.google.com gstatic.com xhr allow
 playoverwatch.com d1u1mce87gyfbn.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net script allow
@@ -149,6 +153,7 @@ steampowered.com akamaihd.net media allow
 steampowered.com akamaihd.net script allow
 t-mobile.com tmocache.com script allow
 techradar.com futurecdn.net script allow
+theguardian.com guim.co.uk script allow
 theguardian.com hm732.com * block
 theguardian.com n123loi.com * block
 theverge.com vox-cdn.com frame allow
@@ -176,4 +181,6 @@ worldofwarcraft.com akamaized.net script allow
 wowhead.com ajax.googleapis.com script allow
 wowhead.com zamimg.com script allow
 wowhead.com zamimg.com xhr allow
+www.google.com gstatic.com script allow
+www.google.com gstatic.com xhr allow
 youtube.com ytimg.com xhr allow
