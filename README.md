@@ -123,7 +123,7 @@ Place this file in your Firefox profile folder. [Don't know where to find that?]
 
 ## Further steps
 ### Configure your privacy settings
-Configuring your privacy settings on all services and devices you use is just as important as anything else on this page. If you would like direct links to privacy controls for popular services, as well as guides for privacy settings on devices, you can find that [here].
+Configuring your privacy settings on all services and devices you use is just as important as anything else on this page. If you would like direct links to privacy controls for popular services, as well as guides for privacy settings on devices, you can find that [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/privacy_settings.md).
 
 ### Get a VPN
 If you've followed all the steps on this page, there's still one glaring privacy issue: your ISP has a log of every website you've visited. Even if you don't use their DNS server, they can still see which IP addresses you are connecting to, and can store that information indefinitely and use it any way they want to. 
