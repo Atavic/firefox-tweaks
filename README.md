@@ -155,7 +155,9 @@ You should use a password manager to create long, unique, strong passwords for e
 KeePass, KeePassXC, and KeePass DX are free, open source password managers that are all compatible with each other. KeePass is the base implementation of itself on Windows. KeePassXC is a cross-platform community fork of [KeePassX](https://www.keepassx.org/), which itself is an implementation of KeePass. KeePassXC is available for Windows, Mac, and GNU/Linux. KeePass DX is an implementation of KeePass on Android. There are also several other KeePass apps you may find on Android, but this is the one I use and consider to be the best.
 
 KeePass [Source Code](https://sourceforge.net/projects/keepass/) / [Install here](https://keepass.info/)
+
 KeePassXC [Source Code](https://github.com/keepassxreboot/keepassxc) / [Install here](https://keepassxc.org/)
+
 KeePass DX [Source Code](https://github.com/Kunzisoft/KeePassDX) / [Install on Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) / [Install on F-Droid](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/)
 
 ### Use two-factor authentication
