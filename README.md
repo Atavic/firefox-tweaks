@@ -2,7 +2,7 @@
 
 This README contains instructions on how to enhance the privacy and security of Firefox.
 
-All addons listed are open source and include links to their source code as well as their page on https://addons.mozilla.org.
+All addons listed are open source, are available on Firefox for Android, and include links to their source code, as well as their page on https://addons.mozilla.org.
 
 ## Addons
 ### Decentraleyes
@@ -121,6 +121,10 @@ At the bottom of the file, I've included several tweaks which disable telemetry,
 If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/list_of_tweaks.md).
 
 Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/firefox-tweaks#where-is-my-firefox-profile-folder-located)
+
+## Further steps
+### Configure your privacy settings
+Configuring your privacy settings on all services you use is just as important as anything else on this page. If you would like direct links to privacy controls, you can find a list for popular services [here].
 
 ## Contributing
 If you would like to contribute, please read [this](https://github.com/krathalan/firefox-tweaks/blob/master/CONTRIBUTING.md).
