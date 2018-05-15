@@ -49,6 +49,7 @@ destinyitemmanager.com bungie.net cookie allow
 destinyitemmanager.com bungie.net xhr allow
 destinyitemmanager.com destinytracker.com xhr allow
 developer.microsoft.com * * allow
+drive.google.com gstatic.com script allow
 dropbox.com dropboxstatic.com media allow
 dropbox.com dropboxstatic.com script allow
 dropbox.com dropboxstatic.com xhr allow
@@ -102,6 +103,7 @@ microsoft.com aspnetcdn.com script allow
 microsoft.com onestore.ms script allow
 microsoft.com s-microsoft.com script allow
 microsoftonline.com microsoftonline-p.com script allow
+myaccount.google.com gstatic.com script allow
 netflix.com nflxext.com script allow
 netflix.com nflxvideo.net xhr allow
 nordvpn.com nordcdn.com script allow
@@ -175,6 +177,8 @@ twitter.com twimg.com script allow
 twitter.com twimg.com xhr allow
 twitter.com twitter.com * inherit
 visualstudio.com microsoft.com script allow
+voice.google.com ajax.googleapis.com script allow
+voice.google.com gstatic.com script allow
 worldofwarcraft.com akamaihd.net media allow
 worldofwarcraft.com akamaized.net script allow
 wowhead.com ajax.googleapis.com script allow

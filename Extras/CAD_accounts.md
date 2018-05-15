@@ -14,6 +14,5 @@ This is a list of accounts that will stay logged in if you use the `CAD_Expressi
 - Paypal
 - Reddit
 - Steam
-- Tumblr
 - Twitch.tv
 - Wowhead
