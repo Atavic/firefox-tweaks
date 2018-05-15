@@ -124,7 +124,10 @@ Place this file in your Firefox profile folder. [Don't know where to find that?]
 
 ## Further steps
 ### Configure your privacy settings
-Configuring your privacy settings on all services you use is just as important as anything else on this page. If you would like direct links to privacy controls, you can find a list for popular services [here].
+Configuring your privacy settings on all services and devices you use is just as important as anything else on this page. If you would like direct links to privacy controls for popular services, as well as guides for privacy settings on devices, you can find that [here].
+
+### Get a VPN
+If you've followed all the steps on this page, there's still one glaring privacy issue -- your ISP has a log of every website you've visited.
 
 ## Contributing
 If you would like to contribute, please read [this](https://github.com/krathalan/firefox-tweaks/blob/master/CONTRIBUTING.md).
