@@ -128,6 +128,7 @@ play.google.com gstatic.com xhr allow
 playoverwatch.com d1u1mce87gyfbn.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net script allow
+pocketcasts.com * * allow
 polygon.com vox-cdn.com script allow
 polygon.com voxmedia.com script allow
 raider.io cloudflare.com script allow
