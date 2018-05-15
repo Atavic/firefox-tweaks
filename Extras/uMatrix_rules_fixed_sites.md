@@ -57,6 +57,7 @@ The following are blocked globally:
 - paypal.com
 - paypal.me
 - playoverwatch.com
+- pocketcasts.com
 - polygon.com
 - raider.io
 - reddit.com (including commonly embedded media)
