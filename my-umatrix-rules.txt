@@ -78,6 +78,8 @@ icloud.com cdn-apple.com script allow
 icy-veins.com cursecdn.com script allow
 icy-veins.com wowdb.com script allow
 ifixit.com d1ulmmr4d4i8j4.cloudfront.net script allow
+imdb.com db187550c7dkf.cloudfront.net script allow
+imdb.com media-amazon.com script allow
 imdb.com media-imdb.com media allow
 imdb.com media-imdb.com script allow
 imdb.com ssl-images-amazon.com script allow
@@ -153,6 +155,8 @@ steamcommunity.com akamaihd.net media allow
 steamcommunity.com akamaihd.net script allow
 steampowered.com akamaihd.net media allow
 steampowered.com akamaihd.net script allow
+store.google.com ajax.googleapis.com script allow
+store.google.com gstatic.com xhr allow
 t-mobile.com tmocache.com script allow
 techradar.com futurecdn.net script allow
 theguardian.com guim.co.uk script allow
