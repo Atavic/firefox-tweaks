@@ -22,13 +22,25 @@ Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlo
 
 [Source code](https://github.com/gorhill/uBlock) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
+### Neat URL
+This addon removes tracking parameters in URLs like `utm_source`. 
+
+It changes links from this:
+`http://www.phoronix.com/scan.php?page=news_item&px=Ioquake3-Auto-Updater&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Phoronix+(Phoronix)`
+
+To this: 
+`http://www.phoronix.com/scan.php?page=news_item&px=Ioquake3-Auto-Updater`
+
+If you would like to use my blocked parameters which are slightly stricter than the default ones, copy and paste them from [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/Neat_URL_parameters.md) into Neat URL's settings.
+
+[Source code](https://github.com/Smile4ever/firefoxaddons) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/neat-url/)
+
 ### Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
 
 If you would like to import my whitelist, download and import the `CAD_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/CAD_accounts.md).
 
 [Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
-
 
 ### CanvasBlocker
 This addon will prevent sites from being able to fingerprint you using your canvas data. Fingerprinting is a tracking technique which does not rely on any stored data; instead, it calculates a "fingerprint" from data about your device, including but not limited to your browser, operating system, installed plugins, time zone, system fonts, and canvas data.
