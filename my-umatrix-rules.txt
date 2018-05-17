@@ -191,4 +191,5 @@ wowhead.com zamimg.com script allow
 wowhead.com zamimg.com xhr allow
 www.google.com gstatic.com script allow
 www.google.com gstatic.com xhr allow
+youtube.com gstatic.com script allow
 youtube.com ytimg.com xhr allow
