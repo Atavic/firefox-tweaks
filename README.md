@@ -4,7 +4,7 @@ This README contains instructions on how to enhance the privacy and security of 
 All addons listed are free and open source; are available and work correctly on Firefox for Android; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org.
 
 ## Addons
-A ⭐ means the addon collects no data whatsoever.
+A ⭐ means the addon collects no data whatsoever. All addons listed have earned a ⭐.
 
 ### ⭐ Decentraleyes 
 The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
@@ -37,18 +37,16 @@ To this:
 
 The addon also claims to redirect Google search and Reddit links, but there isn't a clear way to verify this. Finally, the addon blocks requests "from advertising services like `doubleclick.net`" ([Source](https://github.com/KevinRoebert/ClearUrls#clearurls)), but uBlock Origin and uMatrix handle this already.
 
-The addon doesn't have an "official" privacy policy, but on their `addons.mozilla.org` page, they state, "This add-on protects your privacy and we also respect it. We do not and will never collect any of your usage data."
+The addon doesn't have an "official" privacy policy, but on their AMO page, they state, "This add-on protects your privacy and we also respect it. We do not and will never collect any of your usage data."
 
 [Source code](https://github.com/KevinRoebert/ClearUrls) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 
-### Cookie Autodelete
+### ⭐ Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
 
 If you would like to import my whitelist, download and import the `CAD_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/CAD_accounts.md).
 
-Note that while the addon is free and open source, I could find no privacy policy for the addon anywhere. However, the addon is well known in the Firefox community, is a featured extension on `addons.mozilla.org`, and is recommended on websites like [Privacy Tools](https://www.privacytools.io/).
-
-[Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
+[Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Privacy policy](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/wiki/Privacy-Policy) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 
 ### ⭐ CanvasBlocker
 This addon will prevent sites from being able to fingerprint you using your canvas data. Fingerprinting is a tracking technique which does not rely on any stored data; instead, it calculates a "fingerprint" from data about your device, including but not limited to your browser, operating system, installed plugins, time zone, system fonts, and canvas data.
