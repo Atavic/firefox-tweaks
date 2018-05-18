@@ -1,13 +1,13 @@
 # Firefox Tweaks
 This README contains instructions on how to enhance the privacy and security of Firefox.
 
-All addons listed are open source, are available on Firefox for Android, and include links to their source code, as well as their page on https://addons.mozilla.org.
+All addons listed are free and open source, are available and work correctly on Firefox for Android, and include links to their source code and their page on https://addons.mozilla.org.
 
 ## Addons
 ### Decentraleyes 
 The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
 
-##### `Mozilla Public License 2.0`
+##### `Mozilla Public License v2`
 [Source code](https://github.com/Synzvato/decentraleyes) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
 ### uBlock Origin
@@ -26,7 +26,7 @@ Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlo
 ##### `GNU General Public License v3`
 [Source code](https://github.com/gorhill/uBlock) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
-### Neat URL
+### ClearURLs
 This addon removes tracking parameters in URLs like `utm_source`. 
 
 It changes links from this:
@@ -35,10 +35,10 @@ It changes links from this:
 To this: 
 `http://www.phoronix.com/scan.php?page=news_item&px=Ioquake3-Auto-Updater`
 
-If you would like to use my blocked parameters which are slightly stricter than the default ones, copy and paste them from [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/Neat_URL_parameters.md) into Neat URL's settings.
+The addon also claims to redirect Google search and Reddit links, but there isn't a clear way to verify this. Finally, the addon blocks requests "from advertising services like `doubleclick.net`" ([Source](https://github.com/KevinRoebert/ClearUrls#clearurls)), but uBlock Origin and uMatrix handle this already.
 
-##### `GNU General Public License v2`
-[Source code](https://github.com/Smile4ever/firefoxaddons) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/neat-url/)
+##### `Mozilla Public License v2`
+[Source code](https://github.com/KevinRoebert/ClearUrls) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 
 ### Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
