@@ -18,6 +18,8 @@ To add the filter list, at the bottom of the filter lists tab in uBlock Origin, 
 
 Fanboy's anti-third-party fonts list: https://fanboy.co.nz/fanboy-antifonts.txt
 
+If you want to use the list but still allow fonts from Google -- as many Google domains use fonts from Google -- you may import the `my-ublock-static-filters.txt` file in this repository into uBlock Origin's "My Filters" section, then hit apply.
+
 Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlock's settings, especially if you use a VPN. You can find more information about this toggle [here](https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address).
 
 [Source code](https://github.com/gorhill/uBlock) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
