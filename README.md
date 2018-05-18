@@ -1,16 +1,17 @@
 # Firefox Tweaks
 This README contains instructions on how to enhance the privacy and security of Firefox.
 
-All addons listed are free and open source, are available and work correctly on Firefox for Android, and include links to their source code and their page on https://addons.mozilla.org.
+All addons listed are free and open source; are available and work correctly on Firefox for Android; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org.
 
 ## Addons
-### Decentraleyes 
+A ⭐ means the addon collects no data whatsoever.
+
+### ⭐ Decentraleyes 
 The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
 
-##### `Mozilla Public License v2`
-[Source code](https://github.com/Synzvato/decentraleyes) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+[Source code](https://github.com/Synzvato/decentraleyes) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
-### uBlock Origin
+### ⭐ uBlock Origin
 The next simplest of these addons to use. Simply install it and use the default lists if you don't want to configure it, but consider enabling all filter lists under ads, privacy, malware domains, annoyances, and multipurpose. 
 
 It's worth mentioning that you may wish to add Fanboy's anti-third-party fonts list. Web fonts are typically served by a CDN, much like software libraries -- the difference is, you can use Decentraleyes to intercept those requests for software libraries and instead use Decentraleyes' local version, but there isn't a current analogue for web fonts. How much you trust CDNs versus how much you value a more aesthetically pleasing web is up to you. Note that by using Fanboy's anti-third-party fonts list, you may actually cause some websites to break -- instead of where a hamburger or arrow button might be, there might be unclickable text or nothing at all. You can find information about how web fonts could affect your privacy (and security) [here](https://collinmbarrett.com/block-web-fonts/).
@@ -23,10 +24,9 @@ If you want to use the list but still allow fonts from Google -- as many Google 
 
 Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlock's settings, especially if you use a VPN. You can find more information about this toggle [here](https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address).
 
-##### `GNU General Public License v3`
-[Source code](https://github.com/gorhill/uBlock) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+[Source code](https://github.com/gorhill/uBlock) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
-### ClearURLs
+### ⭐ ClearURLs
 This addon removes tracking parameters in URLs like `utm_source`. 
 
 It changes links from this:
@@ -37,7 +37,8 @@ To this:
 
 The addon also claims to redirect Google search and Reddit links, but there isn't a clear way to verify this. Finally, the addon blocks requests "from advertising services like `doubleclick.net`" ([Source](https://github.com/KevinRoebert/ClearUrls#clearurls)), but uBlock Origin and uMatrix handle this already.
 
-##### `Mozilla Public License v2`
+The addon doesn't have an "official" privacy policy, but on their `addons.mozilla.org` page, they state, "This add-on protects your privacy and we also respect it. We do not and will never collect any of your usage data."
+
 [Source code](https://github.com/KevinRoebert/ClearUrls) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 
 ### Cookie Autodelete
@@ -45,10 +46,11 @@ This addon will automatically delete cookies that aren't on your specified white
 
 If you would like to import my whitelist, download and import the `CAD_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/CAD_accounts.md).
 
-##### `MIT License`
+Note that while the addon is free and open source, I could find no privacy policy for the addon anywhere. However, the addon is well known in the Firefox community, is a featured extension on `addons.mozilla.org`, and is recommended on websites like [Privacy Tools](https://www.privacytools.io/).
+
 [Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 
-### CanvasBlocker
+### ⭐ CanvasBlocker
 This addon will prevent sites from being able to fingerprint you using your canvas data. Fingerprinting is a tracking technique which does not rely on any stored data; instead, it calculates a "fingerprint" from data about your device, including but not limited to your browser, operating system, installed plugins, time zone, system fonts, and canvas data.
 
 This addon, in its default configuration, will allow websites to access the <canvas> API, but then fake a random readout back to the website that is requesting your canvas data. While this is more likely to make your fingerprint more unique (a bad thing), since it's returning a random readout every time, your fingerprint "changes", making it extremely difficult to track your single unique fingerprint -- with this addon, you don't have a single fingerprint.
@@ -57,10 +59,9 @@ Note that installing this addon may break certain websites, notably Google Maps.
 
 You can find more information about browser fingerprinting [here](https://en.wikipedia.org/wiki/Device_fingerprint).
 
-##### `Mozilla Public License v2`
-[Source code](https://github.com/kkapsner/CanvasBlocker) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
+[Source code](https://github.com/kkapsner/CanvasBlocker) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
 
-### uMatrix
+### ⭐ uMatrix
 uMatrix blocks almost everything (cookies, media, scripts, frames, and more) by default that isn't third-party. It's the most complicated addon here to use. If you're not interested in performing additional steps when you go to a website for the first time, don't install this addon.
 
 uMatrix allows the first-party domain to do whatever it wants. If you visit twitch.tv with uMatrix installed, it doesn't block anything from twitch.tv. But it'll block everything from domains which twitch.tv tries to connect to, which, as of the time of this writing, include:
@@ -129,8 +130,7 @@ Now whenever I visit twitch.tv again, it'll work and I don't have to mess with u
 
 If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/uMatrix_rules_fixed_sites.md).
 
-##### `GNU General Public License v3`
-[Source code](https://github.com/gorhill/uMatrix) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
+[Source code](https://github.com/gorhill/uMatrix) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/umatrix/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
 ## user.js
 This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, and only make small sacrifices to achieve that.
