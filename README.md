@@ -4,9 +4,10 @@ This README contains instructions on how to enhance the privacy and security of 
 All addons listed are open source, are available on Firefox for Android, and include links to their source code, as well as their page on https://addons.mozilla.org.
 
 ## Addons
-### Decentraleyes
+### Decentraleyes 
 The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
 
+##### `Mozilla Public License 2.0`
 [Source code](https://github.com/Synzvato/decentraleyes) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
 ### uBlock Origin
@@ -22,6 +23,7 @@ If you want to use the list but still allow fonts from Google -- as many Google 
 
 Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlock's settings, especially if you use a VPN. You can find more information about this toggle [here](https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address).
 
+##### `GNU General Public License v3`
 [Source code](https://github.com/gorhill/uBlock) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
 ### Neat URL
@@ -35,6 +37,7 @@ To this:
 
 If you would like to use my blocked parameters which are slightly stricter than the default ones, copy and paste them from [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/Neat_URL_parameters.md) into Neat URL's settings.
 
+##### `GNU General Public License v2`
 [Source code](https://github.com/Smile4ever/firefoxaddons) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/neat-url/)
 
 ### Cookie Autodelete
@@ -42,6 +45,7 @@ This addon will automatically delete cookies that aren't on your specified white
 
 If you would like to import my whitelist, download and import the `CAD_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/CAD_accounts.md).
 
+##### `MIT License`
 [Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 
 ### CanvasBlocker
@@ -53,6 +57,7 @@ Note that installing this addon may break certain websites, notably Google Maps.
 
 You can find more information about browser fingerprinting [here](https://en.wikipedia.org/wiki/Device_fingerprint).
 
+##### `Mozilla Public License v2`
 [Source code](https://github.com/kkapsner/CanvasBlocker) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
 
 ### uMatrix
@@ -124,6 +129,7 @@ Now whenever I visit twitch.tv again, it'll work and I don't have to mess with u
 
 If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/uMatrix_rules_fixed_sites.md).
 
+##### `GNU General Public License v3`
 [Source code](https://github.com/gorhill/uMatrix) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
 ## user.js
