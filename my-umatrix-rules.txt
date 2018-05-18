@@ -25,7 +25,6 @@ referrer-spoof: behind-the-scene false
 * youtube.com xhr allow
 * ytimg.com script allow
 accounts.google.com content.googleapis.com xhr allow
-accounts.google.com gstatic.com xhr allow
 amazon.com aiv-cdn.net * allow
 amazon.com aiv-delivery.net * allow
 amazon.com akamaihd.net * allow
@@ -49,7 +48,6 @@ destinyitemmanager.com bungie.net cookie allow
 destinyitemmanager.com bungie.net xhr allow
 destinyitemmanager.com destinytracker.com xhr allow
 developer.microsoft.com * * allow
-drive.google.com gstatic.com script allow
 dropbox.com dropboxstatic.com media allow
 dropbox.com dropboxstatic.com script allow
 dropbox.com dropboxstatic.com xhr allow
@@ -64,6 +62,8 @@ firefox.com mozilla.net * allow
 flickr.com yimg.com script allow
 gamesradar.com futurecdn.net script allow
 gizmodo.com kinja-static.com script allow
+google.com gstatic.com script allow
+google.com gstatic.com xhr allow
 gyazo.com cloudflare.com script allow
 humblebundle.com akamaihd.net script allow
 humblebundle.com google.com frame allow
@@ -89,7 +89,6 @@ independent.co.uk brightcove.com xhr allow
 independent.co.uk brightcove.net script allow
 independent.co.uk jquery.com script allow
 instagram.com cdninstagram.com media allow
-keep.google.com gstatic.com script allow
 kobo.com akamaihd.net script allow
 kotaku.com kinja-static.com script allow
 lifehacker.com kinja-static.com script allow
@@ -105,7 +104,6 @@ microsoft.com aspnetcdn.com script allow
 microsoft.com onestore.ms script allow
 microsoft.com s-microsoft.com script allow
 microsoftonline.com microsoftonline-p.com script allow
-myaccount.google.com gstatic.com script allow
 netflix.com nflxext.com script allow
 netflix.com nflxvideo.net xhr allow
 nordvpn.com nordcdn.com script allow
@@ -125,8 +123,6 @@ photos.google.com googleusercontent.com xhr allow
 photos.google.com youtube.googleapis.com script allow
 play.google.com ajax.googleapis.com script allow
 play.google.com googleusercontent.com xhr allow
-play.google.com gstatic.com script allow
-play.google.com gstatic.com xhr allow
 playoverwatch.com d1u1mce87gyfbn.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net media allow
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net script allow
@@ -156,7 +152,6 @@ steamcommunity.com akamaihd.net script allow
 steampowered.com akamaihd.net media allow
 steampowered.com akamaihd.net script allow
 store.google.com ajax.googleapis.com script allow
-store.google.com gstatic.com xhr allow
 t-mobile.com tmocache.com script allow
 techradar.com futurecdn.net script allow
 theguardian.com guim.co.uk script allow
@@ -183,13 +178,10 @@ twitter.com twimg.com xhr allow
 twitter.com twitter.com * inherit
 visualstudio.com microsoft.com script allow
 voice.google.com ajax.googleapis.com script allow
-voice.google.com gstatic.com script allow
 worldofwarcraft.com akamaihd.net media allow
 worldofwarcraft.com akamaized.net script allow
 wowhead.com ajax.googleapis.com script allow
 wowhead.com zamimg.com script allow
 wowhead.com zamimg.com xhr allow
-www.google.com gstatic.com script allow
-www.google.com gstatic.com xhr allow
 youtube.com gstatic.com script allow
 youtube.com ytimg.com xhr allow
