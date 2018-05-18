@@ -30,10 +30,10 @@ Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlo
 This addon removes tracking parameters in URLs like `utm_source`. 
 
 It changes links from this:
-`http://www.phoronix.com/scan.php?page=news_item&px=Ioquake3-Auto-Updater&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Phoronix+(Phoronix)`
+`https://www.phoronix.com/scan.php?page=news_item&px=Ioquake3-Auto-Updater&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Phoronix+(Phoronix)`
 
 To this: 
-`http://www.phoronix.com/scan.php?page=news_item&px=Ioquake3-Auto-Updater`
+`https://www.phoronix.com/scan.php?page=news_item&px=Ioquake3-Auto-Updater`
 
 The addon also claims to redirect Google search and Reddit links, but there isn't a clear way to verify this. Finally, the addon blocks requests "from advertising services like `doubleclick.net`" ([Source](https://github.com/KevinRoebert/ClearUrls#clearurls)), but uBlock Origin and uMatrix handle this already.
 
