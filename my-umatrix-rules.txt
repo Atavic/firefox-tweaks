@@ -111,6 +111,7 @@ nytimes.com nyt.com media allow
 nytimes.com nyt.com script allow
 nytimes.com nyt.com xhr allow
 onedrive.live.com * * allow
+onedrive.live.com * frame inherit
 onenote.com aspnetcdn.com script allow
 onenote.com live.com frame allow
 onenote.com live.com script allow
@@ -135,6 +136,7 @@ raider.io wowhead.com script allow
 raider.io zamimg.com script allow
 reddit.com embedly.com frame allow
 reddit.com embedly.com script allow
+reddit.com gfycat.com frame allow
 reddit.com gfycat.com media allow
 reddit.com redd.it xhr allow
 reddit.com redditmedia.com frame allow
@@ -178,6 +180,7 @@ twitter.com twimg.com xhr allow
 twitter.com twitter.com * inherit
 visualstudio.com microsoft.com script allow
 voice.google.com ajax.googleapis.com script allow
+wikipedia.org wikimedia.org media allow
 worldofwarcraft.com akamaihd.net media allow
 worldofwarcraft.com akamaized.net script allow
 wowhead.com ajax.googleapis.com script allow
