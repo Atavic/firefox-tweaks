@@ -74,6 +74,7 @@ The following are blocked globally:
 - twitch.tv
 - twitter.com
 - visualstudio.com (download)
+- wikipedia.org (audio playback)
 - worldofwarcraft.com
 - wowhead.com
 - youtube.com
