@@ -3,9 +3,9 @@ This README contains instructions on how to enhance the privacy and security of 
 
 All addons listed are free and open source; are available and work correctly on Firefox for Android; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org.
 
-## Addons
 A ⭐ means the addon collects no data whatsoever. All addons listed have earned a ⭐.
 
+## Addons
 ### ⭐ Decentraleyes 
 The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
 

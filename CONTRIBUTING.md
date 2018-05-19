@@ -2,7 +2,7 @@
 Want to contribute to the project? That's awesome! If you're going to contribute, please open an issue first for discussion before making a pull request. Please provide reasons why you think your change is good. Finally, you may need to follow some rules below for your contribution to be accepted.
 
 ## 1. Addons
-All addons are free and open source, using licenses like GPLv2, GPLv3, MIT, or the Mozilla Public License. All addons are also available and functional on Firefox for Android. Each section includes links to the addon's source code, privacy policy, and install page on `addons.mozilla.org`. If you want to include additional files like a whitelist, put them in the root of the project.
+All addons must be free and open source. All addons must be available and functional on Firefox for Android. All addons must include links to the addon's source code, privacy policy, and install page on `addons.mozilla.org`. All addons must not collect any data. If you want to include additional files like a whitelist, put them in the root of the project.
 
 ## 2. uMatrix whitelist rules
 Please create a separate issue for each primary domain. For example, if you had rules that fixed apple.com and microsoft.com, you would need to create two separate issues.
