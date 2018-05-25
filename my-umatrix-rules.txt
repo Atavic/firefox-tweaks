@@ -61,9 +61,11 @@ feedly.com ads.feedly.com * block
 firefox.com mozilla.net * allow
 flickr.com yimg.com script allow
 gamesradar.com futurecdn.net script allow
+gitlab.com gitlab-static.net script allow
 gizmodo.com kinja-static.com script allow
 google.com gstatic.com script allow
 google.com gstatic.com xhr allow
+googleblog.com ajax.googleapis.com script allow
 gyazo.com cloudflare.com script allow
 humblebundle.com akamaihd.net script allow
 humblebundle.com google.com frame allow
@@ -155,6 +157,7 @@ steampowered.com akamaihd.net media allow
 steampowered.com akamaihd.net script allow
 store.google.com ajax.googleapis.com script allow
 t-mobile.com tmocache.com script allow
+target.com targetimg1.com script allow
 techradar.com futurecdn.net script allow
 theguardian.com guim.co.uk script allow
 theguardian.com hm732.com * block
@@ -180,6 +183,7 @@ twitter.com twimg.com xhr allow
 twitter.com twitter.com * inherit
 visualstudio.com microsoft.com script allow
 voice.google.com ajax.googleapis.com script allow
+walmart.com walmartimages.com script allow
 wikipedia.org wikimedia.org media allow
 worldofwarcraft.com akamaihd.net media allow
 worldofwarcraft.com akamaized.net script allow

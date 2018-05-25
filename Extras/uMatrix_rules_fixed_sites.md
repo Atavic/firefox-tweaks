@@ -29,6 +29,7 @@ The following are blocked globally:
 - firefox.com (for managing Firefox Sync accounts)
 - flickr.com
 - gamesradar.com
+- gitlab.com
 - gizmodo.com
 - google.com (login, Maps, Music, etc.)
 - googleblog.com (Android Developer's Blog)
@@ -68,12 +69,14 @@ The following are blocked globally:
 - steamcommunity.com 
 - steampowered.com
 - t-mobile.com
+- target.com
 - techradar.com
 - theverge.com
 - tripadvisor.com
 - twitch.tv
 - twitter.com
 - visualstudio.com (download)
+- walmart.com
 - wikipedia.org (audio playback)
 - worldofwarcraft.com
 - wowhead.com
