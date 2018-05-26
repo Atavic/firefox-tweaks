@@ -148,10 +148,10 @@ KeePass, KeePassXC, and KeePass DX are free, open source password managers that 
 
 For Linux, you should install KeePassXC from your distribution's package manager.
 
-Version | Source code | Install here | F-Droid
+Version | Source code | Install here | Chocolatey/F-Droid
 --- | --- | --- | ---
-KeePass for Windows | [Source code](https://sourceforge.net/projects/keepass/) | [Install here](https://keepass.info/)
-KeePassXC for Windows, Mac, and Linux | [Source code](https://github.com/keepassxreboot/keepassxc) | [Install here](https://keepassxc.org/)
+KeePass for Windows | [Source code](https://sourceforge.net/projects/keepass/) | [Install here](https://keepass.info/) | [Install with Chocolatey](https://chocolatey.org/packages/keepass)
+KeePassXC for Windows and Mac | [Source code](https://github.com/keepassxreboot/keepassxc) | [Install here](https://keepassxc.org/) | [Install with Chocolatey (Windows only)](https://chocolatey.org/packages/keepassxc)
 KeePass DX for Android | [Source code](https://github.com/Kunzisoft/KeePassDX) | [Install on Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) | [Install on F-Droid](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/)
 
 ### Use two-factor authentication
@@ -179,9 +179,9 @@ As a final note, you may need to edit the VPN's `.ovpn` files to block DNS reque
 
 `block-outside-dns`
 
-Version | Source code | Install here | F-Droid
+Version | Source code | Install here | Chocolatey/F-Droid
 --- | --- | --- | ---
-OpenVPN for Windows | [Source code](https://github.com/OpenVPN/openvpn-gui) | [Install here](https://openvpn.net/index.php/download/community-downloads.html)
+OpenVPN for Windows | [Source code](https://github.com/OpenVPN/openvpn-gui) | [Install here](https://openvpn.net/index.php/download/community-downloads.html) | [Install with Chocolatey](https://chocolatey.org/packages/openvpn)
 Tunnelblick for macOS | [Source code](https://github.com/Tunnelblick/Tunnelblick) | [Install here](https://tunnelblick.net/index.html)
 OpenVPN for Android | [Source code](https://github.com/schwabe/ics-openvpn) | [Install on Google Play](https://play.google.com/store/apps/details?id=de.blinkt.openvpn&hl=en) | [Install on F-Droid](https://f-droid.org/packages/de.blinkt.openvpn/)
 OpenVPN for iOS | [Partial source code](https://staging.openvpn.net/openvpn3/) | [Install here](https://itunes.apple.com/us/app/openvpn-connect/id590379981)
