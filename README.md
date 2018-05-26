@@ -1,17 +1,15 @@
 # Firefox Tweaks
 This README contains instructions on how to enhance the privacy and security of Firefox.
 
-All addons listed are free and open source; are available and work correctly on Firefox for Android; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org.
-
-A ⭐ means the addon collects no data whatsoever. All addons listed have earned a ⭐.
+All addons listed are free and open source; are available and work correctly on Firefox for Android; collect no data whatsoever as per their privacy policies; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org.
 
 ## Addons
-### ⭐ Decentraleyes 
+### 👁️ Decentraleyes 
 The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
 
 [Source code](https://github.com/Synzvato/decentraleyes) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
-### ⭐ uBlock Origin
+### 🛡️ uBlock Origin
 The next simplest of these addons to use. Simply install it and use the default lists if you don't want to configure it, but consider enabling all filter lists under ads, privacy, malware domains, annoyances, and multipurpose. 
 
 It's worth mentioning that you may wish to add Fanboy's anti-third-party fonts list. Web fonts are typically served by a CDN, much like software libraries -- the difference is, you can use Decentraleyes to intercept those requests for software libraries and instead use Decentraleyes' local version, but there isn't a current analogue for web fonts. How much you trust CDNs versus how much you value a more aesthetically pleasing web is up to you. Note that by using Fanboy's anti-third-party fonts list, you may actually cause some websites to break -- instead of where a hamburger or arrow button might be, there might be unclickable text or nothing at all. You can find information about how web fonts could affect your privacy (and security) [here](https://collinmbarrett.com/block-web-fonts/).
@@ -26,7 +24,7 @@ Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlo
 
 [Source code](https://github.com/gorhill/uBlock) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
-### ⭐ ClearURLs
+### 🔗 ClearURLs
 This addon removes tracking parameters in URLs like `utm_source`. 
 
 It changes links from this:
@@ -41,14 +39,14 @@ The addon doesn't have an "official" privacy policy, but on their AMO page, they
 
 [Source code](https://github.com/KevinRoebert/ClearUrls) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 
-### ⭐ Cookie Autodelete
+### 🍪 Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
 
 If you would like to import my whitelist, download and import the `CAD_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/CAD_accounts.md).
 
 [Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Privacy policy](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/wiki/Privacy-Policy) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 
-### ⭐ CanvasBlocker
+### 🎨 CanvasBlocker
 This addon will prevent sites from being able to fingerprint you using your canvas data. Fingerprinting is a tracking technique which does not rely on any stored data; instead, it calculates a "fingerprint" from data about your device, including but not limited to your browser, operating system, installed plugins, time zone, system fonts, and canvas data.
 
 This addon, in its default configuration, will allow websites to access the <canvas> API, but then fake a random readout back to the website that is requesting your canvas data. While this is more likely to make your fingerprint more unique (a bad thing), since it's returning a random readout every time, your fingerprint "changes", making it extremely difficult to track your single unique fingerprint -- with this addon, you don't have a single fingerprint.
@@ -59,7 +57,7 @@ You can find more information about browser fingerprinting [here](https://en.wik
 
 [Source code](https://github.com/kkapsner/CanvasBlocker) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
 
-### ⭐ uMatrix
+### ⛔ uMatrix
 uMatrix blocks almost everything (cookies, media, scripts, frames, and more) by default that isn't third-party. It's the most complicated addon here to use. If you're not interested in performing additional steps when you go to a website for the first time, don't install this addon.
 
 uMatrix allows the first-party domain to do whatever it wants. If you visit twitch.tv with uMatrix installed, it doesn't block anything from twitch.tv. But it'll block everything from domains which twitch.tv tries to connect to, which, as of the time of this writing, include:
@@ -150,11 +148,11 @@ KeePass, KeePassXC, and KeePass DX are free, open source password managers that 
 
 For Linux, you should install KeePassXC from your distribution's package manager.
 
-KeePass for Windows [Source Code](https://sourceforge.net/projects/keepass/) / [Install here](https://keepass.info/)
-
-KeePassXC for Windows, Mac, and Linux [Source Code](https://github.com/keepassxreboot/keepassxc) / [Install here](https://keepassxc.org/)
-
-KeePass DX for Android [Source Code](https://github.com/Kunzisoft/KeePassDX) / [Install on Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) / [Install on F-Droid](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/)
+Version | Source code | Install here | F-Droid
+--- | --- | --- | ---
+KeePass for Windows | [Source code](https://sourceforge.net/projects/keepass/) | [Install here](https://keepass.info/)
+KeePassXC for Windows, Mac, and Linux | [Source code](https://github.com/keepassxreboot/keepassxc) | [Install here](https://keepassxc.org/)
+KeePass DX for Android | [Source code](https://github.com/Kunzisoft/KeePassDX) | [Install on Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) | [Install on F-Droid](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/)
 
 ### Use two-factor authentication
 Setting up two-factor authentication (2FA) for every account you have that supports it is an important component of protecting your security, as it greatly reduces the chance of unauthorized logins. Every service has a different way to set up 2FA, but most services should use a QR code that you can scan with an authenticator app on your phone, like [Microsoft Authenticator](https://play.google.com/store/apps/details?id=com.azure.authenticator) or [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) for Android, or the same apps for iOS ([Microsoft Authenticator](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458) and [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605)).
@@ -181,13 +179,12 @@ As a final note, you may need to edit the VPN's `.ovpn` files to block DNS reque
 
 `block-outside-dns`
 
-OpenVPN for Windows [Source code](https://github.com/OpenVPN/openvpn-gui) / [Install here](https://openvpn.net/index.php/download/community-downloads.html)
-
-Tunnelblick for macOS [Source code](https://github.com/Tunnelblick/Tunnelblick) / [Install here](https://tunnelblick.net/index.html)
-
-OpenVPN for Android [Source code](https://github.com/schwabe/ics-openvpn) / [Install on Google Play](https://play.google.com/store/apps/details?id=de.blinkt.openvpn&hl=en) / [Install on F-Droid](https://f-droid.org/packages/de.blinkt.openvpn/)
-
-OpenVPN for iOS [Partial source code](https://staging.openvpn.net/openvpn3/) / [Install here](https://itunes.apple.com/us/app/openvpn-connect/id590379981)
+Version | Source code | Install here | F-Droid
+--- | --- | --- | ---
+OpenVPN for Windows | [Source code](https://github.com/OpenVPN/openvpn-gui) | [Install here](https://openvpn.net/index.php/download/community-downloads.html)
+Tunnelblick for macOS | [Source code](https://github.com/Tunnelblick/Tunnelblick) | [Install here](https://tunnelblick.net/index.html)
+OpenVPN for Android | [Source code](https://github.com/schwabe/ics-openvpn) | [Install on Google Play](https://play.google.com/store/apps/details?id=de.blinkt.openvpn&hl=en) | [Install on F-Droid](https://f-droid.org/packages/de.blinkt.openvpn/)
+OpenVPN for iOS | [Partial source code](https://staging.openvpn.net/openvpn3/) | [Install here](https://itunes.apple.com/us/app/openvpn-connect/id590379981)
 
 ## Contributing
 If you would like to contribute, please read [this](https://github.com/krathalan/firefox-tweaks/blob/master/CONTRIBUTING.md).
