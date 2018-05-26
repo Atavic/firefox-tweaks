@@ -143,6 +143,24 @@ Place this file in your Firefox profile folder. [Don't know where to find that?]
 ### Configure your privacy settings
 Configuring your privacy settings on all services and devices you use is just as important as anything else on this page. If you would like direct links to privacy controls for popular services, as well as guides for privacy settings on devices, you can find that [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/privacy_settings.md).
 
+### Use KeePass
+You should use a password manager to create long, unique, strong passwords for every account you have. Yes, every account. You can read about "why even your bullshit accounts deserve strong passwords" [here](https://lifehacker.com/why-even-your-bullshit-accounts-deserve-strong-password-1826307919).
+
+KeePass, KeePassXC, and KeePass DX are free, open source password managers that are all compatible with each other. KeePass is the base implementation of itself on Windows. KeePassXC is a cross-platform community fork of [KeePassX](https://www.keepassx.org/), which itself is an implementation of KeePass. KeePassXC is available for Windows, Mac, and GNU/Linux. KeePass DX is an implementation of KeePass on Android. There are also several other KeePass apps you may find on Android, but this is the one I use and consider to be the best.
+
+For Linux, you should install KeePassXC from your distribution's package manager.
+
+KeePass for Windows [Source Code](https://sourceforge.net/projects/keepass/) / [Install here](https://keepass.info/)
+
+KeePassXC for Windows, Mac, and Linux [Source Code](https://github.com/keepassxreboot/keepassxc) / [Install here](https://keepassxc.org/)
+
+KeePass DX for Android [Source Code](https://github.com/Kunzisoft/KeePassDX) / [Install on Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) / [Install on F-Droid](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/)
+
+### Use two-factor authentication
+Setting up two-factor authentication (2FA) for every account you have that supports it is an important component of protecting your security, as it greatly reduces the chance of unauthorized logins. Every service has a different way to set up 2FA, but most services should use a QR code that you can scan with an authenticator app on your phone, like [Microsoft Authenticator](https://play.google.com/store/apps/details?id=com.azure.authenticator) or [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) for Android, or the same apps for iOS ([Microsoft Authenticator](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458) and [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605)).
+
+You can find an unofficial list of websites and services, and whether or not they support 2FA, [here](https://twofactorauth.org/).
+
 ### Get a VPN
 If you've followed all the steps on this page, there's still one glaring privacy issue: your ISP has a log of every website you've visited. Even if you don't use their DNS server, they can still see which IP addresses you are connecting to, and can store that information indefinitely and use it any way they want to. 
 
@@ -151,37 +169,25 @@ If this makes you uncomfortable (which it should), then you should get a VPN (vi
 A really good resource for information about VPN providers, as well as which one to choose, can be found [here](https://thatoneprivacysite.net/). I personally use NordVPN.
 
 #### Using OpenVPN
-If you decide to use a VPN, instead of using their provided app, which may be closed source, you should use OpenVPN. OpenVPN will connect you to the VPN servers just like the provided app would, but it's a [free, open source project](https://openvpn.net/index.php/license.html), provided under the [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) -- which means anyone can look at its source code and verify that not only is it secure, but that it respects the user's privacy. Using OpenVPN usually requires a bit more setup than using the VPN's provided app, but it's worth it for the extra privacy and security. You can download OpenVPN for Windows [here](https://openvpn.net/index.php/download/community-downloads.html).
+If you decide to use a VPN, you should use OpenVPN. OpenVPN will connect you to the VPN servers just like the provided app would, but it's a free, open source project, whereas your VPN providers applications may be proprietary. Using OpenVPN usually requires a bit more setup than using the VPN's provided app, but it's worth it for the extra privacy and security. A good VPN provider will provide instructions on how to set up OpenVPN with their service. You can find out how to use OpenVPN with NordVPN [here](https://nordvpn.com/tutorials/windows-10/openvpn/).
 
-You can find out how to use OpenVPN with NordVPN [here](https://nordvpn.com/tutorials/windows-10/openvpn/). A good VPN provider will provide instructions on how to set up OpenVPN with their service.
+OpenVPN doesn't have an official macOS client, but Tunnelblick is a free, open source version of OpenVPN for macOS. 
 
-OpenVPN is also available for Android [here](https://play.google.com/store/apps/details?id=de.blinkt.openvpn&hl=en). Make sure you download the version either linked here or provided by Arne Schwabe on the Google Play Store -- any other version is not guaranteed to be free and open source, and based on the free, open source OpenVPN! 
+OpenVPN is slightly more complicated on iOS. The entire app isn't completely open source, but the library which implements the OpenVPN protocol used by the app is. 
 
-Tunnelblick is a free, open source version of OpenVPN for macOS, which you can find [here](https://tunnelblick.net/index.html). 
-
-OpenVPN is slightly more complicated on iOS. The entire app isn't completely open source, but the library which implements the OpenVPN protocol used by the app is. You can find the library's source code [here](https://staging.openvpn.net/openvpn3/). You can find OpenVPN Connect on the app store [here](https://itunes.apple.com/us/app/openvpn-connect/id590379981).
-
-You can find the source code for OpenVPN on Windows [here](https://github.com/OpenVPN/openvpn-gui), for OpenVPN for Android [here](https://github.com/schwabe/ics-openvpn) and for Tunnelblick [here](https://github.com/Tunnelblick/Tunnelblick).
+For Linux, you should install OpenVPN from your package manager.
 
 As a final note, you may need to edit the VPN's `.ovpn` files to block DNS requests that happen outside the VPN tunnel. To do so, open the `.ovpn` file in a text editor like Visual Studio Code or even Notepad, and enter the following line at the end of the file:
 
 `block-outside-dns`
 
-### Use KeePass
-You should use a password manager to create long, unique, strong passwords for every account you have. Yes, every account. You can read about "why even your bullshit accounts deserve strong passwords" [here](https://lifehacker.com/why-even-your-bullshit-accounts-deserve-strong-password-1826307919).
+OpenVPN for Windows [Source code](https://github.com/OpenVPN/openvpn-gui) / [Install here](https://openvpn.net/index.php/download/community-downloads.html)
 
-KeePass, KeePassXC, and KeePass DX are free, open source password managers that are all compatible with each other. KeePass is the base implementation of itself on Windows. KeePassXC is a cross-platform community fork of [KeePassX](https://www.keepassx.org/), which itself is an implementation of KeePass. KeePassXC is available for Windows, Mac, and GNU/Linux. KeePass DX is an implementation of KeePass on Android. There are also several other KeePass apps you may find on Android, but this is the one I use and consider to be the best.
+Tunnelblick for macOS [Source code](https://github.com/Tunnelblick/Tunnelblick) / [Install here](https://tunnelblick.net/index.html)
 
-KeePass (Windows) [Source Code](https://sourceforge.net/projects/keepass/) / [Install here](https://keepass.info/)
+OpenVPN for Android [Source code](https://github.com/schwabe/ics-openvpn) / [Install on Google Play](https://play.google.com/store/apps/details?id=de.blinkt.openvpn&hl=en) / [Install on F-Droid](https://f-droid.org/packages/de.blinkt.openvpn/)
 
-KeePassXC (Windows, Mac, Linux) [Source Code](https://github.com/keepassxreboot/keepassxc) / [Install here](https://keepassxc.org/)
-
-KeePass DX (Android) [Source Code](https://github.com/Kunzisoft/KeePassDX) / [Install on Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) / [Install on F-Droid](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/)
-
-### Use two-factor authentication
-Setting up two-factor authentication (2FA) for every account you have that supports it is an important component of protecting your security, as it greatly reduces the chance of unauthorized logins. Every service has a different way to set up 2FA, but most services should use a QR code that you can scan with an authenticator app on your phone, like [Microsoft Authenticator](https://play.google.com/store/apps/details?id=com.azure.authenticator) or [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) for Android, or the same apps for iOS ([Microsoft Authenticator](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458) and [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605)).
-
-You can find an unofficial list of websites and services, and whether or not they support 2FA, [here](https://twofactorauth.org/).
+OpenVPN for iOS [Partial source code](https://staging.openvpn.net/openvpn3/) / [Install here](https://itunes.apple.com/us/app/openvpn-connect/id590379981)
 
 ## Contributing
 If you would like to contribute, please read [this](https://github.com/krathalan/firefox-tweaks/blob/master/CONTRIBUTING.md).
