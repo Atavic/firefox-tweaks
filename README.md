@@ -168,7 +168,7 @@ As a final note, you may need to edit the VPN's `.ovpn` files to block DNS reque
 `block-outside-dns`
 
 ### Use KeePass
-You should use a password manager to create long, unique, strong passwords for every account you have.
+You should use a password manager to create long, unique, strong passwords for every account you have. Yes, every account. You can read about "why even your bullshit accounts deserve strong passwords" [here](https://lifehacker.com/why-even-your-bullshit-accounts-deserve-strong-password-1826307919).
 
 KeePass, KeePassXC, and KeePass DX are free, open source password managers that are all compatible with each other. KeePass is the base implementation of itself on Windows. KeePassXC is a cross-platform community fork of [KeePassX](https://www.keepassx.org/), which itself is an implementation of KeePass. KeePassXC is available for Windows, Mac, and GNU/Linux. KeePass DX is an implementation of KeePass on Android. There are also several other KeePass apps you may find on Android, but this is the one I use and consider to be the best.
 
