@@ -155,9 +155,17 @@ KeePassXC for Windows and Mac | [Source code](https://github.com/keepassxreboot/
 KeePass DX for Android | [Source code](https://github.com/Kunzisoft/KeePassDX) | [Install on Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) | [Install on F-Droid](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/)
 
 ### Use two-factor authentication
-Setting up two-factor authentication (2FA) for every account you have that supports it is an important component of protecting your security, as it greatly reduces the chance of unauthorized logins. Every service has a different way to set up 2FA, but most services should use a QR code that you can scan with an authenticator app on your phone, like [Microsoft Authenticator](https://play.google.com/store/apps/details?id=com.azure.authenticator) or [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) for Android, or the same apps for iOS ([Microsoft Authenticator](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458) and [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605)).
+Setting up two-factor authentication (2FA) for every account you have that supports it is an important component of protecting your security, as it greatly reduces the chance of unauthorized logins. Every service has a different way to set up 2FA, but most services should use a QR code that you can scan with an authenticator app on your phone.
+
+FreeOTP is a free, open source 2FA app for Android and iPhone, developed by [Red Hat](https://www.redhat.com/). The interface is slightly outdated though, so you may prefer to install either Microsoft Authenticator or Google Authenticator.
 
 You can find an unofficial list of websites and services, and whether or not they support 2FA, [here](https://twofactorauth.org/).
+
+Version | Source code | Android | iOS
+--- | --- | --- | ---
+FreeOTP | [Source code](https://github.com/freeotp) | [Install on Google Play](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp) / [Install on F-Droid](https://f-droid.org/packages/org.fedorahosted.freeotp/) | [Install on iTunes](https://itunes.apple.com/us/app/freeotp-authenticator/id872559395)
+Microsoft Authenticator | Not available | [Install on Google Play](https://play.google.com/store/apps/details?id=com.azure.authenticator) | [Install on iTunes](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458)
+Google Authenticator | Not available | [Install on Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) | [Install on iTunes](https://itunes.apple.com/us/app/google-authenticator/id388497605)
 
 ### Get a VPN
 If you've followed all the steps on this page, there's still one glaring privacy issue: your ISP has a log of every website you've visited. Even if you don't use their DNS server, they can still see which IP addresses you are connecting to, and can store that information indefinitely and use it any way they want to. 
