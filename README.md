@@ -159,13 +159,16 @@ For Linux, you should install KeePassXC from your distribution's package manager
 ### Use two-factor authentication
 Setting up two-factor authentication (2FA) for every account you have that supports it is an important component of protecting your security, as it greatly reduces the chance of unauthorized logins. Every service has a different way to set up 2FA, but most services should use a QR code that you can scan with an authenticator app on your phone.
 
-FreeOTP is a free, open source 2FA app for Android and iPhone, developed by [Red Hat](https://www.redhat.com/). The interface is slightly outdated though, so you may prefer to install either Microsoft Authenticator or Google Authenticator.
+FreeOTP is a free, open source 2FA app for Android and iPhone, developed by [Red Hat](https://www.redhat.com/). The interface is slightly outdated though, so you may prefer to install a different authenticator.
+
+andOTP is another free, open source 2FA app, but it's only available for Android. Another drawback is that there are two types of one-time passwords: time-based (TOTP) and HMAC-based (HOTP). Currently, andOTP only supports TOTP, but HOTP support is in beta, so it should be in the app soon. However, the app has several advantages over FreeOTP: encrypted storage (Android KeyStore or PIN/Password), backup options, and a better UI.
 
 You can find an unofficial list of websites and services, and whether or not they support 2FA, [here](https://twofactorauth.org/).
 
 Version | Source code | Android | iOS
 --- | --- | --- | ---
 FreeOTP | [Source code](https://github.com/freeotp) | [Install on Google Play](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp) / [Install on F-Droid](https://f-droid.org/packages/org.fedorahosted.freeotp/) | [Install on iTunes](https://itunes.apple.com/us/app/freeotp-authenticator/id872559395)
+andOTP | [Source code](https://github.com/andOTP/andOTP) | [Install on Google Play](https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp) / [Install on F-Droid](https://f-droid.org/packages/org.shadowice.flocke.andotp/) | Not available
 Microsoft Authenticator | Not available | [Install on Google Play](https://play.google.com/store/apps/details?id=com.azure.authenticator) | [Install on iTunes](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458)
 Google Authenticator | Not available | [Install on Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) | [Install on iTunes](https://itunes.apple.com/us/app/google-authenticator/id388497605)
 
