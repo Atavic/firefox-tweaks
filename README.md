@@ -37,6 +37,8 @@ The addon also claims to redirect Google search and Reddit links, but there isn'
 
 The addon doesn't have an "official" privacy policy, but on their AMO page, they state, "This add-on protects your privacy and we also respect it. We do not and will never collect any of your usage data."
 
+This addon isn't really necessary unless you find yourself clicking on a lot of links with tracking parameters.
+
 [Source code](https://github.com/KevinRoebert/ClearUrls) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 
 ### 🍪 Cookie Autodelete
