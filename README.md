@@ -52,6 +52,7 @@ You can find more information about general browser fingerprinting [here](https:
 #### Third-party cookies
 Privacy Possum blocks all third party cookies. However, you should already have this set in your browser's settings.
 
+#### Privacy policy information
 As of this writing, Privacy Possum does not have an official privacy policy. However, given the nature of the addon (to stop tracking) and the fact that it's free and open source, I have good faith that the addon doesn't collect or send data to any server. I've [filed an issue](https://github.com/cowlicks/privacypossum/issues/62) on Privacy Possum's Github repository and will update this section when I've received a response.
 
 [Source code](https://github.com/cowlicks/privacypossum) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/)
