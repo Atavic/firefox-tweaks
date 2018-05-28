@@ -61,6 +61,10 @@ feedly.com ads.feedly.com * block
 firefox.com mozilla.net * allow
 flickr.com yimg.com script allow
 gamesradar.com futurecdn.net script allow
+getpocket.com google.com frame allow
+getpocket.com google.com script allow
+getpocket.com google.com xhr allow
+getpocket.com gstatic.com script allow
 gitlab.com gitlab-static.net script allow
 gizmodo.com kinja-static.com script allow
 google.com gstatic.com script allow
