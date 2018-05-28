@@ -24,23 +24,6 @@ Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlo
 
 [Source code](https://github.com/gorhill/uBlock) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
-### 🔗 ClearURLs
-This addon removes tracking parameters in URLs like `utm_source`. 
-
-It changes links from this:
-`https://www.phoronix.com/scan.php?page=news_item&px=Ioquake3-Auto-Updater&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Phoronix+(Phoronix)`
-
-To this: 
-`https://www.phoronix.com/scan.php?page=news_item&px=Ioquake3-Auto-Updater`
-
-The addon also claims to redirect Google search and Reddit links, but there isn't a clear way to verify this. Finally, the addon blocks requests "from advertising services like `doubleclick.net`" ([Source](https://github.com/KevinRoebert/ClearUrls#clearurls)), but uBlock Origin and uMatrix handle this already.
-
-The addon doesn't have an "official" privacy policy, but on their AMO page, they state, "This add-on protects your privacy and we also respect it. We do not and will never collect any of your usage data."
-
-This addon isn't really necessary unless you find yourself clicking on a lot of links with tracking parameters.
-
-[Source code](https://github.com/KevinRoebert/ClearUrls) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
-
 ### 🍪 Cookie Autodelete
 This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
 
@@ -48,16 +31,30 @@ If you would like to import my whitelist, download and import the `CAD_Expressio
 
 [Source code](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) / [Privacy policy](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/wiki/Privacy-Policy) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 
-### 🎨 CanvasBlocker
-This addon will prevent sites from being able to fingerprint you using your canvas data. Fingerprinting is a tracking technique which does not rely on any stored data; instead, it calculates a "fingerprint" from data about your device, including but not limited to your browser, operating system, installed plugins, time zone, system fonts, and canvas data.
+### 🐾 Privacy Possum
+This addon will prevent sites from tracking you in a multitude of ways:
 
-This addon, in its default configuration, will allow websites to access the <canvas> API, but then fake a random readout back to the website that is requesting your canvas data. While this is more likely to make your fingerprint more unique (a bad thing), since it's returning a random readout every time, your fingerprint "changes", making it extremely difficult to track your single unique fingerprint -- with this addon, you don't have a single fingerprint.
-  
-Note that installing this addon may break certain websites, notably Google Maps. To fix this, simply whitelist the site by clicking on the fingerprint icon in the URL bar, hovering over the domain, and clicking the green checkmark.
+#### ETag tracking
+HTTP ETags are numbers in an HTTP header field your browser uses to determine if a cached resource is out of date. When you visit a webpage with an image, for example, the server sends an ETag with it. When you visit that webpage again, your browser sends the ETag number back to the server in a request to see if the image has changed. If the ETag on the server is the same, the image doesn't need to be redownloaded; if the ETag on the server is different, your browser downloads the new version of the image.
 
-You can find more information about browser fingerprinting [here](https://en.wikipedia.org/wiki/Device_fingerprint).
+When it comes to how ETags can be used to track you: "ETags are a unique number that can identify a browser, and they are automatically sent to a server when requesting a specific resource, which can be a tiny image. The ETag can be keyed to a database entry containing previous browsing habits in the same way as the information contained in a cookie" ([Source](https://www.futurehosting.com/blog/etags-allow-tracking-without-cookies/)).
 
-[Source code](https://github.com/kkapsner/CanvasBlocker) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
+#### Referer header tracking 
+The HTTP referer header field "identifies the address of the webpage that linked to the resource being requested. By checking the referrer, the new webpage can see where the request originated" ([Wikipedia source](https://en.wikipedia.org/wiki/HTTP_referer)). Essentially, the new webpage can partially track your movements on the web.
+
+#### Browser fingerprinting
+Browser fingerprinting is a way of identifying your browser and tracking you without storing any data on your computer. Fingerprinting is a tracking technique which does not rely on any stored data; instead, it calculates a "fingerprint" from aggregated data about your device, including but not limited to your browser, operating system, time zone, system fonts, and HTML canvas API data. You can read more about canvas fingerprinting specifically [here](https://en.wikipedia.org/wiki/Canvas_fingerprinting).
+
+Instead of just watching for when a script accesses the canvas API, Privacy Possum will only "intervene" when the script tries to access "information across many esoteric browser API's". When the addon detects fingerprinting, it blocks the script. "However many sites load first party fingerprinting code alongside other necessary code, like on reddit.com, so we can't simply block the script, or it will break the page. Instead when we see first party fingerprinting, we inject random data to spoil the fingerprint" (Privacy Possum Github page ([link](https://github.com/cowlicks/privacypossum))).
+
+You can find more information about general browser fingerprinting [here](https://en.wikipedia.org/wiki/Device_fingerprint).
+
+#### Third-party cookies
+Privacy Possum blocks all third party cookies. However, you should already have this set in your browser's settings.
+
+As of this writing, Privacy Possum does not have an official privacy policy. However, given the nature of the addon (to stop tracking) and the fact that it's free and open source, I have good faith that the addon doesn't collect or send data to any server. I've [filed an issue](https://github.com/cowlicks/privacypossum/issues/62) on Privacy Possum's Github repository and will update this section when I've received a response.
+
+[Source code](https://github.com/cowlicks/privacypossum) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/)
 
 ### ⛔ uMatrix
 uMatrix blocks almost everything (cookies, media, scripts, frames, and more) by default that isn't third-party. It's the most complicated addon here to use. If you're not interested in performing additional steps when you go to a website for the first time, don't install this addon.
