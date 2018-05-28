@@ -25,7 +25,7 @@ Also make sure to check "Prevent WebRTC from leaking local IP addresses" in uBlo
 [Source code](https://github.com/gorhill/uBlock) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
 ### 🍪 Cookie Autodelete
-This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you, which the next addon, uMatrix, will (mostly) take care of.
+This addon will automatically delete cookies that aren't on your specified whitelist. The idea with this addon is to add a whitelist entry for every website you log into, so that you aren't logged out of any websites. At the same time, you aren't tracked by third-party domains or websites which you don't log into, but still visit. Note that this addon only stops tracking via cookies -- there are a multitude other ways companies can track you.
 
 If you would like to import my whitelist, download and import the `CAD_Expressions.json` file in this repository. For a list of websites you'll stay logged into with that list, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/CAD_accounts.md).
 
