@@ -5,7 +5,7 @@ All addons listed are free and open source; are available and work correctly on 
 
 ## Addons
 ### 👁️ Decentraleyes 
-The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as reduces the possibility of tracking.
+The simplest of these addons to use. Simply install it and let it do its thing. When a website requests a resource from a content delivery network (CDN), instead of letting the request go through, Decentraleyes serves the webpage a local version. Doing this increases loading speed as well as stopping the CDN from tracking you through those requests.
 
 [Source code](https://github.com/Synzvato/decentraleyes) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
