@@ -54,6 +54,9 @@ Privacy Possum blocks all third party cookies. However, you should already have 
 
 [Source code](https://github.com/cowlicks/privacypossum) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/)
 
+### Other addons
+You can find other addons that may increase your privacy and/or security [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/other_addons.md). The above addons should be sufficient for most users, but depending on your browsing habits, you may benefit from one or more of these addons.
+
 ### ⛔ uMatrix
 uMatrix blocks almost everything (cookies, media, scripts, frames, and more) by default that isn't third-party. It's the most complicated addon here to use. If you're not interested in performing additional steps when you go to a website for the first time, don't install this addon.
 
