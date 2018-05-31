@@ -54,9 +54,6 @@ Privacy Possum blocks all third party cookies. However, you should already have 
 
 [Source code](https://github.com/cowlicks/privacypossum) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/)
 
-### Other addons
-You can find other addons that may increase your privacy and/or security [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/other_addons.md). The above addons should be sufficient for most users, but depending on your browsing habits, you may benefit from one or more of these addons.
-
 ### ⛔ uMatrix
 uMatrix blocks almost everything (cookies, media, scripts, frames, and more) by default that isn't third-party. It's the most complicated addon here to use. If you're not interested in performing additional steps when you go to a website for the first time, don't install this addon.
 
@@ -127,6 +124,9 @@ Now whenever I visit twitch.tv again, it'll work and I don't have to mess with u
 If you would like to use my uMatrix whitelist, download and import the `my-umatrix-rules.txt` file in this repository. For a list of websites and services that this file fixes, check [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/uMatrix_rules_fixed_sites.md).
 
 [Source code](https://github.com/gorhill/uMatrix) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/umatrix/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
+
+### 🔮 Other addons
+You can find other addons that may increase your privacy and/or security [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/other_addons.md). The above addons should be sufficient for most users, but depending on your browsing habits, you may benefit from one or more of these addons.
 
 ## user.js
 This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, and only make small sacrifices to achieve that.
