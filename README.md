@@ -129,11 +129,9 @@ If you would like to use my uMatrix whitelist, download and import the `my-umatr
 [Source code](https://github.com/gorhill/uMatrix) / [Privacy policy](https://addons.mozilla.org/en-US/firefox/addon/umatrix/privacy/) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
 ## user.js
-This file makes a bunch of tweaks to Firefox, like in about:config. The goal was to reduce ways that websites can track you, and only make small sacrifices to achieve that.
+This file makes a bunch of tweaks to Firefox, like in about:config. The intention behind these tweaks is to reduce ways that websites can track you, and only make small sacrifices to achieve that.
 
-At the bottom of the file, I've included several tweaks which disable telemetry, but they're all commented out by default. If you wish to disable telemetry, uncomment the section. Note that some telemetry is enabled in a default Firefox installation.
-
-If you would like a full list of the tweaks made along with an explanation for each one, that list can be found [here](https://github.com/krathalan/firefox-tweaks/blob/master/Extras/list_of_tweaks.md).
+I've included several sections that are commented out. You should go through the file and decide for yourself which tweaks you want to enable. Each tweak has a short description, and may have a link containing more information.
 
 Place this file in your Firefox profile folder. [Don't know where to find that?](https://github.com/krathalan/firefox-tweaks#where-is-my-firefox-profile-folder-located)
 
