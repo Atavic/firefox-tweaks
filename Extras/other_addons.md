@@ -1,5 +1,12 @@
 # Other addons
-The addons in the README should be sufficient for most users, but depending on your browsing habits, you may benefit from one or more of these addons. As with all addons recommended in this repository, these addons are free and open source; collect no data whatsoever as per their privacy policies; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org. The only difference is that these addons may not be available or work correctly on Firefox for Android.
+The addons in the README should be sufficient for most users, but depending on your browsing habits, you may benefit from one or more of these addons. As with all addons recommended in this repository, these addons are free and open source; collect no data whatsoever as per their privacy policies; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org.
+
+### 🛃 HTTPS Everywhere
+This addon makes connections secure when it can. If a site supports `https` but defaults to `http`, this addon will force it to connect using `https`. 
+
+Some websites still don't abide by these rules though, so for added security, check "Block all unencrypted requests" in HTTPS Everywhere's settings. Note that if you check that, you will NOT be able to access websites which are only served over `http`.
+
+[Source code](https://github.com/EFForg/https-everywhere) / [Privacy policy](https://www.eff.org/code/privacy/policy) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
 
 ### 🎨 CanvasBlocker
 This addon provides stronger fingerprint protection than just Privacy Possum. Whereas Privacy Possum waits for a script to touch multiple browser APIs before registering it as a fingerprinting script, any script that tries to get canvas API data from your browser will trigger CanvasBlocker's protection. Fingerprinting is a tracking technique which does not rely on any stored data; instead, it calculates a "fingerprint" from data about your device, including but not limited to your browser, operating system, installed plugins, time zone, system fonts, and canvas data.
@@ -29,10 +36,3 @@ This addon isn't really necessary unless you find yourself clicking on a lot of 
 The addon doesn't have an "official" privacy policy, but on their AMO page, they state, "This add-on protects your privacy and we also respect it. We do not and will never collect any of your usage data."
 
 [Source code](https://github.com/KevinRoebert/ClearUrls) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
-
-### 🛃 HTTPS Everywhere
-This addon makes connections secure when it can. If a site supports `https` but defaults to `http`, this addon will force it to connect using `https`. 
-
-Some websites still don't abide by these rules though, so for added security, check "Block all unencrypted requests" in HTTPS Everywhere's settings. Note that if you check that, you will NOT be able to access websites which are only served over `http`.
-
-[Source code](https://github.com/EFForg/https-everywhere) / [Privacy policy](https://www.eff.org/code/privacy/policy) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
