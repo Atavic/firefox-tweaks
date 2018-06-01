@@ -1,5 +1,5 @@
 /* Firefox user.js
-   Compiled by Anders Peavey
+   Compiled by krathalan
    
    Copyright (c) 2018 ghacksuserjs
    Copyright (c) 2018 krathalan
