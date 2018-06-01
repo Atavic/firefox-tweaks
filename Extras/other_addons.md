@@ -29,3 +29,10 @@ This addon isn't really necessary unless you find yourself clicking on a lot of 
 The addon doesn't have an "official" privacy policy, but on their AMO page, they state, "This add-on protects your privacy and we also respect it. We do not and will never collect any of your usage data."
 
 [Source code](https://github.com/KevinRoebert/ClearUrls) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
+
+### 🛃 HTTPS Everywhere
+This addon makes connections secure when it can. If a site supports `https` but defaults to `http`, this addon will force it to connect using `https`. 
+
+Some websites still don't abide by these rules though, so for added security, check "Block all unencrypted requests" in HTTPS Everywhere's settings. Note that if you check that, you will NOT be able to access websites which are only served over `http`.
+
+[Source code](https://github.com/EFForg/https-everywhere) / [Privacy policy](https://www.eff.org/code/privacy/policy) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
