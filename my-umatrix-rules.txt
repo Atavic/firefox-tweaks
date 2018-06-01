@@ -38,6 +38,7 @@ apple.com cdn-apple.com script allow
 arstechnica.com arstechnica.net script allow
 barnesandnoble.com js-bn.com script allow
 battle.net akamaihd.net script allow
+bbc.com bbc.co.uk script allow
 bbc.com bbci.co.uk script allow
 blizzard.com d74zh8edaijub.cloudfront.net script allow
 blizzard.com d9me64que7cqs.cloudfront.net script allow
@@ -96,6 +97,7 @@ independent.co.uk brightcove.net script allow
 independent.co.uk jquery.com script allow
 instagram.com cdninstagram.com media allow
 kobo.com akamaihd.net script allow
+kobobooks.com shopify.com script allow
 kotaku.com kinja-static.com script allow
 lifehacker.com kinja-static.com script allow
 live.com akamaihd.net script allow
