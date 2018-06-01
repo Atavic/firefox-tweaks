@@ -1,9 +1,9 @@
 /* Firefox user.js
    Compiled by Anders Peavey
-
-   Copyright (c) 2018 Anders Peavey
-   Copyright (c) 2018 pyllyukko
+   
    Copyright (c) 2018 ghacksuserjs
+   Copyright (c) 2018 krathalan
+   Copyright (c) 2018 pyllyukko
 */
 
 
