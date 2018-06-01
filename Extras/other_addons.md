@@ -2,9 +2,11 @@
 The addons in the README should be sufficient for most users, but depending on your browsing habits, you may benefit from one or more of these addons. As with all addons recommended in this repository, these addons are free and open source; are available and work correctly on Firefox for Android; collect no data whatsoever as per their privacy policies; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org.
 
 ### 🛃 HTTPS Everywhere
-This addon makes connections secure when it can. If a site supports `https` but defaults to `http`, this addon will force it to connect using `https`. As more and more websites move to `https`, however, this addon has become less necessary over time.
+This addon makes connections secure when it can. If a site supports `https` but defaults to `http`, this addon will force it to connect using `https`.
 
 Some websites still don't abide by these rules though, so for added security, check "Block all unencrypted requests" in HTTPS Everywhere's settings. Note that if you check that, you will NOT be able to access websites which are only served over `http`.
+
+As more and more websites move to `https`, this addon has become less necessary over time.
 
 [Source code](https://github.com/EFForg/https-everywhere) / [Privacy policy](https://www.eff.org/code/privacy/policy) / [Install here](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
 
