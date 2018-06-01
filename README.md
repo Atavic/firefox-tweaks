@@ -226,5 +226,6 @@ The exception to this is user.js, which is provided under the MIT license with t
 
 ## Sources
 This repository draws from other people's work, listed below:
+- [ghacksuserjs' user.js](https://github.com/ghacksuserjs/ghacks-user.js)
 - [Pyllyukko's user.js](https://github.com/pyllyukko/user.js)
 - [PrivacyTools](https://www.privacytools.io/)
