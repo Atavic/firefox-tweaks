@@ -1,5 +1,5 @@
 # Other addons
-The addons in the README should be sufficient for most users, but depending on your browsing habits, you may benefit from one or more of these addons. As with all addons recommended in this repository, these addons are free and open source; collect no data whatsoever as per their privacy policies; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org.
+The addons in the README should be sufficient for most users, but depending on your browsing habits, you may benefit from one or more of these addons. As with all addons recommended in this repository, these addons are free and open source; are available and work correctly on Firefox for Android; collect no data whatsoever as per their privacy policies; and include links to their source code, their privacy policy, and their page on https://addons.mozilla.org.
 
 ### 🛃 HTTPS Everywhere
 This addon makes connections secure when it can. If a site supports `https` but defaults to `http`, this addon will force it to connect using `https`. 
