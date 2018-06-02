@@ -18,12 +18,7 @@ referrer-spoof: behind-the-scene false
 * ampproject.org * allow
 * facebook.com * block
 * facebook.net * block
-* googlevideo.com xhr allow
 * twitter.com * block
-* youtube.com frame allow
-* youtube.com script allow
-* youtube.com xhr allow
-* ytimg.com script allow
 accounts.google.com content.googleapis.com xhr allow
 amazon.com aiv-cdn.net * allow
 amazon.com aiv-delivery.net * allow
@@ -196,5 +191,9 @@ worldofwarcraft.com akamaized.net script allow
 wowhead.com ajax.googleapis.com script allow
 wowhead.com zamimg.com script allow
 wowhead.com zamimg.com xhr allow
+youtube.com googlevideo.com xhr allow
 youtube.com gstatic.com script allow
+youtube.com youtube.com script allow
+youtube.com youtube.com xhr allow
+youtube.com ytimg.com script allow
 youtube.com ytimg.com xhr allow

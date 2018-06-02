@@ -3,11 +3,9 @@ This is a list of sites and services that the `my_umatrix_rules.txt` file in thi
 
 The following are allowed globally:
 - ampproject.org
-- Embedded Youtube videos (youtube.com, googlevideo.com, ytimg.com)
 
 The following are blocked globally:
 - facebook.com (including facebook.net)
-- fonts.googleapis.com
 - twitter.com (except for on twitter.com)
 
 ## Sites
