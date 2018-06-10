@@ -1,3 +1,6 @@
+# We've moved to GitLab!
+I'm in the process of moving all of my projects to GitLab, and that includes this one. You can find this project on GitLab [here](https://gitlab.com/krathalan/firefox-tweaks). All new updates will only be on GitLab. This GitHub repository will still be up for the time being, but will not receive any new updates like new uMatrix rules or the like. 
+
 # Firefox Tweaks
 This README contains instructions on how to enhance the privacy and security of Firefox.
 
